@@ -8,7 +8,7 @@ import { PostCard } from './components/PostCard';
 import { SearchBar } from './components/Search';
 import { PostMetadata, PostDetail } from './types';
 import Markdown from 'react-markdown';
-import { ChevronLeft, Share2, MessageCircle, Sun, Moon, Menu as MenuIcon, X, Eye, Image as ImageIcon, ArrowUp, ArrowDown } from 'lucide-react';
+import { ChevronLeft, Share2, MessageCircle, Sun, Moon, Menu as MenuIcon, X, Eye, Image as ImageIcon, ArrowUp, ArrowDown, Pin } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '@/src/lib/utils';
 // @ts-ignore - 预构建脚本生成的文件，可能在首次运行前不存在
@@ -550,26 +550,56 @@ export default function App() {
                             })}
                           </div>
                         ) : (
-                          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                            {posts.filter(post => {
-                              if (activeTab === 'home') return true;
-                              if (activeTab === 'tags' && selectedTag) {
-                                return (post.tags || []).some(t => t && typeof t === 'string' && t.toLowerCase() === selectedTag.toLowerCase());
-                              }
-                              return true;
-                            }).length > 0 ? posts.filter(post => {
-                              if (activeTab === 'home') return true;
-                              if (activeTab === 'tags' && selectedTag) {
-                                return (post.tags || []).some(t => t && typeof t === 'string' && t.toLowerCase() === selectedTag.toLowerCase());
-                              }
-                              return true;
-                            }).map(post => (
-                              <PostCard key={post.slug} post={post} onClick={handlePostClick} />
-                            )) : (
-                              <div className="col-span-full py-20 text-center">
-                                <p className="text-gray-500 text-lg">该分类下暂无文章。</p>
+                          <div className="space-y-12">
+                            {/* 置顶文章区域 */}
+                            {activeTab === 'home' && posts.some(p => p.sticky !== null && p.sticky !== undefined) && (
+                              <div className="mb-12">
+                                <div className="inline-flex items-center px-4 py-2 rounded-2xl bg-white/40 dark:bg-zinc-900/40 backdrop-blur-md border border-white/20 dark:border-zinc-800/20 shadow-sm mb-6">
+                                  <h2 className="text-xl md:text-2xl font-black flex items-center text-gray-900 dark:text-zinc-100">
+                                    <Pin className="mr-2 text-primary rotate-45" size={24} /> 推荐阅读
+                                  </h2>
+                                </div>
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                                  {posts.filter(p => p.sticky !== null && p.sticky !== undefined).slice(0, 4).map(post => (
+                                    <PostCard key={post.slug} post={post} onClick={handlePostClick} isSticky={true} />
+                                  ))}
+                                </div>
                               </div>
                             )}
+
+                            {/* 常规文章列表区域 */}
+                            <div>
+                              {activeTab === 'home' && posts.some(p => p.sticky !== null && p.sticky !== undefined) && (
+                                <div className="inline-flex items-center px-4 py-2 rounded-2xl bg-white/40 dark:bg-zinc-900/40 backdrop-blur-md border border-white/20 dark:border-zinc-800/20 shadow-sm mb-6 mt-4">
+                                  <h2 className="text-xl md:text-2xl font-black flex items-center text-gray-900 dark:text-zinc-100">
+                                    全部文章
+                                  </h2>
+                                </div>
+                              )}
+                              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                                {posts.filter(post => {
+                                  if (activeTab === 'home' && post.sticky !== null && post.sticky !== undefined) return false; // 主页的置顶文章已经在上面渲染过了
+                                  if (activeTab === 'home') return true;
+                                  if (activeTab === 'tags' && selectedTag) {
+                                    return (post.tags || []).some(t => t && typeof t === 'string' && t.toLowerCase() === selectedTag.toLowerCase());
+                                  }
+                                  return true;
+                                }).length > 0 ? posts.filter(post => {
+                                  if (activeTab === 'home' && post.sticky !== null && post.sticky !== undefined) return false;
+                                  if (activeTab === 'home') return true;
+                                  if (activeTab === 'tags' && selectedTag) {
+                                    return (post.tags || []).some(t => t && typeof t === 'string' && t.toLowerCase() === selectedTag.toLowerCase());
+                                  }
+                                  return true;
+                                }).map(post => (
+                                  <PostCard key={post.slug} post={post} onClick={handlePostClick} />
+                                )) : (
+                                  <div className="col-span-full py-20 text-center">
+                                    <p className="text-gray-500 text-lg">该分类下暂无文章。</p>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
                           </div>
                         )}
                       </>
