@@ -4,7 +4,7 @@
     {
       "label": "🔄 同步文章日期 (Sync Post Dates)",
       "type": "shell",
-      "command": "node scripts/sync-date.cjs",
+      "command": "npm run sync-date",
       "group": {
         "kind": "build",
         "isDefault": true
