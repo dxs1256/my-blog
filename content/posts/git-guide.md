@@ -5,7 +5,7 @@ draft: false
 sticky: 1
 tags: ["it", "GitHub", "入门教程"]
 description: 专为小白准备的 Git 命令大全，涵盖 GitHub 日常开发的 7 个常见场景，从克隆仓库到解决冲突，一篇就够了。
-image: "https://i.urusai.cc/Z9hol.png"
+image: "public\images\share2.png"
 ---
 
 # Git 常用命令速查手册：GitHub 日常开发场景全攻略

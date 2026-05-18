@@ -5,7 +5,7 @@ draft: false
 sticky: 1
 description: "掌握这些实用的 Markdown 语法与排版建议，让你的数字花园更加精致。"
 tags: ["教程", "Markdown", "排版"]
-image: "https://i.urusai.cc/Z9hol.png"
+image: "public\images\share2.png"
 ---
 
 ## 🖋️ 为什么使用 Markdown？
