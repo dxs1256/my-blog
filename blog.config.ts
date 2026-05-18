@@ -13,12 +13,9 @@ import { Home, Image, Archive, Tag, User, MessageCircle, Globe, Share2, HelpCirc
  */
 
 // 1. 网站标题（显示在浏览器标签页上）
-export const SITE_TITLE = "阿蔸的个人博客";
+export const SITE_TITLE = "阿蔸的空间站";
 
-// 2. 网站名称（显示在侧边栏顶部）
-export const BLOG_NAME = "阿蔸的个人博客";
-
-// 3. 网站首页描述（显示在首页标题下方，简短介绍）
+// 2. 网站首页描述（显示在首页标题下方，简短介绍）
 export const HOME_PAGE_DESCRIPTION = "分享个人的无趣生活。";
 
 
@@ -28,16 +25,16 @@ export const HOME_PAGE_DESCRIPTION = "分享个人的无趣生活。";
  * ==========================================
  */
 
-// 4. 用户名
+// 3. 用户名
 export const AUTHOR_NAME = "阿蔸";
 
-// 5. 职业称号/简介
+// 4. 职业称号/简介
 export const AUTHOR_TITLE = "一个爱折腾的人";
 
-// 6. 联系邮箱/链接 (显示在头像下方)
+// 5. 联系邮箱/链接 (显示在头像下方)
 export const AUTHOR_CONTACT = "mailto:alivedou@outlook.com";
 
-// 7. 头像图片路径
+// 6. 头像图片路径
 // 可以使用远程链接，或者将图片放入 public/images/ 后使用 "/images/文件名.jpg"
 export const AUTHOR_AVATAR = "https://i.urusai.cc/P8yik.jpg";
 
@@ -54,7 +51,7 @@ export const AUTHOR_AVATAR = "https://i.urusai.cc/P8yik.jpg";
  * 3. 将下面配置中的 icon 字段替换为你刚导入的名字即可。
  */
 
-// 8. 导航菜单列表
+// 7. 导航菜单列表
 export const MENU_ITEMS = [
   { id: 'home', label: '首页', icon: Home },
   { id: 'archive', label: '归档', icon: Archive },
@@ -63,7 +60,7 @@ export const MENU_ITEMS = [
   { id: 'about', label: '关于', icon: User },
 ];
 
-// 9. 侧边栏底部的社交/推荐链接
+// 8. 侧边栏底部的社交/推荐链接
 export const RECOMMENDED_LINKS = [
   { label: '图床网站', url: 'https://urusai.cc/', icon: Image },
   { label: '壁纸图片网站', url: 'https://wallhaven.cc', icon: Image },
@@ -97,10 +94,10 @@ export const ABOUT_PAGE_CONFIG = {
  * ==========================================
  */
 
-// 10. 主题色 (Tailwind 颜色名，如 orange, blue, rose, emerald)
+// 9. 主题色 (Tailwind 颜色名，如 orange, blue, rose, emerald)
 export const THEME_COLOR = "indigo"; 
 
-// 11. 网站背景图片透明度（0.0 到 1.0 之间，数值越小，背景图越清晰）
+// 10. 网站背景图片透明度（0.0 到 1.0 之间，数值越小，背景图越清晰）
 // 建议：浅色模式 0.7-0.9，深色模式 0.8-0.95
 export const SITE_BG_OPACITY = 0.75;
 
@@ -111,7 +108,7 @@ export const SITE_BG_OPACITY = 0.75;
  * ==========================================
  */
 
-// 12. 文章底部显示的自定义图片列表 (例如二维码、打赏码)
+// 11. 文章底部显示的自定义图片列表 (例如二维码、打赏码)
 // 可以添加多个，会自动并排显示
 export const POST_BOTTOM_IMAGES = [
   {
@@ -121,7 +118,7 @@ export const POST_BOTTOM_IMAGES = [
   },
 ];
 
-// 13. 真实阅读量统计 (基于 LeanCloud)
+// 12. 真实阅读量统计 (基于 LeanCloud)
 // 如果不需要统计，请将 enabled 设为 false
 export const LEANCLOUD_CONFIG = {
   enabled: false, // 初始设为 false，小白配置好后再开启
