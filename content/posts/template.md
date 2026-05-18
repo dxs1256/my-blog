@@ -1,11 +1,10 @@
 ---
 title: "在这里输入文章标题"
 date: "2026-05-16"
-draft: false
-sticky: 
+draft: "false"
 tags: ["markdown","写作模板"]
 description: "文章内容的简单概括"
-image: "https://i.urusai.cc/wx3iV.jpg"
+image: "public/images/kun.jpg"
 ---
 
 ## 👋 欢迎开始写作！
@@ -33,7 +32,7 @@ image: "https://i.urusai.cc/wx3iV.jpg"
 4. `sticky` 是置顶选项（可选参数），可以填写数字（如 `1` 代表置顶排第一），不填或删除此行则不置顶。
 5. `tags`标签支持多个，请按照格式要求写 `["tag1","tag2"]`,多个标签要求使用英文逗号隔开。
 6. `image`是文章标题配图，支持两种方式插入。
-- 1 是在文件夹`public/images`里面存放图片后，引号内输入本地图片的存放路径，例如：`public/images/kun.jpg` 
+- 1 是在文件夹`public/images`里面存放图片后，引号内输入本地图片的存放路径，例如：`public/images/xxx.png` 
 - 2 是直接在双引号内输入在线图片的地址，可以通过鼠标右键复制图片地址链接。
 
 

@@ -2,10 +2,9 @@
 title: "Markdown 写作技巧：让你的文字更有力量"
 date: "2026-05-17"
 draft: false
-sticky: 1
 description: "掌握这些实用的 Markdown 语法与排版建议，让你的数字花园更加精致。"
 tags: ["教程", "Markdown", "排版"]
-image: "public\images\share2.png"
+image: "https://i.urusai.cc/Z9hol.png"
 ---
 
 ## 🖋️ 为什么使用 Markdown？

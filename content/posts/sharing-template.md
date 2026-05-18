@@ -1,11 +1,10 @@
 ---
 title: "今日碎片：关于极简生活的一次小尝试"
 date: "2025-08-16"
-draft: false
-sticky: 
+draft: "false"
 description: "记录下今天对桌面进行大清扫后的感悟，有时候，少即是多。"
 tags: ["生活", "随笔", "极简"]
-image: "https://i.urusai.cc/DfFxt.jpg"
+image: ""
 ---
 
 ### 🌿 灵感来源
