@@ -1,9 +1,12 @@
 ---
 title: "CF-blog：零门槛 1 分钟闪电部署指南"
 date: "2026-05-17"
+updated: "2026-05-18"
 draft: false
+sticky: 1
 description: "这是一份专门为小白准备的极简个人博客部署指南，带你从零开始拥有属于自己的感性空间。"
 tags: ["教程", "部署", "CyberLog"]
+categories: ["教程", "指南"]
 image: "https://i.urusai.cc/Z9hol.png"
 ---
 
@@ -62,9 +65,11 @@ tags: ["生活", "分享"]
 
 ---
 
-## 🛠️ 进阶：自动化更新日期
-如果你在本地使用 VS Code 写作，可以利用内置脚本省去手动改日期的麻烦。
-按下 `Ctrl + Shift + B` (Windows) 或 `Cmd + Shift + B` (Mac)，选择任务，脚本会自动帮你同步日期！
+## 🛠️ 进阶：自动化更新日期 (VS Code 专用)
+如果你在本地使用 VS Code 写作，可以通过内置任务一键同步所有文章的日期为最新日期：
+1.  **快捷键**: 按下 `Ctrl + Shift + B` (Windows) 或 `Cmd + Shift + B` (Mac)。
+2.  **执行任务**: 选择 `🔄 同步文章日期 (Sync Post Dates)`。
+3.  **结果**: 脚本会自动更新 `content/posts/` 目录下所有 Markdown 文件的 `updated` 字段。如果该文章还没有 `updated` 字段，脚本会自动帮你创建它并设为今日。这样读者的文章详情页就能看到你这篇内容是“刚刚更新”的！
 
 ## ❤️ 联系博主
 如果在部署中遇到任何“墙”，欢迎骚扰：[alivedou@outlook.com](mailto:alivedou@outlook.com)

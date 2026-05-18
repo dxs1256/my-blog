@@ -4,7 +4,7 @@
  * 尊重开源劳动成果，引用请保留作者信息。
  */
 
-import { Home, Image, Archive, Tag, User, MessageCircle, Globe, Share2, HelpCircle } from 'lucide-react';
+import { Home, Image, Archive, Tag, User, MessageCircle, Globe, Share2, HelpCircle , Layout} from 'lucide-react';
 
 /**
  * ==========================================
@@ -58,6 +58,7 @@ export const AUTHOR_AVATAR = "https://i.urusai.cc/P8yik.jpg";
 export const MENU_ITEMS = [
   { id: 'home', label: '首页', icon: Home },
   { id: 'archive', label: '归档', icon: Archive },
+  { id: 'categories', label: '分类', icon: Layout },
   { id: 'tags', label: '标签', icon: Tag },
   { id: 'about', label: '关于', icon: User },
 ];
@@ -65,6 +66,7 @@ export const MENU_ITEMS = [
 // 9. 侧边栏底部的社交/推荐链接
 export const RECOMMENDED_LINKS = [
   { label: '图床网站', url: 'https://urusai.cc/', icon: Image },
+  { label: '壁纸图片网站', url: 'https://wallhaven.cc', icon: Image },
   { label: '隔壁老王的导航', url: 'https://nav.eooce.com/', icon: Globe},
 ];
 
