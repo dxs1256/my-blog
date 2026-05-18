@@ -5,7 +5,7 @@ draft: false
 sticky: 
 description: "记录下今天对桌面进行大清扫后的感悟，有时候，少即是多。"
 tags: ["生活", "随笔", "极简"]
-image: ""
+image: "https://i.urusai.cc/DfFxt.jpg"
 ---
 
 ### 🌿 灵感来源
