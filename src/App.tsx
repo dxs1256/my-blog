@@ -33,7 +33,7 @@ export default function App() {
     return false;
   });
   // 默认背景图 (小白不容易找到并修改这里)
-  const DEFAULT_BG = "https://i.urusai.cc/Pws4B.jpg";
+  const DEFAULT_BG = "https://i.urusai.cc/oi10o.jpg";
 
   const [bgImage, setBgImage] = useState(() => {
     if (typeof window !== 'undefined') {
