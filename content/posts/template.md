@@ -7,7 +7,7 @@ sticky: null
 tags: ["markdown","写作模板"]
 categories: ["分类1", "分类2"]
 description: "文章内容的简单概括"
-image: "public/images/kun.jpg"
+image: "https://i.urusai.cc/wx3iV.jpg"
 ---
 
 ## 👋 欢迎开始写作！
