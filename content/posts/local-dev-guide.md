@@ -27,7 +27,7 @@ image: "https://i.urusai.cc/Z9hol.png"
 3. **VS Code 连接**：在终端输入 `code .`， VS Code 会自动启动并连接到当前的 WSL 目录。
 
 ## 🛠️ 第三步：安装环境必备 (NVM & Node.js)
-在 VS Code 的内置终端（快捷键 `Ctrl + ~`）中执行：
+在 VS Code 的内置终端（快捷键 `Ctrl + j`）中执行：
 
 ### 1. 安装 NVM (版本管理器)
 ```bash
