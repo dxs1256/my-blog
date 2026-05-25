@@ -1,13 +1,14 @@
 ---
-title: "在这里输入文章标题"
+title: " "
 date: ""
 updated: ""
 draft: "true"
 sticky: null
-tags: ["markdown","写作模板"]
-categories: ["分类1", "分类2"]
+tags: [" "," "]
+categories: ["记录", "学习心得"]
 description: "文章内容的简单概括"
 image: "public\images\t.jpg"
 ---
 
-
+记得草稿改`false`才能提交
+同时记得改`sticky`

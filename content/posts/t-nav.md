@@ -7,7 +7,7 @@ sticky: 1
 tags: ["教程","导航","cloudflare"]
 categories: ["教程", "GITHUB"]
 description: "部署一个自定义的导航"
-image: "https://i.urusai.cc/Z9hol.png"
+image: "public\images\t.jpg"
 ---
 
 # 🚀 高度自定义高颜值导航网站 deployment & 指南
