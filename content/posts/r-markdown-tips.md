@@ -61,3 +61,7 @@ const welcome = () => {
 在这里中，你可以通过修改 Markdown 文件名来改变文章的 Slug（URL 地址）。建议使用英文或拼音命名，例如 `my-first-post.md`。
 
 祝你在数字世界里写作愉快！✨
+
+友情链接：
+- [markdown官方教程](https://markdown.com.cn/)
+- [github官方教程](https://docs.github.com/zh/get-started/writing-on-github)
