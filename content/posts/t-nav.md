@@ -4,25 +4,30 @@ date: "2026-05-25"
 updated: "2026-05-18"
 draft: "false"
 sticky: 1
-tags: ["教程","导航","cloudflare"]
-categories: ["教程", "GITHUB"]
+tags: ["自定义","导航页","cloudflare"]
+categories: ["教程", "指南"]
 description: "部署一个自定义的导航"
 image: "public\images\t.jpg"
 ---
-
 # 🚀 高度自定义高颜值导航网站 deployment & 指南
 
 这是一个具有超强自适应性、高辨识度视觉设计、支持实时自定义编辑的极致导航网站。本项目支持 **Cloudflare Pages + Workers KV** 无服务器极速部署，同时也自带本地 Node.js 离线开发模拟服务，为您实现“线上线下、一键全通”的无缝体验。 
 本项目是在`880824`同志的`cloudflare-nav`[项目地址](https://github.com/880824/cloudflare-nav) 基础上改的，在日常使用根据我的痛点，增加了以下功能：
-1. 搜索搜索框可选内置三个搜索引擎可用于搜索本站内容和外部网站
-2. 极简沉浸模式，只有你体会后才会觉得他的好。
-3. 增加了返回顶部和底部按钮功能，避免后续添加网站过多，滑动太费劲。
-4. 可设置搜索框位置在顶部或者常用网站下方。
 
-**项目地址** [项目地址](https://github.com/alivedou/nav/tree/dev)
+- **增加搜索框**，搜索框可选内置三个搜索引擎可用于搜索本站内容和外部网站
+- **极简沉浸模式**，只有你体会后才会觉得他的好。
+- **增加了返回顶部和底部按钮功能**， 避免后续添加网站过多，滑动太费劲。
+- **搜索框位置设置**可设置搜索框位置在顶部或者第一栏（常用网站栏）下方。
+- **增加跳转设置**可设置选择跳转方式（从本页直接跳转，或者新开一页跳转）。
+- **全效图标自愈系统 v2.5**：实现了更稳健的 6 级降级逻辑，并增加了中国大陆网络优化。加载失败时自动尝试：站点原生 favicon.ico -> Iowen API -> QQSuu API -> Google API (2.5s 超时) -> DuckDuckGo API (2.2s 超时) -> 域名首字母矢量占位图。彻底解决 GFW 环境下图标加载挂起导致的“透明”或“破碎”视觉问题。
+- **图标魔棒工具**：修复了添加无图标网站时费力对比的痛点，编辑器内一键抓取并自动选择最优可用图标。
+- **交互逻辑优化**：侧边栏在移动端/平板点击操作后自动收起，防止遮挡弹窗；本地搜索支持键盘方向键与 Enter 快捷导航；偏好设置增加网格尺寸预设按钮。
+
+
+
+**本项目地址** [注意是dev分支](https://github.com/alivedou/nav/tree/dev)
 
 ---
-git
 ## 🎨 核心亮点与能力
 
 *   **极简主义视觉设计**：支持卡片宽度实时无极微调、两种视觉主线风格（经典毛玻璃/高颜值缤纷模式）、毛玻璃/卡片背景开关以及自定义高分辨率背景（内置必应每日壁纸缓存自适应获取）。
@@ -33,7 +38,17 @@ git
 
 ## ☁️ 部署至 Cloudflare Pages 详细步骤
 
-Cloudflare Pages 免费额度充足，是极速上线个人导航页面的不二选择。请按照以下步骤，三分钟完成部署：
+部署本项目需要两个免费的账号：`github`账号和`Cloudflare`账号。
+| 平台 | 注册地址 | 登录地址 |
+| :--- | :--- | :--- |
+| **Cloudflare** | [https://dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up) | [https://dash.cloudflare.com/login](https://dash.cloudflare.com/login) |
+| **GitHub** | [https://github.com/signup](https://github.com/signup) | [https://github.com/login](https://github.com/login) |
+
+注册好后，需要先**fork**到你自己的仓库（`推荐项`），或者选择项目zip包上传到你的仓库。
+- **项目地址** [项目地址](https://github.com/alivedou/nav/tree/dev)
+- 然后就是在Cloudflare 进行部署操作。 [https://dash.cloudflare.com/login](https://dash.cloudflare.com/login) 
+
+请按照以下步骤，三分钟完成部署：
 
 ### 第一步：创建 Cloudflare Workers KV 空间
 1. 登录 [Cloudflare 控制台](https://dash.cloudflare.com/)。
@@ -42,16 +57,15 @@ Cloudflare Pages 免费额度充足，是极速上线个人导航页面的不二
 4. 将命名空间命名为 **`nav`**或者其他你好记的名字，并点击保存。
 
 ### 第二步：部署 Cloudflare Pages 项目
-你可以通过 **连接 GitHub 仓库自动部署**（推荐，后续有更新只需要 push 即可自动打包）或 **直接手动上传文件夹**。
 
-#### 选项 A：使用 GitHub 自动部署（强烈推荐 👍）
-1. 将本项目的所有文件推送到您的私有或公开 GitHub 仓库。
+#### 使用 GitHub 自动部署
+1. 需要将本项目的所有文件fork到您的私有或公开 GitHub 仓库。
 2. 在 Cloudflare 控制台左侧点击 **Workers 和 Pages** -> **创建项目 (Create Application)** -> 切换到 **Pages (页面)** 标签页。
 3. 点击 **“连接到 Git” (Connect to Git)** 并授权指定您的导航项目仓库。
 4. 进入构建设置 (Build settings)，进行如下填写（**非常重要，需完美定位目录**）：
    *   **项目名称**：小白默认填`nav`或者其他你好记忆的名字。
    *   **生产分支**：*PS*：必须选择 **dev** ，错选成`main`的话是原版，不带我增添的搜索引擎和其他功能。
-   *   **框架预设 (Framework preset)**：选择 `None`。
+   *   **框架预设 (Framework preset)**：选择 `None`或者说空着不填。
    *   **构建命令 (Build command)**：**留空 (不填)** 即可。
    *   **构建输出目录 (Build output directory)**：填入 **`public`**（*即指向 `nav-main/public` 的输出静态资源*）。
    *   **根目录(高级) (Root directory)**：填入 **`nav-main`** （*因为静态主程序和 Pages Functions 函数文件都存放于该目录下*）。
@@ -117,8 +131,13 @@ Cloudflare Pages 免费额度充足，是极速上线个人导航页面的不二
         │   └── js/app.js     # 负责流畅拖拽排序、设置无级调整、哈希登录的主业务逻辑
         └── index.html      # 精致的静态主页面
 ```
-**PS：**有条件的小伙伴还可以选择添加自定义域名，相关教程请自行搜索或询问以下内容：
+
+**PS：**
+1. 有条件的小伙伴还可以选择添加自定义域名，相关教程请自行浏览器搜索或询问AI以下内容：
 ``bash
 怎么给cloudflare 部署的 pages 添加自定义域名？
 ``
+2. 搭配浏览器使用 启动、主页和新建选项卡页 ，设置为启动时`打开自定义网站`，
+在里面输入你的自定义导航网站，使用体验更佳。
+
 快去享受属于你自己的云端无服务器高度自定义导航站吧！🚀

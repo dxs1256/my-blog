@@ -7,7 +7,7 @@ sticky: 1
 description: "这是一份专门为小白准备的极简个人博客部署指南，带你从零开始拥有属于自己的感性空间。"
 tags: ["教程", "部署", "CyberLog"]
 categories: ["教程", "指南"]
-image: "https://i.urusai.cc/Z9hol.png"
+image: "public\images\t.jpg"
 ---
 
 ## ✨ 为什么选择 CF-blog？

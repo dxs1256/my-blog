@@ -5,7 +5,7 @@ updated: ""
 draft: "true"
 sticky: null
 tags: [" "," "]
-categories: ["记录", "学习心得"]
+categories: ["教程", "指南"]
 description: "文章内容的简单概括"
 image: "public\images\t.jpg"
 ---

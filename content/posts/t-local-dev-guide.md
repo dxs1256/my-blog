@@ -4,10 +4,10 @@ date: "2026-05-18"
 updated: "2026-05-18"
 draft: false
 sticky: null
-tags: ["WSL", "Node.js", "GitHub", "教程", "本地开发"]
+tags: ["WSL", "Node.js", "GitHub", "本地开发"]
 categories: ["教程", "指南"]
 description: "为你准备的本地开发全流程：从 GitHub Fork 仓库、WSL 环境搭建、NVM 版本管理到最后的代码提交上传。"
-image: "https://i.urusai.cc/Z9hol.png"
+image: "public\images\t.jpg"
 ---
 
 如果你想在本地更专业地管理博客，享受秒级预览和一键同步日期的便利，那么你需要这套“本地开发工作流”。
