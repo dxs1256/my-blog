@@ -4,7 +4,7 @@ date: "2026-05-18"
 updated: "2026-05-18"
 draft: false
 sticky: null
-tags: ["WSL", "Node.js", "GitHub", "本地开发"]
+tags: ["WSL","Node.js","GitHub","本地开发"]
 categories: ["教程", "指南"]
 description: "为你准备的本地开发全流程：从 GitHub Fork 仓库、WSL 环境搭建、NVM 版本管理到最后的代码提交上传。"
 image: "public\images\t.jpg"
