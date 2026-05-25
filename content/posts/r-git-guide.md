@@ -7,7 +7,7 @@ sticky: null
 tags: ["GitHub", "入门教程"]
 categories: ["记录", "学习心得", "技巧"]
 description: 专为小白准备的 Git 命令大全，涵盖 GitHub 日常开发的 7 个常见场景，从克隆仓库到解决冲突，一篇就够了。
-image: "public\images\record.jpg"
+image: "public/images/record.jpg"
 ---
 
 # Git 常用命令速查手册：GitHub 日常开发场景全攻略

@@ -7,7 +7,7 @@ sticky: null
 tags: ["git操作","学习记录","技巧"]
 categories: ["记录", "学习心得"]
 description: "记录github的一些操作"
-image: "public\images\record.jpg"
+image: "public/images/record.jpg"
 ---
 # 使用 Git 初始化项目并推送到 GitHub 侧分支（完整教程）
 

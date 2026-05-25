@@ -6,8 +6,8 @@ draft: false
 sticky: null
 description: "掌握这些实用的 Markdown 语法与排版建议，让你的数字花园更加精致。"
 tags: ["教程", "Markdown", "排版"]
-categories: ["教程", "书写"]
-image: "public\images\record.jpg"
+categories: ["记录", "学习心得"]
+image: "public/images/record.jpg"
 ---
 
 ## 🖋️ 为什么使用 Markdown？

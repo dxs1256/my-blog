@@ -7,7 +7,7 @@ sticky: 1
 tags: ["自定义","导航页","cloudflare"]
 categories: ["教程", "指南"]
 description: "部署一个自定义的导航"
-image: "public\images\t.jpg"
+image: "public/images/t.jpg"
 ---
 # 🚀 高度自定义高颜值导航网站 deployment & 指南
 
