@@ -65,6 +65,7 @@ export const RECOMMENDED_LINKS = [
   { label: '图床网站', url: 'https://urusai.cc/', icon: Image },
   { label: '壁纸图片网站', url: 'https://wallhaven.cc', icon: Image },
   { label: '隔壁老王的导航', url: 'https://nav.eooce.com/', icon: Globe},
+  { label: '阿蔸的个人导航', url: 'https://nav.163898.xyz/', icon: Globe},
 ];
 
 
