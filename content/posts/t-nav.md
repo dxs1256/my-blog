@@ -1,5 +1,5 @@
 ---
-title: "🚀 nav-高度自定义高颜值导航网站 deployment & 指南"
+title: "nav: 高度自定义高颜值导航网站 部署指南"
 date: "2026-05-25"
 updated: "2026-05-18"
 draft: "false"
