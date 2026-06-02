@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "content[\\\\/]posts[\\\\/].*\\.md$",
+        "cmd": "wsl bash -l -c \"node scripts/update-post-date.js '${file}'\""
+      }
+    ]
+  }
+}
