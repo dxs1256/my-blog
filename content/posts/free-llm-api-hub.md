@@ -21,11 +21,8 @@ image: "https://bing.ee123.net/img/rand?seed=free-llm-api-hub"
 
 后来发现了 freellm.net 这个站点，彻底治好了我的找模型困难症。
 
-项目地址:[https://freellm.net/](https://freellm.net/)
+项目地址：[https://freellm.net/](https://freellm.net/)
 
----
-
----
 
 ## 🎯 它解决了什么问题
 
