@@ -13,10 +13,10 @@ import { Home, Archive, Tag, User, MessageCircle, Tv, Share2,Image, HelpCircle, 
  */
 
 // 1. 网站标题（显示在浏览器标签页上）
-export const SITE_TITLE = "张三的个人博客";
+export const SITE_TITLE = "司徒博客";
 
 // 2. 网站首页描述（显示在首页标题下方，简短介绍）
-export const HOME_PAGE_DESCRIPTION = "分享关于设计、技术与创意过程的思考。";
+export const HOME_PAGE_DESCRIPTION = "关于设计、技术与创意，只管分享，不谈高深。";
 
 /**
  * ==========================================
@@ -25,17 +25,17 @@ export const HOME_PAGE_DESCRIPTION = "分享关于设计、技术与创意过程
  */
 
 // 3. 用户名
-export const AUTHOR_NAME = "张三";
+export const AUTHOR_NAME = "司徒凌风";
 
 // 4. 职业称号/简介
-export const AUTHOR_TITLE = "一个热爱生活的开发者";
+export const AUTHOR_TITLE = "一个热爱生活的搬砖人";
 
 // 5. 联系邮箱/链接 (显示在头像下方)
-export const AUTHOR_CONTACT = "mailto:webmaster@example.com";
+export const AUTHOR_CONTACT = "";
 
 // 6. 头像图片路径
 // 可以使用远程链接，或者将图片放入 public/images/ 后使用 "/images/文件名.jpg"
-export const AUTHOR_AVATAR = "public/images/kun.jpg";
+export const AUTHOR_AVATAR = "public/images/1.jpg";
 
 
 /**
@@ -53,9 +53,9 @@ export const AUTHOR_AVATAR = "public/images/kun.jpg";
 // 7. 导航菜单列表
 export const MENU_ITEMS = [
   { id: 'home', label: '首页', icon: Home },
-  { id: 'archive', label: '归档', icon: Archive },
   { id: 'categories', label: '分类', icon: Layout },
   { id: 'tags', label: '标签', icon: Tag },
+  { id: 'archive', label: '归档', icon: Archive },
   { id: 'about', label: '关于', icon: User },
 ];
 
@@ -82,9 +82,10 @@ export const ABOUT_PAGE_CONFIG = {
   description: `
 你好！我是${AUTHOR_NAME}。
 
-这里是我的个人空间，记录我的学习、思考和生活点滴。
-我热爱技术，也喜欢探索生活中的各种可能性。
-希望这里的内容能给你带来一些启发。
+这是我的个人空间，记录学习、思考和日常。
+热爱技术，也对生活里的各种可能性充满好奇。
+这里没什么固定主题，想到什么就写什么——可能是读到的一篇好文章，
+可能是折腾一个新工具的过程，也可能只是一些当下的感受。欢迎你来，随意逛逛。
   `.trim()
 };
 
@@ -113,7 +114,7 @@ export const SITE_BG_OPACITY = 0.85;
 // 可以添加多个，会自动并排显示，但需要格式保持一致，不然网站会崩。
 export const POST_BOTTOM_IMAGES = [
   {
-    enabled: true,
+    enabled: false,
     url: "public/images/kun.jpg",
     label: "关注我的公众号" 
   },
@@ -122,8 +123,8 @@ export const POST_BOTTOM_IMAGES = [
 // 12. 真实阅读量统计 (基于 LeanCloud)，该功能要求能力比较高，小白请勿更改。
 // 如果不需要统计，请将 enabled 设为 false
 export const LEANCLOUD_CONFIG = {
-  enabled: false, // 初始设为 false，小白配置好后再开启
-  appId: "",      // LeanCloud AppID
-  appKey: "",     // LeanCloud AppKey
-  serverURL: ""   // LeanCloud 服务器地址
+  enabled: true, // 初始设为 false，小白配置好后再开启
+  appId: "Og5DOrhbZCmGibu8FtUobMlV-MdYXbMMI",      // LeanCloud AppID
+  appKey: "smTfkGap4sAYKrWXl7FPi8fP",     // LeanCloud AppKey
+  serverURL: "https://og5dorhb.api.lncldglobal.com"   // LeanCloud 服务器地址
 };

@@ -802,7 +802,7 @@ export default function App() {
         )}>
           <div className="bg-white/60 dark:bg-zinc-900/60 backdrop-blur-md rounded-full px-5 py-2 inline-flex flex-col md:flex-row items-center gap-1 md:gap-3 shadow-sm border border-gray-200/50 dark:border-zinc-800/50">
             <span className="text-xs font-medium text-gray-700 dark:text-zinc-300">
-              Copyright &copy; 2026 cf-blog | Powered by adou
+              Copyright &copy; 2026 my-blog | Powered by 司徒凌风
             </span>
             <span className="hidden md:inline text-gray-300 dark:text-zinc-700">|</span>
             <span className="text-[10px] font-medium text-gray-500 dark:text-zinc-400">
