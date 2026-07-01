@@ -7,3 +7,7 @@ coverage/
 .env*
 !.env.example
 src/posts-data.json
+server.pid
+Thumbs.db
+*.swp
+*.swo

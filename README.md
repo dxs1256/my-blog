@@ -5,24 +5,28 @@
 Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
 项目开源地址：[https://github.com/alivedou/cf-blog](https://github.com/alivedou/cf-blog)
 
+这里是我使用该项目部署的个人博客[阿蔸的空间站]（https://blog.163898.xyz/）
+
 ## 部署后的效果图如下：
 
-！[项目部署效果图1](https://i.urusai.cc/2u1Ar.png)
-！[项目部署效果图2](public/images/demo1.jpg)
-！[项目部署效果图3](public/images/demo2.jpg)
+- ！[项目部署效果图1](https://i.urusai.cc/2u1Ar.png)
+- ！[项目部署效果图2](public/images/demo1.jpg)
+- ！[项目部署效果图3](public/images/demo2.jpg)
 ---
 
 ## 🛠️ 准备阶段 (部署前必看)
 
-为了实现“零成本”发布您的博客，您需要先准备好以下两个**免费**账号：
+为了实现"零成本"发布您的博客，您需要先准备好以下**免费**账号：
 
 1.  **[GitHub 账号](https://github.com/join)**：用于管理您的博客代码和文章。
-2.  **[Cloudflare 账号](https://dash.cloudflare.com/sign-up)**：用于将代码发布为真实的网站（Cloudflare Pages）。
+2.  **选择一个免费托管平台**：
+    *   **[Cloudflare Pages](https://dash.cloudflare.com/sign-up)**（推荐）：通过 Git 自动部署，全球 CDN 分发。
+    *   **[TinkerHost](https://app.tinkerhost.net/signup)**（备选）：传统虚拟主机，FTP 上传即可，适合不希望依赖 Git 自动部署的用户。
 
 ---
 
 ## 🔥 为什么选择本项目？
-*   **💸 零元购**: 配合 Cloudflare Pages，终身免费，无需服务器费用。
+*   **💸 零元购**: 配合 Cloudflare Pages 或 TinkerHost，终身免费，无需服务器费用。
 *   **⚡ 闪电快**: 静态导出，全球 CDN 分发，秒开网页。
 *   **🖋️ 写作爽**: 只需写 Markdown 丢进文件夹，网站自动更新。
 *   **🎨 随心改**: 内置主题换色、背景透明度调节、侧边栏实时背景切换。
@@ -76,8 +80,18 @@ Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
 
 **1. 环境配置 (Windows 用户推荐 WSL)**
 *   打开终端执行 `wsl --install` 安装 Ubuntu。
-*   在 Ubuntu 中执行 `sudo apt update && sudo apt install nodejs npm` (推荐使用 Node 20+)。
-*   **PS**: 若 WSL 密码丢失，请询问 [DeepSeek](https://chat.deepseek.com/) 寻找“WSL 重置密码方法”。
+*   在 Ubuntu 中安装 Node.js（本项目要求 **Node 20+**）：
+    ```bash
+    # 安装 NVM（Node 版本管理器）
+    curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+    # 重启终端或执行
+    source ~/.bashrc
+    # 安装并使用 Node 20
+    nvm install 20
+    nvm use 20
+    ```
+    > ⚠️ **不要用 `apt install nodejs`**，Ubuntu 默认源带的版本太老，项目跑不起来。
+*   **PS**: WSL 首次启动会要求设定密码（输入时屏幕不显示是正常的）。如果忘了密码，搜"WSL 重置密码"即可。
 
 **2. 极客写作：自动更新日期 (VS Code 一键同步)**
 为了省去手动修改文章日期的烦恼，本项目内置了自动日期同步脚本：
@@ -126,6 +140,39 @@ Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
     }
     ```
 *   重启 Nginx (`sudo systemctl restart nginx`)。
+
+---
+
+### 🎁 模式四：免费主机上传部署 (TinkerHost)
+**特点**：注册即用，FTP 或文件管理器上传，免费 SSL，无需信用卡，无需 Git。
+
+**1. 注册 TinkerHost**
+*   访问 [TinkerHost 注册页面](https://app.tinkerhost.net/signup) 并注册一个免费账号。
+*   账号即时激活，无需信用卡，永久免费（每月需至少 5 个访客保持活跃）。
+
+**2. 本地构建项目**
+*   在项目根目录执行：
+    ```bash
+    npm run build
+    ```
+*   构建完成后会生成 `dist/` 目录，这是一个纯静态站点。
+
+**3. 上传到 TinkerHost**
+*   登录 [TinkerHost 控制台](https://app.tinkerhost.net/)。
+*   找到 **File Manager**（文件管理器）或使用 FTP 客户端连接。
+*   进入 `public_html/`（或 `htdocs/`）目录。
+*   **关键**：将 `dist/` 目录**里面的所有内容**（`index.html`、`assets/`、`images/`、`.htaccess` 等）上传到 `public_html/`，而不是把 `dist/` 文件夹本身拖过去。
+
+**4. 访问你的网站**
+*   上传完成后，TinkerHost 会分配一个免费子域名（如 `yourname.tinkerhost.net`）。
+*   你也可以在控制台中绑定自己的自定义域名（免费 SSL 自动签发）。
+
+**5. 后续更新文章**
+*   写完新文章后重新执行 `npm run build`。
+*   将 `dist/` 内容重新上传到 `public_html/`，**覆盖旧文件**即可。
+*   建议每次先删除服务器上的 `assets/` 文件夹再上传，避免旧版本 JS/CSS 残留。
+
+> **💡 关于 SPA 路由**：本项目已在 `public/` 目录下内置了 `.htaccess` 文件，构建后自动进入 `dist/`。TinkerHost 使用 Apache 服务器，会自动读取 `.htaccess` 来处理前端路由，**无需你额外配置**。如果你同时使用 Cloudflare Pages，`_redirects` 文件也会一并存在于 `dist/` 中，各平台只认自己的配置，互不干扰。
 
 ---
 
@@ -210,6 +257,10 @@ Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
 11. **从 Github 下载到本地，编辑后 `npm run dev` 显示白屏？**
     *   **可能原因**: 如果您在依赖未完整安装好时就强制启动，或者遇到 Windows 端由于端口冲突（如端口 3000 被占用）等开发环境问题，可能会导致 React 初始化失败渲染白屏。
     *   **解决方法**: 建议彻底关闭命令行终端重新打开，确保执行了一遍 `npm install` 等待进度条完成后，再执行 `npm run dev`。若端口冲突问题依旧，可以尝试重启电脑。
+12. **TinkerHost 上传后页面白屏或显示 404？**
+    *   **文件位置不对**：确认上传的是 `dist/` **里面的内容**（`index.html`、`assets/`、`images/`、`.htaccess`），而不是 `dist/` 文件夹本身。上传后 TinkerHost 根目录应该直接有 `index.html`，不是 `dist/index.html`。
+    *   **浏览器缓存**：按 `Ctrl + Shift + R` 强制刷新，确保加载的是新上传的 JS/CSS 文件。
+    *   **行内代码显示异常**：如果你看到反引号（`` ` ``）在页面上直接显示，那是 Tailwind Typography 的伪元素装饰问题。**已修复**：v2 版本已在 CSS 中显式移除了伪元素并添加了行内代码样式。
 
 ## 📄 版权说明 / License
 本项目基于 [MIT License](LICENSE) 开源。

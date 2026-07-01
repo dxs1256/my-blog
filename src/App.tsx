@@ -8,6 +8,7 @@ import { PostCard } from './components/PostCard';
 import { SearchBar } from './components/Search';
 import { PostMetadata, PostDetail } from './types';
 import Markdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { ChevronLeft, Share2, MessageCircle, Sun, Moon, Menu as MenuIcon, X, Eye, Image as ImageIcon, ArrowUp, ArrowDown, Pin, Layout } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '@/src/lib/utils';
@@ -517,6 +518,7 @@ export default function App() {
                   <div className="prose prose-lg dark:prose-invert max-w-none text-zinc-800 dark:text-zinc-200 leading-relaxed mb-16">
                     <div className="markdown-body">
                       <Markdown
+                        remarkPlugins={[remarkGfm]}
                         components={{
                           img: ({node, ...props}) => <img {...props} referrerPolicy="no-referrer" />
                         }}
