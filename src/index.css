@@ -25,34 +25,80 @@
 
 .markdown-body {
   @apply prose prose-zinc dark:prose-invert max-w-none
-  prose-a:text-[var(--theme-primary)]
-  prose-p:text-gray-700 dark:prose-p:text-zinc-400
+         prose-a:text-[var(--theme-primary)]
+         prose-p:text-gray-700 dark:prose-p:text-zinc-400
          prose-headings:text-gray-900 dark:prose-headings:text-zinc-100
          prose-strong:text-gray-900 dark:prose-strong:text-zinc-100
          prose-lg leading-relaxed;
-}
 
-.markdown-body code {
-  @apply bg-gray-100 dark:bg-zinc-800 text-primary px-1.5 py-0.5 rounded text-sm font-mono font-medium;
-}
+  /* --- START: 代码块样式 - 主题 2：标准浅色 (GitHub Light 风格) --- */
 
-.markdown-body code::before,
-.markdown-body code::after {
-  content: none;
-}
+  /* 针对整个多行代码块容器 (<pre> 标签) */
+  & pre {
+    @apply bg-gray-50 dark:bg-zinc-800 text-gray-800 dark:text-gray-200; /* 统一的浅背景，深文字 */
+    padding: 1.25rem 1.5rem; /* 内边距 */
+    border-radius: 0.5rem;   /* 圆角 */
+    overflow-x: auto;        /* 允许水平滚动 */
+    line-height: 1.6;        /* 稍微宽松的行高 */
+    font-size: 0.9em;        /* 字体大小 */
+    font-family: var(--font-mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace); /* 等宽字体 */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 柔和的阴影 */
+    border: 1px solid theme('colors.gray.200'); /* 边框 */
 
-.markdown-body table {
-  @apply w-full text-sm text-left my-6 border-collapse;
-}
-.markdown-body thead {
-  @apply border-b-2 border-gray-300 dark:border-zinc-700;
-}
-.markdown-body th {
-  @apply py-3 px-4 font-bold text-gray-900 dark:text-zinc-100 bg-gray-100/50 dark:bg-zinc-800/50;
-}
-.markdown-body td {
-  @apply py-3 px-4 border-b border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300;
-}
-.markdown-body tbody tr:hover {
-  @apply bg-gray-50 dark:bg-zinc-800/30 transition-colors;
+    /* 确保 <pre> 内部的 <code> 文本不带独立背景 */
+    & code {
+      background-color: transparent !important; /* 透明背景 */
+      color: inherit !important;                /* 继承父元素的颜色 */
+      padding: 0 !important;                    /* 移除内边距 */
+      border-radius: 0 !important;              /* 移除圆角 */
+      font-weight: normal !important;           /* 正常字重 */
+    }
+
+    /* 语法高亮颜色示例 (适合浅色背景) */
+    & .token.comment, & .token.prolog, & .token.doctype, & .token.cdata { color: #6a737d; } /* 注释 */
+    & .token.punctuation { color: #586069; } /* 标点 */
+    & .token.delimiter, & .token.tag, & .token.operator, & .token.keyword { color: #d73a49; } /* 关键字、操作符 (红色) */
+    & .token.string { color: #032f62; } /* 字符串 (深蓝色) */
+    & .token.number { color: #005cc5; } /* 数字 (蓝色) */
+    & .token.boolean, & .token.constant { color: #005cc5; } /* 布尔值、常量 (蓝色) */
+    & .token.function { color: #6f42c1; } /* 函数名 (紫色) */
+    & .token.class-name { color: #e36209; } /* 类名 (橙色) */
+    & .token.attr-name { color: #d73a49; } /* HTML属性名 (红色) */
+    & .token.attr-value { color: #032f62; } /* HTML属性值 (深蓝色) */
+    & .token.regex { color: #e36209; } /* 正则表达式 (橙色) */
+    & .token.property, & .token.variable, & .token.selector { color: #22863a; } /* 属性、变量、选择器 (绿色) */
+  }
+
+  /* 针对行内 `code` 标签 (不在 <pre> 内部的) */
+  & :not(pre) > code {
+    @apply bg-gray-200 dark:bg-zinc-800 text-gray-700 dark:text-primary px-1.5 py-0.5 rounded text-sm font-mono font-medium;
+    color: theme('colors.red.600') !important; /* 行内代码使用红色 */
+  }
+
+  /* 移除所有 code 元素的伪元素 */
+  .markdown-body code::before,
+  .markdown-body code::after {
+    content: none !important;
+  }
+
+  /* --- END: 代码块样式 - 主题 2：标准浅色 --- */
+
+  /* ==================================== */
+  /*  表格样式 (保留你原来的) */
+  /* ==================================== */
+  .markdown-body table {
+    @apply w-full text-sm text-left my-6 border-collapse;
+  }
+  .markdown-body thead {
+    @apply border-b-2 border-gray-300 dark:border-zinc-700;
+  }
+  .markdown-body th {
+    @apply py-3 px-4 font-bold text-gray-900 dark:text-zinc-100 bg-gray-100/50 dark:bg-zinc-800/50;
+  }
+  .markdown-body td {
+    @apply py-3 px-4 border-b border-gray-200 dark:border-zinc-800 text-gray-700 dark:text-zinc-300;
+  }
+  .markdown-body tbody tr:hover {
+    @apply bg-gray-50 dark:bg-zinc-800/30 transition-colors;
+  }
 }
