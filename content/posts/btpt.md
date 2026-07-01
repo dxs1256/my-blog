@@ -59,9 +59,9 @@ services:
 
 Prowlarr 通常是自动化下载管线的**入口层**：
 
-```yaml
+`
 Prowlarr(搜) → Sonarr(剧)/Radarr(电影) → 下载器(qB/TR) → 媒体库(Emby/Plex)
-```
+`
 
 这套组合拳下来，找资源、下资源、整理入库全自动，追剧基本不用动手。
 
