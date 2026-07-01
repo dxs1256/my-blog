@@ -11,3 +11,8 @@ server.pid
 Thumbs.db
 *.swp
 *.swo
+.vite/
+*.tsbuildinfo
+.idea/
+*~
+#*#
