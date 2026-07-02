@@ -4,7 +4,7 @@
  * 尊重开源劳动成果，引用请保留作者信息。
  */
 
-import { Home, Archive, Tag, User, MessageCircle, Tv, Share2,Image, HelpCircle, Layout } from 'lucide-react';
+import { Home, Archive, Tag, User, MessageCircle, Tv, Share2, Image, HelpCircle, Layout } from 'lucide-react';
 
 /**
  * ==========================================
@@ -15,8 +15,23 @@ import { Home, Archive, Tag, User, MessageCircle, Tv, Share2,Image, HelpCircle, 
 // 1. 网站标题（显示在浏览器标签页上）
 export const SITE_TITLE = "司徒博客";
 
-// 2. 网站首页描述（显示在首页标题下方，简短介绍）
-export const HOME_PAGE_DESCRIPTION = "关于设计、技术与创意，只管分享，不谈高深。";
+// 【新增】随机一句话文案池
+const descriptionPool = [
+  "关于设计、技术与创意，只管分享，不谈高深。",
+  "好的设计是显而易见的，伟大的设计是透明的。",
+  "代码是写给人看的，只是恰好能被机器执行。",
+  "把复杂变简单，是创新；把简单变复杂，是凑数。",
+  "不要为了技术而技术，要为了解决问题而技术。",
+  "留白不是空缺，而是呼吸的空间。",
+  "少即是多，尤其是当“多”毫无头绪时。"
+];
+
+// 【新增】打包时随机抽取一句
+const randomDesc = descriptionPool[Math.floor(Math.random() * descriptionPool.length)];
+
+// 2. 网站首页描述（显示在首页标题下方，简短介绍）-> 现在引用上面的随机变量
+export const HOME_PAGE_DESCRIPTION = randomDesc;
+
 
 /**
  * ==========================================
