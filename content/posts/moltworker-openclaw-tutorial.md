@@ -23,6 +23,8 @@ Cloudflare 最近开源了一个项目叫 **Moltworker**，能让你直接把 Op
 
 这玩意儿可不是因为 Cloudflare 看 OpenClaw 火了就随便套个壳。它内置了浏览器自动化、R2 持久化存储、完整的管理面板，还集成了 Cloudflare Access 做身份认证。我体验下来，最爽的是**三重安全机制**和**Discord 集成**，真正做到了又能用又安全。
 
+项目地址：[github.com/cloudflare/moltworker](https://github.com/cloudflare/moltworker)（⭐ 近 10,000）
+
 ## 为什么要用 Cloudflare 跑
 
 一句话总结：**这是一个把 OpenClaw 部署到 Cloudflare Workers 的开箱即用方案，不用买 VPS**。
