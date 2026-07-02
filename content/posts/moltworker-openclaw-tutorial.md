@@ -8,7 +8,7 @@ tags:
   - "OpenClaw"
   - "教程"
   - "免费"
-title: "Cloudflare 官方出手：把 AI 助手部署到 Workers，$5/月跑满"
+title: "Cloudflare 官方出手：把 AI 助手部署到 Workers"
 description: "Cloudflare 开源了 Moltworker，让你在 Workers 上跑 OpenClaw AI 助手，无需 VPS，Sandbox 容器 + R2 持久化 + 三重认证，$5/月起步。"
 categories:
   - "教程"
@@ -163,5 +163,3 @@ Moltworker 支持多种模型接入方式：
 ## 写在最后
 
 这次 Cloudflare 亲自下场，算是给 OpenClaw 的部署方式开了个官方通道。不用折腾 VPS、不用操心 Docker，Wrangler 一把梭。虽然每月 $30+ 的运行成本不算白菜价，但考虑到**免运维、自动扩缩容、自带安全认证**，对于想认真用 AI 助手的人来说，比折腾 VPS 省心太多。
-
-GitHub 仓库：https://github.com/cloudflare/moltworker（⭐ 近 10,000）
