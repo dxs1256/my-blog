@@ -26,12 +26,6 @@ image: "https://bing.ee123.net/img/rand?seed=x-spider-twitter-downloader-guide"
 
 最让我满意的是它提供了两种版本：油猴脚本版适合轻度使用，PC 客户端版适合批量下载的重度用户。
 
-## 两个版本对比
-
-| Header | Header | Header | 
-| --- | --- | --- | 
-> _(表格内容通过子行渲染)_
-
 ## 使用建议
 
 **不要频繁爬图**：这是我最想强调的一点。X 对爬虫行为比较敏感，建议：
@@ -39,13 +33,6 @@ image: "https://bing.ee123.net/img/rand?seed=x-spider-twitter-downloader-guide"
 - 控制下载频率，不要短时间内大量请求
 - 分批次下载，避免账号被封禁
 - 优先使用油猴脚本版，更接近正常用户行为
-## 同类工具推荐
-
-如果你需要下载其他平台的内容，这些工具也不错：
-
-| Header | Header | Header | 
-| --- | --- | --- | 
-> _(表格内容通过子行渲染)_
 
 ## 总结
 
