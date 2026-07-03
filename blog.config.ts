@@ -80,7 +80,7 @@ export const RECOMMENDED_LINKS = [
   { label: 'GitHub', url: 'http://github.orrz.de5.net', icon: Share2 },
   { label: '观影计划', url: 'https://moon.orrz.de5.net/', icon: Tv },
   { label: '第三方图床', url: 'https://urusai.cc', icon: Image },
-  { label: '网站状态', url: 'https://up.situ.eu.org', icon: activity },
+  { label: '网站状态', url: 'https://up.situ.eu.org', icon: Activity },
 ];
 
 
