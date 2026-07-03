@@ -4,7 +4,7 @@
  * 尊重开源劳动成果，引用请保留作者信息。
  */
 
-import { Home, Archive, Tag, User, MessageCircle, Tv, Share2, Image, HelpCircle, Layout } from 'lucide-react';
+import { Home, Archive, Tag, User, MessageCircle, Tv, Share2, Image, HelpCircle, Layout, Activity, Shrimp } from 'lucide-react';
 
 /**
  * ==========================================
@@ -77,10 +77,10 @@ export const MENU_ITEMS = [
 // 8. 侧边栏底部的社交/推荐链接：
 //预置了一个免费图床和一个高清图片壁纸站按钮,由于后者被墙，需要把后者的图片放到前面的图床后，再复制链接给你的博客配图
 export const RECOMMENDED_LINKS = [
-  { label: 'GitHub', url: 'http://github.orrz.de5.net', icon: Share2 },
-  { label: '观影计划', url: 'https://moon.orrz.de5.net/', icon: Tv },
-  { label: '第三方图床', url: 'https://urusai.cc', icon: Image },
-  { label: '壁纸图片网站', url: 'https://wallhaven.cc', icon: Image },
+  { label: '小龙虾', url: 'https://bot.situ.eu.org', icon: Shrimp },
+  { label: '观影计划', url: 'https://moon.orrz.de5.net', icon: Tv },
+  { label: 'Git 标星', url: 'http://github.orrz.de5.net', icon: Share2 },
+  { label: '网站状态', url: 'https://up.situ.eu.org', icon: Activity },
 ];
 
 
