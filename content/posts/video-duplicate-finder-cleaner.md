@@ -10,7 +10,7 @@ title: "视频空间清理神器：3种界面跨平台查重"
 description: "Video Duplicate Finder —— 跨平台视频去重工具，支持不同分辨率/帧率/水印版的相似度识别，内置局部片段检测，提供 GUI/CLI/Web 三种操作界面。"
 categories:
   - 工具推荐
-image: "https://bing.ee123.net/img/rand"
+image: "https://bing.ee123.net/img/rand?seed=video-duplicate-finder-cleaner"
 ---
 [//]: # (notion-sync-id: )
 
