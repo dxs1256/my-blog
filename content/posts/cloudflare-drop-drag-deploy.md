@@ -23,8 +23,6 @@ Cloudflare 大概也烦了这种场景，直接搞了个新玩具叫 **[Cloudfla
 
 Cloudflare Drop 是 Cloudflare 刚推出的零门槛静态网站部署工具。核心逻辑就一句——扔掉构建工具、扔掉 CI/CD、扔掉服务器配置，**本地文件夹直接拖上去就行**。
 
-![Cloudflare Drop 界面](https://i.ibb.co/Y742fRFY/003ffd055e93.png)
-
 整个页面就是一个拖拽区 + 两个按钮（选文件夹 / 选 zip），没有任何多余的东西。
 
 ## ⚡ 到底有多简单
