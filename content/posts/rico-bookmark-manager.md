@@ -20,8 +20,6 @@ image: "https://bing.ee123.net/img/rand?seed=rico-bookmark-manager"
 
 项目地址：https://github.com/ricocc/rico-bookmark-manager
 
-作者是 **Rico**（[X/@ricouii](https://x.com/ricouii)），一位网页/UI 设计师，这工具既有设计感又实用。
-
 ## 🎯 核心功能一览
 
 - **解析书签**：读取浏览器导出的 HTML 书签文件，生成结构化 `bookmarks.json`
@@ -141,6 +139,6 @@ python scripts/rico_bookmarks_manager.py update \
 
 这工具最打动我的是两点：一是**零依赖**，Python 标准库就能跑，没有任何第三方包要装；二是**设计感在线**，五种主题各有味道，不是那种糙快的命令行产物。
 
-Rico 作为设计师出品的工具，细节上确实比纯开发者的项目多想了一层——导航站能直接搜索筛选、详情弹窗、本地暂存调整，整理书签这件事终于不再是一种折磨了。
+导航站能直接搜索筛选、详情弹窗、本地暂存调整，整理书签这件事终于不再是一种折磨了。
 
 GitHub：https://github.com/ricocc/rico-bookmark-manager
