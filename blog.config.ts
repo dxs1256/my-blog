@@ -141,5 +141,5 @@ export const LEANCLOUD_CONFIG = {
   enabled: true, // 初始设为 false，小白配置好后再开启
   appId: "Og5DOrhbZCmGibu8FtUobMlV-MdYXbMMI",      // LeanCloud AppID
   appKey: "smTfkGap4sAYKrWXl7FPi8fP",     // LeanCloud AppKey
-  serverURL: "og5dorhb.api.lncldglobal.com"   // LeanCloud 服务器地址
+  serverURL: "https://og5dorhb.api.lncldglobal.com"   // LeanCloud 服务器地址
 };
