@@ -141,4 +141,3 @@ python scripts/rico_bookmarks_manager.py update \
 
 导航站能直接搜索筛选、详情弹窗、本地暂存调整，整理书签这件事终于不再是一种折磨了。
 
-GitHub：https://github.com/ricocc/rico-bookmark-manager
