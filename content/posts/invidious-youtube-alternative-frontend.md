@@ -13,7 +13,7 @@ image: "https://bing.ee123.net/img/rand?seed=invidious-youtube-alternative-front
 ---
 [//]: # (notion-sync-id: ...)
 
-最近有个老哥在 X 上发帖说他刚取消了 YouTube Premium，找到了一个完全免费的替代方案，试用后决定不回头了。我去看了一眼，确实是个好东西。
+最近有个老哥在 X 上发帖说他刚取消了 YouTube Premium，找到了一个完全免费的替代方案，试用后决定不回头了。我去看了一眼 [**Invidious**](https://github.com/iv-org/invidious)（⭐20.7k），确实是个好东西。
 
 项目地址：https://github.com/iv-org/invidious
 
