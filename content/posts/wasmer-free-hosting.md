@@ -23,6 +23,8 @@ image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 
 注册不需要手机号也不用绑卡，邮箱验证或用 Google/GitHub 账号就能直接开搞：
 
+![Wasmer 免费 Hobby 套餐](https://i.ibb.co/SwLq4Ls2/6f6bac409332.png)
+
 | 项目 | 额度 |
 |------|------|
 | 站点数 | 3 个 |
@@ -39,6 +41,8 @@ image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 
 **从模板一键部署** — WordPress、Flask、Hugo、Gatsby、Next.js、Docusaurus、Astro、Mkdocs 等十几种现成模板，选好就能用。
 
+![Wasmer 模板列表](https://i.ibb.co/07pXhqN/c2a494e3188e.png)
+
 **导入 GitHub 仓库** — 绑定 GitHub 账号后直接选仓库，自动检测框架配置。
 
 **手动上传** — 拖拽上传文件夹，然后手动选择语言/框架类型，提交后秒级部署。
@@ -48,6 +52,8 @@ image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 ## 🌐 绑定域名
 
 每个站点支持绑定自定义域名，免费用户也能用。DNS 配置好 CNAME 指向分配的 `.wasmer.app` 域名即可生效。
+
+![Wasmer 各套餐功能对比](https://i.ibb.co/qMDJLtxB/276488698889.png)
 
 ## 🧪 实测体验
 
