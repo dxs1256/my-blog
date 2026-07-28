@@ -5,25 +5,27 @@ tags:
   - 免费资源
   - 虚拟主机
   - WebAssembly
-title: "Wasmer 免费虚拟主机，支持 PHP/Python/JS"
-description: "免费 Hobby 套餐：3 个站点、月 10 万次请求、150G 流量、1G 存储、支持绑定域名，基于 WebAssembly 运行 PHP/Python/Node.js 等。"
+title: "免费虚拟主机，PHP/Python/JS 都能跑"
+description: "Wasmer Hobby 套餐免费：3 站点、月 10 万请求、150G 流量、1G 存储、支持绑定域名，基于 WebAssembly 部署各种语言框架。"
 categories:
   - 免费资源
 image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 ---
 [//]: # (notion-sync-id: )
 
-找免费虚拟主机的时候，常见的问题无非就是：限制多、有广告、要绑信用卡、只支持 PHP。
+我最近在折腾个人项目，想找个免费虚拟主机放着。一圈看下来，要么只支持 PHP，要么有广告，要么注册就要绑信用卡——烦得很。
 
-[**Wasmer**](https://wasmer.io/) 是个基于 WebAssembly 的托管平台，能跑的东西比传统虚拟主机多得多——PHP、Python、Node.js、Hugo、Next.js、WordPress 都能一键部署。
+后来发现 [**Wasmer**](https://wasmer.io/)，这东西是个基于 WebAssembly 的托管平台，能跑的花样比传统虚拟主机多太多了。
 
 项目地址：https://wasmer.io/
 
-## 🚀 免费 Hobby 套餐够用
+## 🚀 注册简单，Hobby 套餐够用
 
-注册不需要手机号也不用绑卡，邮箱验证或用 Google/GitHub 账号就能直接开搞：
+不用手机号、不用绑卡，邮箱验证一下就能用。也可以用 Google 或 GitHub 账号直接登录。
 
-![Wasmer 免费 Hobby 套餐](https://i.ibb.co/SwLq4Ls2/6f6bac409332.png)
+注册完默认就是 Hobby 免费套餐，额度对于个人项目来说挺宽裕的：
+
+![Wasmer Hobby 套餐定价页面](https://i.ibb.co/SwLq4Ls2/6f6bac409332.png)
 
 | 项目 | 额度 |
 |------|------|
@@ -35,32 +37,36 @@ image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 | 自定义域名 | ✅ 支持 |
 | 广告 | 无 |
 
-## 📦 支持的框架和语言
+## 📦 支持的语言和框架范围很广
 
-新建项目时有三大入口：
+部署方式有三种入口，上手没什么门槛：
 
-**从模板一键部署** — WordPress、Flask、Hugo、Gatsby、Next.js、Docusaurus、Astro、Mkdocs 等十几种现成模板，选好就能用。
+**从模板一键部署** — WordPress、Flask、Hugo、Gatsby、Next.js、Docusaurus、Astro、Mkdocs 等十几种现成模板，选好就直接创建了。
 
 ![Wasmer 模板列表](https://i.ibb.co/07pXhqN/c2a494e3188e.png)
 
-**导入 GitHub 仓库** — 绑定 GitHub 账号后直接选仓库，自动检测框架配置。
+**导入 GitHub 仓库** — 绑定 GitHub 后直接选仓库，它会自动检测框架配置。
 
-**手动上传** — 拖拽上传文件夹，然后手动选择语言/框架类型，提交后秒级部署。
+**手动上传** — 拖个文件夹上去，再选下语言/框架类型，提交就部署好了，全程十几秒。
 
-支持的语言和框架包括但不限于：PHP、Python、Node.js（node-base/node-static）、Hugo、WordPress、Laravel、Django、Jekyll、Astro、Gatsby、Next.js、Nuxt、Mkdocs、Staticfile，以及纯 JavaScript Worker。
+支持的列表挺长：PHP、Python、Node.js、Hugo、WordPress、Laravel、Django、Jekyll、Astro、Gatsby、Next.js、Nuxt、Mkdocs、Staticfile，还有纯 JavaScript Worker。基本上常见的前后端框架都覆盖了。
 
 ## 🌐 绑定域名
 
-每个站点支持绑定自定义域名，免费用户也能用。DNS 配置好 CNAME 指向分配的 `.wasmer.app` 域名即可生效。
+每个站点支持绑自定义域名，免费用户也能用。DNS 配个 CNAME 指向分配的 `.wasmer.app` 域名就行。
 
-![Wasmer 各套餐功能对比](https://i.ibb.co/qMDJLtxB/276488698889.png)
+![Wasmer 套餐功能对比](https://i.ibb.co/qMDJLtxB/276488698889.png)
 
-## 🧪 实测体验
+## 🧪 实际用下来的感受
 
-部署速度很快，上传到上线基本十几秒搞定。`.wasmer.app` 域名在国内移动网络下实测可正常访问，速度尚可。评论区有反馈移动网络打不开 `.app` 域名，但另一位四川移动用户表示可以正常打开——可能跟具体地区和 DNS 有关。
+部署速度确实快，上传到上线十几秒搞定，比一些传统虚拟主机快多了。
 
-已有人问过它的 Python 是不是只支持 Flask 的"残血版"，目前没有明确答案，建议有特定需求的先验证。
+有一点要注意：`.wasmer.app` 这个域名在国内移动网络下有人反馈打不开，但也有四川移动用户说正常访问。我试了下我这边的网络没问题，可能跟地区和 DNS 有关，建议绑个自定义域名省心。
+
+另外评论区有人问 Python 是不是只支持 Flask 的"残血版"——我还没深测，如果你有特定依赖要跑，建议先验证再上车。
 
 ## 💬 小结
 
-对于需要跑多种语言和框架的个人开发者来说，Wasmer 的 Hobby 套餐给的额度足够日常折腾了。没广告、能绑域名、不需要信用卡，比那些注册先要手机号的省心太多。
+折腾一圈下来，Wasmer 的 Hobby 套餐算是目前免费虚拟主机里给得比较实在的：语言覆盖广、没广告、能绑域名、还不用绑卡。个人项目折腾或者放个 demo 站完全够用。
+
+如果要挑毛病的话，就是文档对各个语言的具体支持程度写得不够细，有些框架的坑得自己踩了才知道。
