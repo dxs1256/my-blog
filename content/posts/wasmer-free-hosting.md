@@ -25,7 +25,7 @@ image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 
 注册完默认就是 Hobby 免费套餐，额度对于个人项目来说挺宽裕的：
 
-![Wasmer Hobby 套餐定价页面](https://i.ibb.co/SwLq4Ls2/6f6bac409332.png)
+![Wasmer Hobby 套餐定价页面](https://i.ibb.co/SwLq4sL2/6f6bac409332.png)
 
 | 项目 | 额度 |
 |------|------|
