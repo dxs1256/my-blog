@@ -15,9 +15,9 @@ image: "https://bing.ee123.net/img/rand?seed=firecrawl-keyless-free"
 
 今天刷到一条消息：Firecrawl 官方发推说，从今天起不用申请 Key、不用配环境变量，直接调接口就能用。
 
-[**Firecrawl**](https://github.com/nicholasgriffintn/firecrawl) 是一个专门给 AI 用的网页数据接口，130K+ Star，已经是社区 Top 100 的仓库了。Apple、Canva、Stanford、Zapier 这些公司都在用它的服务。
+[**Firecrawl**](https://github.com/firecrawl/firecrawl) 是一个专门给 AI 用的网页数据接口，130K+ Star，已经是社区 Top 100 的仓库了。Apple、Canva、Stanford、Zapier 这些公司都在用它的服务。
 
-项目地址：https://github.com/nicholasgriffintn/firecrawl
+项目地址：https://github.com/firecrawl/firecrawl
 
 ## 它到底能干嘛
 
