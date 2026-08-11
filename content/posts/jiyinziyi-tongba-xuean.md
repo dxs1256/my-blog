@@ -18,7 +18,7 @@ image: "https://bing.ee123.net/img/rand?seed=jiyinziyi-tongba-xuean"
 
 这篇的故事内核,一句话概括:嫂子在后门设了个尿桶蹲点,蹲出一桩大买卖,也蹲出一桩人命案,最后官府嫌口供太黄,打了八十大板结案。
 
-![清代奇案趣谈](https://i.ibb.co/0RxMCcHH/b65283ed7519.webp)
+![清代奇案趣谈](https://i.ibb.co/tPYbncmP/1319fe5e7296.jpg)
 
 ## 原文
 
