@@ -43,7 +43,7 @@ export const HOME_PAGE_DESCRIPTION = randomDesc;
 export const AUTHOR_NAME = "司徒凌风";
 
 // 4. 职业称号/简介
-export const AUTHOR_TITLE = "一个热爱生活的搬砖人,白天为了碎银几两,晚上为了心头一亮,忙碌之余,总想跟你分享点有意思的东西";
+export const AUTHOR_TITLE = "在平凡日子里挖宝的人";
 
 // 5. 联系邮箱/链接 (显示在头像下方)
 export const AUTHOR_CONTACT = "";
