@@ -2,7 +2,6 @@
 date: "2026-05-27"
 type: blog
 tags:
-  - "热门文章"
   - "视频托管"
   - "免费资源"
   - "MediaCM"

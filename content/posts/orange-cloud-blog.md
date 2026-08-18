@@ -2,9 +2,9 @@
 date: "2026-08-05"
 type: blog
 tags:
-  - 工具推荐
-  - Cloudflare
-  - 开源
+  - "工具"
+  - "Cloudflare"
+  - "开源"
 title: "手机管 Cloudflare，告别复制 API Token"
 description: "Orange Cloud：原生 iOS/Android 客户端，OAuth 一键登录，DNS/Workers/R2 全功能，源码开源可自编译解锁全部 Pro 功能"
 categories:

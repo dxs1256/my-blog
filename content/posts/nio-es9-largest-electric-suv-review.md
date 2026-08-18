@@ -3,7 +3,6 @@ date: "2026-05-06"
 type: blog
 tags:
   - "视频"
-  - "必看精选"
 title: "全中国最大纯电SUV——蔚来ES9深度体验"
 description: "老司机出品频道深度体验蔚来ES9，号称全中国最大的纯电SUV。24分钟视频全面展示了这台车的空间、续航、智能座舱和驾驶感受。"
 categories:

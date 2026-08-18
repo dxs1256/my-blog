@@ -2,11 +2,10 @@
 date: "2026-07-19"
 type: blog
 tags:
-  - 必看精选
-  - Windows
-  - 开源
-  - 工具推荐
-  - 免费
+  - "Windows"
+  - "开源"
+  - "工具"
+  - "免费"
 title: "不用U盘，桌面点几下就能重装系统"
 description: "LetRecovery：在Windows桌面直接跑完重装流程，Rust+egui开发，零U盘零BIOS"
 categories:

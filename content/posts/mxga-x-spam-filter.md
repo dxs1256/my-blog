@@ -2,7 +2,6 @@
 date: "2026-05-28"
 type: blog
 tags:
-  - "热门文章"
   - "X"
   - "Chrome扩展"
   - "开源"

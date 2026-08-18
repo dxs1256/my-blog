@@ -2,7 +2,6 @@
 date: "2026-06-03"
 type: blog
 tags:
-  - "热门文章"
   - "CloakBrowser"
   - "反检测"
   - "爬虫"

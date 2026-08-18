@@ -2,9 +2,9 @@
 date: "2026-07-30"
 type: blog
 tags:
-  - 工具推荐
-  - SSH
-  - AI
+  - "工具"
+  - "SSH"
+  - "AI"
 title: "轻量级 SSH 工具，Claude 也能直接接管"
 description: "Pixshell 是一款轻量级 SSH 客户端，终端 SFTP 同屏、AI 交互、Web SSH、多标签管理，还能一键注册为系统默认 SSH 工具让 AI 无缝接管。"
 categories:

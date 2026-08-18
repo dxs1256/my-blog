@@ -2,7 +2,6 @@
 date: "2026-06-15"
 type: blog
 tags:
-  - "热门文章"
   - "免费"
   - "云服务器"
   - "Ubuntu"

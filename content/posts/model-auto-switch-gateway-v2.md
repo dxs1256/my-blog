@@ -7,7 +7,6 @@ tags:
   - "Docker"
   - "工具"
   - "API"
-  - "热门文章"
 title: "一个带Web UI管理的轻量级高性能OpenAI模型代理网关"
 description: "model_auto_switch 是一个支持多供应商、负载均衡和故障转移的 OpenAI 兼容 API 代理网关，支持 Docker 快速部署，提供 Web UI 管理界面，可在线配置供应商和模型，实时查看健康状态和运行日志。"
 categories:

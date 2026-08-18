@@ -2,11 +2,10 @@
 date: "2026-05-06"
 type: blog
 tags:
-  - "必看精选"
   - "开源"
   - "影视"
   - "GitHub"
-  - "工具推荐"
+  - "工具"
 title: "6个开源影视平台，4K私人影院一键部署"
 description: "推荐6个开源免费影视平台：movie-web、GoFilm、LibreTV、OrangeTV、MoonCakeTV、MoonTV，支持4K+HDR、秒开零缓冲，一键部署终身白嫖。"
 categories:

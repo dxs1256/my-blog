@@ -2,7 +2,6 @@
 date: "2026-06-25"
 type: blog
 tags:
-  - "热门文章"
   - "Umami"
   - "网站统计"
   - "Vercel"

@@ -2,9 +2,9 @@
 date: "2026-08-15"
 type: blog
 tags:
-  - 工具推荐
-  - AI
-  - 开源
+  - "工具"
+  - "AI"
+  - "开源"
 title: "给 Agent 一个链接，视频自动下好"
 description: "video-catcher：一个开源视频下载 Skill，支持 23 个平台，自动 fallback 链路，你的 Agent 从此能自己下视频了。"
 categories:

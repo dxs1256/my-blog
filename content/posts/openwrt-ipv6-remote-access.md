@@ -2,7 +2,6 @@
 date: "2026-05-19"
 type: blog
 tags:
-  - "热门文章"
   - "AI"
   - "LiteLLM"
 title: "零成本外网远程访问OpenWrt｜公网IPv6保姆级教程"

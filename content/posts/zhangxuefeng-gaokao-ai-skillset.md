@@ -4,7 +4,6 @@ type: blog
 tags:
   - "开源"
   - "AI"
-  - "必看精选"
 title: "张雪峰高考志愿填报AI知识库：用Agent消除教育信息差"
 description: "一个以张雪峰命名的高考志愿填报AI决策知识库，包含8大模块专业知识，支持OpenClaw Skills部署，让普通家庭用AI消除教育信息差。"
 categories:

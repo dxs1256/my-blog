@@ -2,7 +2,6 @@
 date: "2026-06-03"
 type: blog
 tags:
-  - "热门文章"
   - "TaoSync"
   - "网盘同步"
   - "OpenList"

@@ -2,9 +2,8 @@
 date: "2026-08-03"
 type: blog
 tags:
-  - 必看精选
-  - AI
-  - 开源
+  - "AI"
+  - "开源"
 title: "AI Agent自带记忆和情绪，5.6k Star"
 description: "HanaAgent - 桌面 AI Agent，自带记忆系统、人格模板、文件操作能力，支持飞书QQ等聊天软件远程调用，开源免费。"
 categories:

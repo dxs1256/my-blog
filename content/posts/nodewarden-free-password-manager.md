@@ -2,7 +2,6 @@
 date: "2026-05-11"
 type: blog
 tags:
-  - "必看精选"
   - "开源"
   - "Cloudflare"
   - "Workers"

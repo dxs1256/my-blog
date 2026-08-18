@@ -2,9 +2,8 @@
 date: "2026-07-31"
 type: blog
 tags:
-  - 必看精选
-  - Cloudflare
-  - 免费
+  - "Cloudflare"
+  - "免费"
 title: "免费私人导航站，Cloudflare 零成本部署"
 description: "基于 Cloudflare Workers 的免费开源导航站 iori-nav，支持密码保护、私密分类、管理员权限，PC 和手机端体验都很好。"
 categories:

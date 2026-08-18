@@ -6,7 +6,6 @@ tags:
   - "AI"
   - "免费API"
   - "商汤"
-  - "热门文章"
 title: "注册商汤送 DeepSeek-V4-Flash 免费 API"
 description: "商汤 Token Plan 免费送 DeepSeek-V4-Flash API，手机注册即开通。模型 ID、API 地址、配置方法全流程说明，开发者 0 成本接入，适合轻量测试和原型验证。"
 categories:

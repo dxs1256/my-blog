@@ -2,9 +2,8 @@
 date: "2026-07-31"
 type: blog
 tags:
-  - 必看精选
-  - 音乐
-  - 开源
+  - "音乐"
+  - "开源"
 title: "洛雪音乐音源指南，告别空壳一键导入"
 description: "洛雪音乐 LX Music 音源配置指南，推荐 pdone 的 7 套免费音源，在线一键导入，永久收藏。"
 categories:

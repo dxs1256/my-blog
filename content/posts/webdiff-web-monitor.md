@@ -2,9 +2,9 @@
 date: "2026-08-07"
 type: blog
 tags:
-  - 效率工具
-  - 监控
-  - 免费
+  - "工具"
+  - "监控"
+  - "免费"
 title: "网页变化监控怎么选：WebDiff 与 changedetection.io 横评"
 description: "网页变化监控工具横评：WebDiff（在线服务，8 类监控任务、AI 建任务、登录态同步）vs changedetection.io（32.7k Star 开源自部署、AI 去噪摘要、Docker 一键部署），一张对比表看清怎么选。"
 categories:

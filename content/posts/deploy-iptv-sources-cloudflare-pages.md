@@ -5,7 +5,6 @@ tags:
   - "Cloudflare"
   - "教程"
   - "GitHub Actions"
-  - "教程"
 title: "在 Cloudflare Pages 上部署 iptv-sources：从零到定时更新"
 description: "详细教程说明如何把 iptv-sources 部署到 Cloudflare Pages，包括初始化、构建设置、自定义域名、定时更新等完整流程，并理清 Git 构建、GitHub Actions 定时任务、直连上传之间的关系。"
 categories:

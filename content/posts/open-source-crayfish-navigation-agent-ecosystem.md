@@ -3,7 +3,6 @@ date: "2026-05-06"
 type: blog
 tags:
   - "开源项目"
-  - "热门文章"
 title: "开源小龙虾导航站：Agent生态聚合平台"
 description: "一个开源的小龙虾导航站，全面聚合AI Agent生态，包括各大模型厂商的coding plan、API地址和Agent平台，为开发者提供一站式解决方案。"
 categories:

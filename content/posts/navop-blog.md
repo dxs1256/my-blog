@@ -2,9 +2,8 @@
 date: "2026-08-03"
 type: blog
 tags:
-  - 必看精选
-  - 开源
-  - 运维
+  - "开源"
+  - "运维"
 title: "数据库SSH远程桌面AI，一个软件全搞定"
 description: "Navop - 基于 Rust+GPUI 的全能工作台，集成数据库管理、SSH、SFTP、远程桌面、VNC、AI 助手，开源免费，跨平台。"
 categories:

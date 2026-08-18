@@ -2,7 +2,7 @@
 date: "2026-05-23"
 type: blog
 tags:
-  - "工具推荐"
+  - "工具"
   - "AI Agent"
   - "MCP"
   - "资源聚合"

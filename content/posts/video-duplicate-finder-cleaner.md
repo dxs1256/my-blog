@@ -2,10 +2,9 @@
 date: "2026-07-04"
 type: blog
 tags:
-  - 必看精选
-  - 开源
-  - 工具推荐
-  - 视频
+  - "开源"
+  - "工具"
+  - "视频"
 title: "视频空间清理神器：3种界面跨平台查重"
 description: "Video Duplicate Finder —— 跨平台视频去重工具，支持不同分辨率/帧率/水印版的相似度识别，内置局部片段检测，提供 GUI/CLI/Web 三种操作界面。"
 categories:

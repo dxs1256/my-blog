@@ -2,7 +2,6 @@
 date: "2026-06-22"
 type: blog
 tags:
-  - "热门文章"
   - "工具"
   - "开源"
   - "GitHub"

@@ -2,7 +2,6 @@
 date: "2026-06-20"
 type: blog
 tags:
-  - "热门文章"
   - "SSL"
   - "证书"
   - "HTTPS"

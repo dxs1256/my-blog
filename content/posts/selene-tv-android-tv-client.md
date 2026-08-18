@@ -2,7 +2,6 @@
 date: "2026-06-17"
 type: blog
 tags:
-  - "热门文章"
   - "电视盒子"
   - "Android TV"
   - "观影"

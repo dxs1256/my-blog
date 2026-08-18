@@ -2,7 +2,6 @@
 date: "2026-06-03"
 type: blog
 tags:
-  - "热门文章"
   - "Sapiens AI"
   - "免费API"
   - "全模态"

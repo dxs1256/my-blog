@@ -2,9 +2,8 @@
 date: "2026-07-09"
 type: blog
 tags:
-  - 必看精选
-  - 工具
-  - VPS
+  - "工具"
+  - "VPS"
 title: "一行命令，VPS硬件网络全测透"
 description: "NodeQuality 开源服务器基准测试平台，一键收集硬件信息、IP质量和网络性能，所有结果公开可查，方便买VPS前先看实测数据。"
 categories:

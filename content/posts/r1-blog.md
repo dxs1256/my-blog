@@ -2,9 +2,8 @@
 date: "2026-07-31"
 type: blog
 tags:
-  - 必看精选
-  - 斐讯
-  - 智能音箱
+  - "斐讯"
+  - "智能音箱"
 title: "斐讯R1复活，网易云QQ音乐全安排"
 description: "闲置斐讯R1智能音箱再就业方案，支持网易云音乐、QQ音乐扫码登录，接入HomeAssistant和AI对话，Web管理后台，免费版无阉割。"
 categories:

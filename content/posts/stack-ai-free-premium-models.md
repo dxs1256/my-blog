@@ -2,7 +2,6 @@
 date: "2026-06-14"
 type: blog
 tags:
-  - "热门文章"
   - "AI"
   - "LLM"
   - "免费"

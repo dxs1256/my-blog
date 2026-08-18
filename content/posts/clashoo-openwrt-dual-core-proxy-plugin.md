@@ -2,7 +2,6 @@
 date: "2026-06-07"
 type: blog
 tags:
-  - "必看精选"
   - "OpenWrt"
   - "代理"
   - "翻墙"

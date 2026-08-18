@@ -2,7 +2,6 @@
 date: "2026-05-28"
 type: blog
 tags:
-  - "热门文章"
   - "工具"
   - "爬虫"
   - "Markdown"

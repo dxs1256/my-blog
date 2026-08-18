@@ -2,9 +2,9 @@
 date: "2026-08-14"
 type: blog
 tags:
-  - 工具推荐
-  - Windows
-  - 办公效率
+  - "工具"
+  - "Windows"
+  - "办公效率"
 title: "发票批量打印神器，OFD/PDF 一把梭"
 description: "发票酱：轻量桌面应用，批量打印电子发票，PDF/OFD/XML/图片全格式，自动识别发票信息，智能排版一键打印"
 categories:
