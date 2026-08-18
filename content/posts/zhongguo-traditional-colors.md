@@ -13,7 +13,7 @@ categories:
 image: https://bing.ee123.net/img/rand?seed=zhongguo-traditional-colors
 ---
 
-[**中华传统色**](https://github.com/nevertoday/zhongguo-traditional-colors)（⭐1.2k）
+**中华传统色**（⭐1.2k）
 
 项目地址：<https://github.com/nevertoday/zhongguo-traditional-colors>
 
