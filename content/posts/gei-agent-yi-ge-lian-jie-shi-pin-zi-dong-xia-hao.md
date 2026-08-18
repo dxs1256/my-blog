@@ -16,7 +16,7 @@ image: "https://bing.ee123.net/img/rand?seed=gei-agent-yi-ge-lian-jie-shi-pin-zi
 
 本来就是想省事的，结果更麻烦。
 
-后来翻到了 [**video-catcher**](https://github.com/Weikezi-AI/video-catcher)，一个专门给 Agent 用的视频下载 Skill，上面的问题一次性全解决了。
+后来翻到了 **video-catcher**，一个专门给 Agent 用的视频下载 Skill，上面的问题一次性全解决了。
 
 项目地址：https://github.com/Weikezi-AI/video-catcher
 
