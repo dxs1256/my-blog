@@ -18,7 +18,7 @@ image: "https://bing.ee123.net/img/rand?seed=free-photo-manager-digikam"
 
 想用云相册？几万张要么传不完，要么先交钱，而且总不放心照片传上去。
 
-[**digiKam**](https://www.digikam.org/) 是一款免费开源的照片管理软件，Windows / macOS / Linux 全平台可用。它能本地 AI 认脸、自动生成标签、找出重复照片，十万张以上的图库也带得动，而且全程在你自己电脑上跑——不上传、不联网、无遥测。
+**digiKam** 是一款免费开源的照片管理软件，Windows / macOS / Linux 全平台可用。它能本地 AI 认脸、自动生成标签、找出重复照片，十万张以上的图库也带得动，而且全程在你自己电脑上跑——不上传、不联网、无遥测。
 
 项目地址：https://www.digikam.org/
 
