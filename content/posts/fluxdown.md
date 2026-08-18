@@ -14,7 +14,8 @@ image: "https://bing.ee123.net/img/rand?seed=fluxdown"
 
 说实话，我已经好几年没正经用过一个"下载管理器"了。浏览器自带的下载凑合着用，遇到大文件用 aria2 命令行搞定。IDM（Internet Download Manager）确实是经典，但闭源收费、界面停留在 XP 时代，macOS 和 Linux 用户直接被排除在外。
 
-这两年 Rust 生态崛起，下载管理器这个老品类也迎来了一波"重写潮"。我先后研究了两个代表：**FluxDown**（https://github.com/zerx-lab/FluxDown）和 **Motrix Next**（https://github.com/agalwood/Motrix），都是开源、跨平台、用 Rust 重写底层——但定位和取舍完全不一样。
+这两年 Rust 生态崛起，下载管理器这个老品类也迎来了一波"重写潮"。我先后研究了两个代表：**FluxDown**（https://github.com/zerx-lab/FluxDown）
+**Motrix Next**（https://github.com/agalwood/Motrix） 都是开源、跨平台、用 Rust 重写底层——但定位和取舍完全不一样。
 
 项目地址：https://github.com/zerx-lab/FluxDown、https://github.com/agalwood/Motrix
 
