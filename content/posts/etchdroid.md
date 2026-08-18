@@ -1,5 +1,5 @@
 ---
-date: 2026-08-18 19:30:00
+date: 2026-08-18 19:45:00
 type: blog
 tags:
   - Android
@@ -13,53 +13,54 @@ categories:
 image: https://bing.ee123.net/img/rand?seed=etchdroid
 ---
 
-[**EtchDroid**](https://github.com/etchdroid/etchdroid)（⭐3.4k）
+[**EtchDroid**](https://github.com/etchdroid/etchdroid)（⭐3.4k，GPL-3.0）
 
 项目地址：<https://github.com/etchdroid/etchdroid>
 
-上个月出差，笔记本突然进不去系统，手边只有一台 Android 手机和一根 OTG 线。想做个 Ubuntu 启动盘重装，但身边没有电脑——以前遇到这种情况只能干瞪眼。
+去年有次出差，笔记本蓝屏后彻底起不来了，手边只有一台 Android 手机和一根 OTG 线。当时想的是：要是手机能直接写 U 盘就好了。
 
-EtchDroid 就是专治这个场景的：Android 手机上直接写 U 盘，不需要 root，不需要电脑。
+EtchDroid 就是干这个的——Android 手机上把 Linux 系统镜像写入 U 盘，不需要 root，不需要第二台电脑。3.4k Star，1,260 次提交，2025 年 4 月刚发了 v2.0 大版本，Material You 全新 UI。
 
-## 支持什么
+## 它怎么做到的
 
-写盘工具最怕的就是"插上去不认"。EtchDroid 的兼容性写得很清楚：
+Android 手机写 U 盘的核心障碍是权限——普通 App 没有裸设备写入权限，必须 root。EtchDroid 绕过的方式是走 Mass Storage 模式：当 U 盘通过 OTG 插入后，系统会把 U 盘识别为可移除存储，EtchDroid 通过 Android 的 Storage Access Framework 拿到写入权限，然后以块设备级别直接写入。
 
-**支持的设备：**
-- USB 闪存盘 ✅
-- USB SD 卡读卡器 ✅
-- USB 硬盘/SSD ❌（为了避免误擦除，不支持）
-- 内建 SD 卡槽 ❌
+这也是为什么它明确绕开 USB 硬盘和 SSD——这些设备在 Android 上通常被挂载为内部存储，写错了就是一锅端。
 
-**支持的镜像类型：**
-- Arch Linux、Ubuntu、Debian、Fedora、pop!_OS、Linux Mint、FreeBSD、BlissOS 等现代 Linux 发行版 ✅
-- 树莓派 SD 卡镜像（需提前解压）✅
-- Windows 官方 ISO ❌
-- Apple DMG ❌
-- 2010 年以前的老 Linux 镜像 ❌
+## 实际体验
 
-日常常用的发行版基本全覆盖，踩坑最多的是 Windows——官方 ISO 格式特殊，EtchDroid 不处理，但社区有人做了改装版，不过作者提醒可能有病毒，慎用。
+操作流程是三步：
 
-## 怎么用
+1. 插 U 盘（需要 OTG 线，Type-C 直插的 U 盘也行）
+2. 打开 App，点"Write raw image or ISO"
+3. 选镜像文件，确认目标 U 盘，点开始
 
-流程很简单：插上 U 盘 → 打开 App → 选择镜像 → 选目标 U 盘 → 确认写入。没有复杂的参数，没有命令行，选完点一下就行。
+写入过程在后台跑，通知栏显示进度。一个 4GB 左右的 Ubuntu ISO 大约 14 分钟写完。写完后会自动校验，确保数据没损坏。如果写入中途失败（比如 U 盘松了），v2.0 会提示你重新插拔继续，不用从头再来。
 
-后台用了 Android 的 Mass Storage 模式直接操作 U 盘，不需要 root——这是它和其他同类工具最大的区别。同类工具要么需要 root，要么只支持写入内部存储，不能做可启动盘。
+## 兼容性
 
-## 哪下载
+支持的设备就两类：USB 闪存盘和 USB SD 读卡器。不支持 USB 硬盘/SSD、Hub、内建 SD 卡槽。不是技术做不到，是作者故意限制的——避免误操作把重要数据清掉。
 
-三种渠道，随便选：
+镜像方面，常见的 Linux 发行版都行：Ubuntu、Debian、Fedora、Arch、Linux Mint、pop!_OS、FreeBSD、树莓派镜像（需提前解压）。Windows 官方 ISO 不支持，微软的镜像格式比较特殊，社区有人做了改装版，但作者明确提醒可能有病毒，不建议用。
 
-- [Google Play](https://play.google.com/store/apps/details?id=eu.depau.etchdroid)（含遥测，帮助开发者排查兼容性问题）
-- [F-Droid](https://f-droid.org/packages/eu.depau.etchdroid/)（无遥测，更干净）
-- [GitHub Releases](https://github.com/EtchDroid/EtchDroid/releases)（APK 直下）
+## 哪下载，选哪个版本
 
-如果你不想分享数据，直接下 F-Droid 版或者 GitHub 版就行。
+三个渠道：
 
-## 几点注意
+| 渠道 | 遥测 | 更新速度 | 签名 |
+|------|------|---------|------|
+| Google Play | 有（可关） | 最快 | 官方 |
+| GitHub Releases | 有（可关） | 次之 | 官方 |
+| F-Droid | 无 | 慢几天 | F-Droid 社区 |
 
-- 写盘前会先校验镜像完整性，防止写到一半发现文件坏了
-- 预览版支持写入到 DriveDroid 兼容的虚拟光驱镜像，不过目前还在实验阶段
-- 项目 Kotlin 开发，GPL-3.0 协议，1,260 次提交，社区活跃度还行
+如果不放心数据收集，下 F-Droid 版就行。遥测只是收集镜像文件名和 USB 设备 ID 用来排查兼容性，不涉及个人身份信息。
 
-那次出差之后，我就在手机里常备了一份 EtchDroid APK 和 Ubuntu ISO，跟充电宝放一起。万一哪天又翻车，至少不用再干瞪眼了。
+## 几个实测细节
+
+- 写 4GB 镜像大约 14 分钟，取决于 U 盘写入速度
+- 写完后建议用电脑校验一下启动——有一次我写完 U 盘插到电脑上不识别，重新拔插一次就好了
+- U 盘格式会被覆盖，写之前确认 U 盘上没有重要数据
+- 至少需要 Android 5.0，不过现在应该没人用那么老的版本了
+- 需要开启通知权限，不然看不到写入进度
+
+那次出差之后，我养成了一个习惯：手机里固定存一份 Ubuntu ISO 和 EtchDroid 的 APK，跟充电宝放一起。万一哪天又翻车，至少不用再干瞪眼了。
