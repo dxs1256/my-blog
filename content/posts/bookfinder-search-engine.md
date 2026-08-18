@@ -16,7 +16,7 @@ image: "https://bing.ee123.net/img/rand?seed=bookfinder-search-engine"
 
 我最近发现了一个真能救命的东西，一点不夸张。
 
-[**BookFinder**](http://book.tstrs.me) 是一个聚合搜书平台，作者是 SaltyLeo。界面极其简洁，功能也极度纯粹——就是找书。
+**BookFinder** 是一个聚合搜书平台，作者是 SaltyLeo。界面极其简洁，功能也极度纯粹——就是找书。
 
 项目地址：http://book.tstrs.me
 
