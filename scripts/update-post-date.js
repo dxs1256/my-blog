@@ -16,7 +16,7 @@ if (!filePath) {
 const absolutePath = path.resolve(process.cwd(), filePath);
 
 // 只处理 posts 文件夹下的 markdown 文件
-if (!absolutePath.includes(path.join('src', 'posts')) || !absolutePath.endsWith('.md')) {
+if (!absolutePath.includes(path.join('content', 'posts')) || !absolutePath.endsWith('.md')) {
   process.exit(0);
 }
 

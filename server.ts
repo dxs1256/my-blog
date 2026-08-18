@@ -52,6 +52,7 @@ Welcome to my new blog! This project is built with React, Express, and inspired 
             return {
               slug: file.replace(".md", ""),
               ...data,
+              description: data.description || content.substring(0, 150).replace(/[#*`]/g, "") + "...",
             };
           })
       );
@@ -69,6 +70,10 @@ Welcome to my new blog! This project is built with React, Express, and inspired 
   app.get("/api/posts/:slug", async (req, res) => {
     try {
       const { slug } = req.params;
+      // 安全校验：仅允许安全的 slug 字符，防止路径穿越读取任意 .md 文件
+      if (!/^[\w-]+$/.test(slug)) {
+        return res.status(404).json({ error: "Post not found" });
+      }
       const filePath = path.join(POSTS_DIR, `${slug}.md`);
       const fileContent = await fs.readFile(filePath, "utf-8");
       const { data, content } = matter(fileContent);

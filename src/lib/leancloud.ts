@@ -7,6 +7,10 @@ import { LEANCLOUD_CONFIG } from '@/blog.config';
 
 let isInitialized = false;
 
+// 阅读量计数冷却：同一 slug 在冷却期内只 +1 一次，避免 React StrictMode 双执行等导致的重复计数
+const VIEW_COOLDOWN_MS = 30000;
+const lastTrackedAt: Record<string, number> = {};
+
 /** 初始化 LeanCloud 服务 */
 export const initLeanCloud = () => {
   if (isInitialized || !LEANCLOUD_CONFIG.enabled) return;
@@ -31,6 +35,13 @@ export const initLeanCloud = () => {
 export const trackPageView = async (slug: string): Promise<number> => {
   if (!LEANCLOUD_CONFIG.enabled) return 0;
   initLeanCloud();
+
+  const now = Date.now();
+  if (lastTrackedAt[slug] && now - lastTrackedAt[slug] < VIEW_COOLDOWN_MS) {
+    // 冷却期内不再自增，仅返回当前数值
+    return getPageView(slug);
+  }
+  lastTrackedAt[slug] = now;
 
   try {
     const query = new AV.Query('Counter');

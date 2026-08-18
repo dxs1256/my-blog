@@ -20,6 +20,7 @@ cf-blog 是一个纯静态的个人博客系统，基于 React 19 + Vite 6 + Tai
 │   └── template/          # 文章模板（不会被构建，仅供复制参考）
 ├── public/                # 静态资源，构建时原样复制到 dist/
 │   ├── images/            # 本地图片，引用路径 /images/xxx
+│   ├── posts-content/     # 【构建产物】按文章拆分的正文 JSON，prebuild.cjs 自动生成
 │   ├── _redirects         # Cloudflare Pages SPA 路由
 │   └── .htaccess          # Apache SPA 路由（TinkerHost 用）
 ├── scripts/
@@ -140,7 +141,7 @@ npm run build
 ## 构建产物说明
 
 `npm run build` 执行流程：
-1. `scripts/prebuild.cjs` — 扫描 `content/posts/*.md`，生成 `src/posts-data.json`
+1. `scripts/prebuild.cjs` — 扫描 `content/posts/*.md`，生成 `src/posts-data.json`（仅含 metadata），并将每篇文章正文拆分为 `public/posts-content/{slug}.json` 独立文件
 2. `vite build` — 编译 React 前端到 `dist/`
 3. `esbuild server.ts` — 编译 Express 到 `dist/server.cjs`（仅本地生产模式用）
 
@@ -149,9 +150,10 @@ npm run build
 | 文件 | 用途 | 是否上传 TinkerHost |
 |------|------|:---:|
 | `index.html` | 网站入口 | ✅ |
-| `assets/index-*.js` | 前端 JS 包（含文章数据） | ✅ |
+| `assets/index-*.js` | 前端 JS 包（仅含文章元数据，正文按需加载） | ✅ |
 | `assets/index-*.css` | 前端样式 | ✅ |
 | `images/` | 静态图片 | ✅ |
+| `posts-content/` | 按文章拆分的正文 JSON，点击文章时按需 fetch | ✅ |
 | `.htaccess` | Apache SPA 路由 | ✅ |
 | `_redirects` | Cloudflare Pages SPA 路由 | ✅（不影响 Apache） |
 | `server.cjs` | Express 服务器 | ❌ 静态主机用不到 |
@@ -173,8 +175,9 @@ npm run build
 
 `App.tsx` 的 `fetchPosts()` 和 `handlePostClick()`：
 1. 优先通过 `/api/posts` API 获取（开发环境 Express 提供）
-2. API 失败时回退到 `posts-data.json`（构建产物，打包在 JS 中）
-3. 纯静态部署（Cloudflare Pages / TinkerHost）自动走回退路径
+2. API 失败时回退到 `posts-data.json`（构建产物，仅含 metadata，打包在 JS 中）
+3. 正文按需从 `/posts-content/{slug}.json` 加载（静态部署下由 `handlePostClick` 容错分支 fetch）
+4. 纯静态部署（Cloudflare Pages / TinkerHost）自动走回退路径
 
 ### 文章模板系统
 

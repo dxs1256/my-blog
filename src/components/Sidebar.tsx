@@ -70,7 +70,7 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, activeTab, se
               key={item.id}
               onClick={() => setActiveTab(item.id)}
               className={cn(
-                "w-full flex items-center px-4 py-2.5 text-sm font-semibold rounded-xl transition-all duration-200",
+                "w-full flex items-center px-4 py-2.5 text-sm font-semibold rounded-xl transition-all duration-200 group",
                 activeTab === item.id 
                   ? "bg-primary text-white shadow-md"
                   : "text-zinc-700 dark:text-zinc-400 hover:bg-gray-200/50 dark:hover:bg-zinc-800/50"

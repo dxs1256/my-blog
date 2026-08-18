@@ -13,9 +13,17 @@ import { ChevronLeft, Share2, MessageCircle, Sun, Moon, Menu as MenuIcon, X, Eye
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '@/src/lib/utils';
 // @ts-ignore - 预构建脚本生成的文件，可能在首次运行前不存在
+// 内容为 PostMetadata[]（不含正文），正文按需从 /posts-content/{slug}.json 加载
 import postsData from './posts-data.json';
 import { ABOUT_PAGE_CONFIG, AUTHOR_NAME, AUTHOR_AVATAR, SITE_TITLE, THEME_COLOR, SITE_BG_OPACITY, POST_BOTTOM_IMAGES, LEANCLOUD_CONFIG, HOME_PAGE_DESCRIPTION } from '@/blog.config';
 import { trackPageView } from './lib/leancloud';
+
+/** 将 #rrggbb 色值转换为 "r, g, b" 三元组，供 rgba() 使用 */
+const hexToRgb = (hex: string): string => {
+  const m = hex.replace('#', '').match(/[0-9a-fA-F]{2}/g);
+  if (!m || m.length < 3) return '';
+  return m.slice(0, 3).map(v => parseInt(v, 16)).join(', ');
+};
 
 export default function App() {
   /** 1. 核心状态维护 */
@@ -198,11 +206,16 @@ export default function App() {
     return () => window.removeEventListener('popstate', handlePopState);
   }, []);
 
-  // 监听深色模式变化并应用到 html 根元素
+  // 设置站点标题
   useEffect(() => {
     document.title = SITE_TITLE;
-    // 设置主题色变量
+  }, []);
+
+  // 监听深色模式变化并应用到 html 根元素
+  useEffect(() => {
+    // 设置主题色变量（hex 色值 + rgb 三元组，供 rgba() 阴影等场景使用）
     document.documentElement.style.setProperty('--theme-primary', THEME_COLOR);
+    document.documentElement.style.setProperty('--theme-primary-rgb', hexToRgb(THEME_COLOR));
     
     if (isDark) {
       document.documentElement.classList.add('dark');
@@ -230,8 +243,8 @@ export default function App() {
       setLoading(false);
     } catch (err) {
       // 容错机制：当 API 不可用时，自动读取本地生成的 posts-data.json
-      console.log('正在使用本地预构建数据...');
-      setPosts(postsData.map((p: any) => p.metadata) as PostMetadata[]);
+      console.warn('API 不可用，正在使用本地预构建数据...', err);
+      setPosts(postsData as unknown as PostMetadata[]);
       setLoading(false);
     }
   };
@@ -256,10 +269,17 @@ export default function App() {
         setCurrentViews(views);
       }
     } catch (err) {
-      // 容错：如果 API 加载失败，从本地 postsData 缓存中查找内容
-      const staticPost = (postsData as unknown as PostDetail[]).find(p => p.slug === slug);
-      if (staticPost) {
-        setSelectedPost(staticPost);
+      // 容错：如果 API 加载失败，从本地构建产物中按需获取正文
+      const staticMeta = (postsData as unknown as PostMetadata[]).find(p => p.slug === slug);
+      if (staticMeta) {
+        try {
+          const contentResp = await fetch(`/posts-content/${slug}.json`);
+          if (!contentResp.ok) throw new Error('content not available');
+          const contentData = await contentResp.json();
+          setSelectedPost({ slug, metadata: staticMeta, content: contentData.content });
+        } catch (innerErr) {
+          console.warn(`正文加载失败: ${slug}`, innerErr);
+        }
         window.scrollTo(0, 0);
         
         // 静态模式下的阅读量追踪
@@ -277,6 +297,18 @@ export default function App() {
   const toggleDark = () => {
     setIsDark(!isDark);
   };
+
+  // 根据当前标签/分类筛选文章列表（置顶文章在首页单独区域展示，此处排除）
+  const visiblePosts = posts.filter(post => {
+    if (activeTab === 'home') return post.sticky === null || post.sticky === undefined;
+    if (activeTab === 'tags' && selectedTag) {
+      return (post.tags || []).some(t => t && typeof t === 'string' && t.toLowerCase() === selectedTag.toLowerCase());
+    }
+    if (activeTab === 'categories' && selectedCategory) {
+      return (post.categories || []).includes(selectedCategory);
+    }
+    return true;
+  });
 
   return (
     <div className="min-h-dvh font-sans selection:bg-primary/20 dark:selection:bg-primary/30">
@@ -627,7 +659,7 @@ export default function App() {
                       )}
                     </div>
 
-                    <SearchBar posts={postsData as unknown as PostDetail[]} onResultClick={handlePostClick} />
+                    <SearchBar posts={posts} onResultClick={handlePostClick} />
 
                     {loading ? (
                       <div className="flex justify-center py-20">
@@ -755,27 +787,7 @@ export default function App() {
                                 </div>
                               )}
                               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-                                {posts.filter(post => {
-                                  if (activeTab === 'home' && post.sticky !== null && post.sticky !== undefined) return false; // 主页的置顶文章已经在上面渲染过了
-                                  if (activeTab === 'home') return true;
-                                  if (activeTab === 'tags' && selectedTag) {
-                                    return (post.tags || []).some(t => t && typeof t === 'string' && t.toLowerCase() === selectedTag.toLowerCase());
-                                  }
-                                  if (activeTab === 'categories' && selectedCategory) {
-                                    return (post.categories || []).includes(selectedCategory);
-                                  }
-                                  return true;
-                                }).length > 0 ? posts.filter(post => {
-                                  if (activeTab === 'home' && post.sticky !== null && post.sticky !== undefined) return false;
-                                  if (activeTab === 'home') return true;
-                                  if (activeTab === 'tags' && selectedTag) {
-                                    return (post.tags || []).some(t => t && typeof t === 'string' && t.toLowerCase() === selectedTag.toLowerCase());
-                                  }
-                                  if (activeTab === 'categories' && selectedCategory) {
-                                    return (post.categories || []).includes(selectedCategory);
-                                  }
-                                  return true;
-                                }).map(post => (
+                                {visiblePosts.length > 0 ? visiblePosts.map(post => (
                                   <PostCard key={post.slug} post={post} onClick={handlePostClick} />
                                 )) : (
                                   <div className="col-span-full py-20 text-center">
@@ -802,7 +814,7 @@ export default function App() {
         )}>
           <div className="bg-white/60 dark:bg-zinc-900/60 backdrop-blur-md rounded-full px-5 py-2 inline-flex flex-col md:flex-row items-center gap-1 md:gap-3 shadow-sm border border-gray-200/50 dark:border-zinc-800/50">
             <span className="text-xs font-medium text-gray-700 dark:text-zinc-300">
-              Copyright &copy; 2026 my-blog | Powered by 司徒凌风
+              Copyright &copy; {new Date().getFullYear()} {SITE_TITLE} | Powered by {AUTHOR_NAME}
             </span>
             <span className="hidden md:inline text-gray-300 dark:text-zinc-700">|</span>
             <span className="text-[10px] font-medium text-gray-500 dark:text-zinc-400">

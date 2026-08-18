@@ -1,20 +1,21 @@
 /** 
  * Author: adou | alivedou@outlook.com
- * 全文搜索组件：支持针对文章标题、摘要、标签以及正文内容的本地实时检索。
+ * 搜索组件：针对文章标题、摘要、标签进行本地实时检索。
+ * 数据源与文章列表保持一致（PostMetadata[]），避免与正文按需加载冲突。
  */
 import React, { useState } from 'react';
 import { Search as SearchIcon, X } from 'lucide-react';
-import { PostDetail } from '@/src/types';
+import { PostMetadata } from '@/src/types';
 
 /** 搜索组件参数定义 */
 interface SearchBarProps {
-  posts: PostDetail[];              // 参与搜索的完整文章数据
+  posts: PostMetadata[];              // 参与搜索的文章元数据
   onResultClick: (slug: string) => void; // 点击搜索结果后的回调
 }
 
 export const SearchBar: React.FC<SearchBarProps> = ({ posts, onResultClick }) => {
   const [query, setQuery] = useState('');                 // 当前搜索文字
-  const [results, setResults] = useState<PostDetail[]>([]); // 过滤后的搜索结果
+  const [results, setResults] = useState<PostMetadata[]>([]); // 过滤后的搜索结果
   const [isSearching, setIsSearching] = useState(false);  // 是否正在搜索（决定结果面板是否展开）
 
   /** 
@@ -23,11 +24,11 @@ export const SearchBar: React.FC<SearchBarProps> = ({ posts, onResultClick }) =>
   const handleSearch = (q: string) => {
     setQuery(q);
     if (q.trim().length > 0) {
+      const keyword = q.trim().toLowerCase();
       const filtered = posts.filter(post => 
-        post.metadata.title.toLowerCase().includes(q.toLowerCase()) || 
-        post.metadata.description.toLowerCase().includes(q.toLowerCase()) ||
-        post.metadata.tags?.some(tag => tag && typeof tag === 'string' && tag.toLowerCase().includes(q.toLowerCase())) ||
-        post.content?.toLowerCase().includes(q.toLowerCase())
+        post.title.toLowerCase().includes(keyword) || 
+        (post.description || '').toLowerCase().includes(keyword) ||
+        (post.tags || []).some(tag => tag && typeof tag === 'string' && tag.toLowerCase().includes(keyword))
       );
       setResults(filtered);
       setIsSearching(true);
@@ -70,8 +71,8 @@ export const SearchBar: React.FC<SearchBarProps> = ({ posts, onResultClick }) =>
                 }}
                 className="p-3 hover:bg-gray-50 dark:hover:bg-zinc-800 rounded-xl cursor-pointer transition-colors"
               >
-                <h3 className="font-bold text-gray-900 dark:text-zinc-100 text-sm">{post.metadata.title}</h3>
-                <p className="text-xs text-gray-500 dark:text-zinc-500 line-clamp-1">{post.metadata.description}</p>
+                <h3 className="font-bold text-gray-900 dark:text-zinc-100 text-sm">{post.title}</h3>
+                <p className="text-xs text-gray-500 dark:text-zinc-500 line-clamp-1">{post.description}</p>
               </div>
             )) : (
               <p className="text-center text-gray-500 py-4 text-sm">未找到与关键词匹配的文章。</p>

@@ -124,8 +124,10 @@ export const ABOUT_PAGE_CONFIG = {
  * ==========================================
  */
 
-// 9. 主题色 (Tailwind 颜色名，如 orange, blue, rose, emerald)其他颜色定制请自行用AI或搜索浏览器得到答案
-export const THEME_COLOR = "indigo"; 
+// 9. 主题色 (十六进制色值，默认 indigo-500 #6366f1)
+// 可参考 https://tailwindcss.com/docs/colors 挑选任意色值，例如 #f97316 (橙色) #2563eb (蓝色) #f43f5e (玫红) #10b981 (翠绿)
+// 注意：必须使用十六进制或 rgb 色值，直接填颜色名（如 rose）会导致主题色失效。
+export const THEME_COLOR = "#6366f1";
 
 // 10. 网站背景图片透明度（0.0 到 1.0 之间，数值越小，背景图越清晰）
 // 建议：浅色模式 0.7-0.9，深色模式 0.8-0.95

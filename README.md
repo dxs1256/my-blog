@@ -161,7 +161,7 @@ Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
 *   登录 [TinkerHost 控制台](https://app.tinkerhost.net/)。
 *   找到 **File Manager**（文件管理器）或使用 FTP 客户端连接。
 *   进入 `public_html/`（或 `htdocs/`）目录。
-*   **关键**：将 `dist/` 目录**里面的所有内容**（`index.html`、`assets/`、`images/`、`.htaccess` 等）上传到 `public_html/`，而不是把 `dist/` 文件夹本身拖过去。
+*   **关键**：将 `dist/` 目录**里面的所有内容**（`index.html`、`assets/`、`images/`、`posts-content/`、`.htaccess` 等）上传到 `public_html/`，而不是把 `dist/` 文件夹本身拖过去。
 
 **4. 访问你的网站**
 *   上传完成后，TinkerHost 会分配一个免费子域名（如 `yourname.tinkerhost.net`）。
@@ -179,7 +179,7 @@ Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
 ## 🎨 快速自定义指引
 
 本项目极其强调“配置与内容分离”，适合小白快速上手：
-*   **基础设置**: 修改 `blog.config.ts`。您可以修改博主姓名、头像，或通过 `THEME_COLOR` 一键换色，还可以调整 `SITE_BG_OPACITY` 透明度。
+*   **基础设置**: 修改 `blog.config.ts`。您可以修改博主姓名、头像，或通过 `THEME_COLOR` 一键换色（需填写**十六进制色值**，如 `#6366f1`），还可以调整 `SITE_BG_OPACITY` 透明度。
 *   **文章附加内容**: 在 `blog.config.ts` 中可以修改 `POST_BOTTOM_IMAGES` 来添加文章底部的一个或多个二维码（自动排版）。
 *   **高级背景**: 
     *   **初始背景**: 网站自带了一个精致的默认背景图（内置于代码中，无需配置）。
@@ -202,6 +202,8 @@ Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
     *   `enabled`: 设为 `true`。
     *   `appId`, `appKey`, `serverURL`: 填入刚才获取的信息。
 5.  **魔法开启**: 完成提交（Commit）后，每当有人访问您的文章，阅读量就会实时更新并展示在标题下方！
+
+> **⚠️ 安全提示**：AppID / AppKey 会随前端代码公开，请务必在 LeanCloud 控制台为 `Counter` 数据表配置**安全规则 / ACL 权限**（例如只允许查询和自增，禁止删除/无条件写入），否则他人可用该 Key 恶意刷量甚至篡改数据。另外为防重复计数，同一文章在 30 秒内只统计一次阅读量。
 
 ---
 
@@ -258,7 +260,7 @@ Author: adou | [alivedou@outlook.com](mailto:alivedou@outlook.com)
     *   **可能原因**: 如果您在依赖未完整安装好时就强制启动，或者遇到 Windows 端由于端口冲突（如端口 3000 被占用）等开发环境问题，可能会导致 React 初始化失败渲染白屏。
     *   **解决方法**: 建议彻底关闭命令行终端重新打开，确保执行了一遍 `npm install` 等待进度条完成后，再执行 `npm run dev`。若端口冲突问题依旧，可以尝试重启电脑。
 12. **TinkerHost 上传后页面白屏或显示 404？**
-    *   **文件位置不对**：确认上传的是 `dist/` **里面的内容**（`index.html`、`assets/`、`images/`、`.htaccess`），而不是 `dist/` 文件夹本身。上传后 TinkerHost 根目录应该直接有 `index.html`，不是 `dist/index.html`。
+    *   **文件位置不对**：确认上传的是 `dist/` **里面的内容**（`index.html`、`assets/`、`images/`、`posts-content/`、`.htaccess`），而不是 `dist/` 文件夹本身。上传后 TinkerHost 根目录应该直接有 `index.html`，不是 `dist/index.html`。
     *   **浏览器缓存**：按 `Ctrl + Shift + R` 强制刷新，确保加载的是新上传的 JS/CSS 文件。
     *   **行内代码显示异常**：如果你看到反引号（`` ` ``）在页面上直接显示，那是 Tailwind Typography 的伪元素装饰问题。**已修复**：v2 版本已在 CSS 中显式移除了伪元素并添加了行内代码样式。
 
