@@ -112,11 +112,18 @@
   }
 
   /* =========================
-     行内 code（重点修复）
-     👉 彻底干掉反引号
+     长链接/长单词换行（移动端防溢出）
+     👉 允许超长 URL 在任意位置断行
   ========================= */
+  & a {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
   & :not(pre) > code {
     @apply bg-gray-200 dark:bg-zinc-800 text-gray-700 dark:text-red-500 px-1.5 py-0.5 rounded text-sm font-mono font-medium;
+    overflow-wrap: anywhere;
+    word-break: break-word;
   }
 
   /* ⭐ 关键修复：覆盖 Tailwind Typography 自动加的 ` */
