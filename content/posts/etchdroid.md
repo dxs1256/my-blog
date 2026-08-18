@@ -15,7 +15,7 @@ image: https://bing.ee123.net/img/rand?seed=etchdroid
 
 去年有次出差，笔记本蓝屏彻底起不来了，手边只有一台 Android 手机和一根 OTG 线。当时想的是：要是手机能直接写 U 盘就好了。
 
-翻了一圈，找到了 [**EtchDroid**](https://github.com/etchdroid/etchdroid)（⭐3.4k），一个在 Android 上把系统镜像写入 U 盘的开源工具，不需要 root，不需要第二台电脑。
+翻了一圈，找到了 EtchDroid，一个在 Android 上把系统镜像写入 U 盘的开源工具，不需要 root，不需要第二台电脑。
 
 项目地址：<https://github.com/etchdroid/etchdroid>
 
