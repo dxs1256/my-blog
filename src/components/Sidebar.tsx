@@ -64,7 +64,6 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, activeTab, se
 
         {/* 主导航菜单：遍历渲染配置中的菜单项 */}
         <nav className="space-y-1 mb-6">
-          <p className="px-4 mb-1.5 text-[10px] font-black uppercase tracking-[0.2em] text-zinc-500 dark:text-zinc-500">菜单导航</p>
           {MENU_ITEMS.map((item) => (
             <button
               key={item.id}
