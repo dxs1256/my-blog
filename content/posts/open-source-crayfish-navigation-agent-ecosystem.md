@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "开源项目"
   - "热门文章"
@@ -10,8 +10,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=open-source-crayfish-navigation-agent-ecosystem"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8138-ac49-ce9b19201082)
 
 最近在Twitter上发现了一个开源的小龙虾导航站，这是一个专门为AI Agent生态打造的聚合平台。该站点不仅收集了百虾大战的聚合地址，还提供了云端部署和干货教程合集。
 

@@ -1,8 +1,8 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
-  - " 开源"
+  - "开源"
   - "Docker"
   - "旅行"
 title: "TREK：开源旅行规划工具，多人协作做攻略"
@@ -11,8 +11,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=trek-travel-planner-open-source"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8133-8c20-fa4d6a040012)
 
 和朋友一起出去旅行，每次做攻略都要心态爆炸。群里扔了一堆攻略链接、截图甚至Excel表格，一个不满意就得反复调整。TREK 是一款免费开源的旅行规划工具，完美解决这个问题！
 

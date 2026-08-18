@@ -1,6 +1,6 @@
 ---
 date: "2026-05-19"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "工具"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=telegram-media-downloader-tool"
 ---
-
-[//]: # (notion-sync-id: 365874cb-3972-8146-bdd1-c2451a762935)
 
 最近在 Telegram 中经常遇到私密频道的媒体只能靠录屏或截图，质量差且非常耗时。为了解决这个痛点，我找到了一个开源油猴脚本——Telegram Media Downloader，可以一键解锁全部媒体下载权限。
 

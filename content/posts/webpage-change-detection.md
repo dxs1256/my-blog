@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=webpage-change-detection"
 ---
-[//]: # (notion-sync-id: ...)
 
 想监控某个商品降价，但不想天天刷新页面？想知道某个网页有没有偷偷改内容？或者想第一时间知道某位大佬的推文被删了？
 

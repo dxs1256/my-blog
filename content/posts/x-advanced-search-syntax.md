@@ -1,6 +1,6 @@
 ---
 date: "2026-05-30"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "X"
@@ -14,8 +14,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=x-advanced-search-syntax"
 ---
-
-[//]: # (notion-sync-id: 370874cb-3972-8109-bd88-fac6b32414db)
 
 X 的搜索框大多数人只用来搜关键词，但其实它内置了一套搜索参数语法。组合起来用，可以精准筛选语言、内容类型、点赞数、时间范围，把有效信息从海量推文中捞出来。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-05-19"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI"
@@ -11,8 +11,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=openwrt-ipv6-remote-access"
 ---
-
-[//]: # (notion-sync-id: 365874cb-3972-81fc-bb11-fc2d90ec200f)
 
 还在花钱买内网穿透？还在申请不到 IPv4 公网 IP？
 

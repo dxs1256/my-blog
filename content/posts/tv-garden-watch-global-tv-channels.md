@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "电视"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=tv-garden-watch-global-tv-channels"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-8114-9a76-d6a42c0dd476)
 
 有时候想看看国外的电视台正在播什么，但找了一圈也找不到靠谱的直播源。要么要翻墙，要么要装各种插件，折腾半天还打不开。
 

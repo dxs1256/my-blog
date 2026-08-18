@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "Cloudflare"
   - "AI"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=cloudflare-free-ai-image-tool"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81e1-89d3-f5fb4b428121)
 
 说实话，现在各种AI画图工具满天飞，但要么要充会员要么有次数限制。前阵子发现Cloudflare居然开放了AI能力，而且免费额度还挺够用，折腾了一番总算搭起来了，记录一下过程。
 

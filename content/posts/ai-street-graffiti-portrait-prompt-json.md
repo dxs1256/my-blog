@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=ai-street-graffiti-portrait-prompt-json"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-81a5-bd72-f0c047693fcd)
 
 最近看到很多人在社媒上发那种街头涂鸦风格的合照，效果特别有质感。我试了一下这套提示词，上传自己的照片就能生成，效果出乎意料地好。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-06-14"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=stack-ai-free-premium-models"
 ---
-
-[//]: # (notion-sync-id: 37d874cb-3972-81c5-96a5-ffe5c9cb6419)
 
 最近在找好用的 AI 模型 API，发现一个挺实在的免费方案——Stack AI 刚上线的免费计划，直接给了 10 款旗舰模型的免费使用权。
 

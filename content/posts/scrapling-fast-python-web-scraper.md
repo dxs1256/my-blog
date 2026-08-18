@@ -1,6 +1,6 @@
 ---
 date: "2026-05-19"
-type: "Post"
+type: blog
 tags:
   - "热门文章，爬虫，Scrapling，性能优化，开源工具"
 title: "比 BeautifulSoup 快 774 倍！这个爬虫工具让我彻底告别选择器维护"
@@ -9,8 +9,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=scrapling-fast-python-web-scraper"
 ---
-
-[//]: # (notion-sync-id: 365874cb-3972-8102-813b-c7a65a3fb8b5)
 
 最近我在整理爬虫项目时，发现了一个真正改变游戏规则的工具——Scrapling。
 

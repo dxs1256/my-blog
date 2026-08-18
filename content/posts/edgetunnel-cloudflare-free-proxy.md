@@ -1,6 +1,6 @@
 ---
 date: "2026-05-24"
-type: "Post"
+type: blog
 tags:
   - "代理"
   - "Cloudflare"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=edgetunnel-cloudflare-free-proxy"
 ---
-
-[//]: # (notion-sync-id: 36a874cb-3972-8126-84f6-f093e45eefb4)
 
 每次看到月底又要续费机场的时候，是不是觉得钱包在滴血？一个月几十块，一年下来大几百，关键是高峰期该卡还是卡。
 

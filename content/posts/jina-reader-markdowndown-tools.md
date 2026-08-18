@@ -1,6 +1,6 @@
 ---
 date: "2026-05-28"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "工具"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=jina-reader-markdowndown-tools"
 ---
-
-[//]: # (notion-sync-id: 36e874cb-3972-810a-8216-cacded28e9e1)
 
 平时做内容抓取，最烦的就是网页结构乱七八糟，提取正文费半天劲。昨天发现两个很实用的免费工具，一个能把任意 URL 转成 LLM 友好的 Markdown 格式，另一个专注把网页变 Markdown 文件还支持下载图片，搭配起来非常好用。
 

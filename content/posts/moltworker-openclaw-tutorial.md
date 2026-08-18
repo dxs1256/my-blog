@@ -1,6 +1,6 @@
 ---
 date: "2026-07-02"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "Cloudflare"
@@ -14,8 +14,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=moltworker"
 ---
-
-[//]: # (notion-sync-id: moltworker-openclaw-tutorial)
 
 Cloudflare 最近开源了一个项目叫 **Moltworker**，能让你直接把 OpenClaw（一个开源的 AI 助手）部署到 Cloudflare Workers 上跑。简单说就是：**不用买服务器，就能拥有一个 24 小时在线的私人 AI 助手**。
 

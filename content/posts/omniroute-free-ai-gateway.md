@@ -12,7 +12,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=omniroute-free-ai-gateway"
 ---
-[//]: # (notion-sync-id: )
 
 前段时间我在搞项目，每个月花在AI API上的钱够吃好几顿火锅了。Claude Pro买了、GPT Plus也买了、Cursor还要另付。结果呢？Claude的额度每个月剩一大截就重置，GPT写代码写到一半rate limit弹出来，卡在那等半小时。
 

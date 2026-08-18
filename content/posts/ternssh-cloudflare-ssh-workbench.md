@@ -12,7 +12,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=ternssh-cloudflare-ssh-workbench"
 ---
-[//]: # (notion-sync-id: ...)
 
 我最近在折腾几台服务器，每次 SSH 登录来登录去，终端窗口开了一堆，管理起来有点烦。直到发现了 [**ternssh**](https://github.com/HaradaKashiwa/ternssh)（⭐159），一个基于 Cloudflare Workers 的 SSH 工作台——直接在浏览器里管理所有服务器，零客户端安装。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "NAS"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=go-music-dl-nas-music-downloader"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-813c-8802-c7ecb782a36e)
 
 最近在整理 NAS 音乐库时，我发现了一款堪称宝藏的开源工具。它让原本让人头疼的多平台音乐下载变得异常简单——无论是网易云、QQ 音乐还是酷狗，一个工具就能全搞定。更要的是，它支持 Docker 一键部署，完美适配极空间等家用 NAS。
 

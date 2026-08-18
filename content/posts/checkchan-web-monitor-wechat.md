@@ -1,10 +1,10 @@
 ---
 date: "2026-05-07"
-type: "Post"
+type: blog
 tags:
   - "工具推荐"
   - "网页监控"
-  - " 开源"
+  - "开源"
   - "微信"
   - "自动化"
 title: "Check酱：网页变化实时监控，异动推送微信"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=checkchan-web-monitor-wechat"
 ---
-
-[//]: # (notion-sync-id: 359874cb-3972-8128-9ff9-dd681b4fe30c)
 
 前阵子发现一个很实用的开源工具，能监控网页内容变化并推送通知到微信。比如你想监控某个商品价格变动、抢购页面更新、或者某个 API 返回值变化，装上浏览器插件就行。配合自架云端，电脑关机后监测任务照样跑。
 

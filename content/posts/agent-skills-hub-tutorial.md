@@ -1,6 +1,6 @@
 ---
 date: "2026-05-23"
-type: "Post"
+type: blog
 tags:
   - "工具推荐"
   - "AI Agent"
@@ -12,8 +12,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=agent-skills-hub-tutorial"
 ---
-
-[//]: # (notion-sync-id: 369874cb-3972-8129-9341-ea11aad550f0)
 
 最近在研究 AI Agent 生态的工具发现，找到一个能大幅提升效率的平台——Agent Skills Hub。它不是简单的链接列表，而是真正能即装即用的 Agent 技能聚合站。
 

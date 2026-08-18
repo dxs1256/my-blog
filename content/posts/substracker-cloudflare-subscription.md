@@ -11,7 +11,6 @@ categories:
   - 项目分享
 image: "https://bing.ee123.net/img/rand?seed=substracker-cloudflare-subscription"
 ---
-[//]: # (notion-sync-id: )
 
 我手机里现在躺着 7 个自动续费的订阅：iCloud、Netflix、机场、域名续费、eSIM 保号……每个月总有那么一两笔在账单日才想起来"哦原来我还开着这个"。
 

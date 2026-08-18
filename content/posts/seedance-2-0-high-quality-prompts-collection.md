@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "AI Agent"
   - "Seedance"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=seedance-2-0-high-quality-prompts-collection"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-81c5-9020-f6beb13b633c)
 
 最近 Seedance 2.0 火得一塌糊涂，全网都在找好用的提示词。自己写不仅费时间，而且很难达到电影级别的画面效果。
 

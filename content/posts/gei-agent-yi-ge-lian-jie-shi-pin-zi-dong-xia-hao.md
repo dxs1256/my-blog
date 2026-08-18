@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=gei-agent-yi-ge-lian-jie-shi-pin-zi-dong-xia-hao"
 ---
-[//]: # (notion-sync-id: ...)
 
 我最近在捣鼓本地 Agent（Codex、Claude Code 这些）的时候，发现一个很烦的问题：让 Agent 帮忙下个视频，它要么报错，要么装一堆工具，要么问我一堆"这个平台用什么工具""Cookie 在哪里""要不要换浏览器"。
 

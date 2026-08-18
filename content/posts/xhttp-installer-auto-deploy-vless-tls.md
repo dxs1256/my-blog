@@ -1,9 +1,9 @@
 ---
 date: "2026-05-17"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
-  - " 开源"
+  - "开源"
   - "工具"
   - "翻墙"
   - "GitHub"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=xhttp-installer-auto-deploy-vless-tls"
 ---
-
-[//]: # (notion-sync-id: 363874cb-3972-818f-947c-ff8ac7f882c0)
 
 最近我在逛 GitHub 的时候发现了一个相当有意思的项目。说实话，之前配置 VPS 翻墙节点一直是个挺折腾的事——手动装 BBR、配 Nginx、申请证书、搞伪装站点……一套流程走下来少说半小时，中间还可能踩各种坑。
 

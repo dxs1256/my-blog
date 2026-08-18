@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "Cloudflare"
   - "IPTV"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=cloudflare-workers-iptv-update-2026"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81da-8dd3-dd5184104786)
 
 最近 Cloudflare Workers IPTV 项目迎来了重大更新，修复了之前存在的问题，并增强了变量功能，让高清直播体验满血复活。这个项目利用 Cloudflare Workers 的边缘计算能力，为用户提供稳定流畅的 IPTV 直播服务。
 

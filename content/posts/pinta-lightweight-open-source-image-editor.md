@@ -1,18 +1,16 @@
 ---
 date: "2026-05-21"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "工具"
-  - " 开源"
+  - "开源"
 title: "轻量级开源图片编辑器，支持图层和 35+ 特效"
 description: "Pinta 是轻量级开源图片编辑器，跨平台、支持图层、35+ 滤镜，适合日常修图标注"
 categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=pinta-lightweight-open-source-image-editor"
 ---
-
-[//]: # (notion-sync-id: 367874cb-3972-8179-92fb-f80efce9109b)
 
 ## 🎯 痛点场景
 

@@ -1,9 +1,9 @@
 ---
 date: "2026-06-07"
-type: "Post"
+type: blog
 tags:
   - "FluxDown"
-  - " 开源"
+  - "开源"
   - "下载工具"
   - "IDM平替"
   - "热门文章"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=fluxdown-idm-bt-g-rust"
 ---
-
-[//]: # (notion-sync-id: 378874cb-3972-81aa-b2af-fe8fc0262687)
 
 日常下载文件总踩坑的朋友应该深有体会。IDM 下载直链速度稳，却没法解析 BT 磁力与网页流媒体；迅雷捆绑弹窗多、满屏广告，不开会员很难跑满带宽；浏览器自带下载单线程限速，动辄几个 G 的安装包要耗大半天。
 

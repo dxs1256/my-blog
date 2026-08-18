@@ -1,6 +1,6 @@
 ---
 date: "2026-05-27"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "视频托管"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=media-cm-free-video-hosting"
 ---
-
-[//]: # (notion-sync-id: 36d874cb-3972-814d-9ead-ff8b1303134e)
 
 日常折腾网站或个人项目时，总会遇到一个麻烦：视频文件往哪儿放？直接传服务器占带宽、丢 OSS 又贵、传 YouTube 又被插广告。最近发现一个叫 **Media.CM** 的平台，专做无广告视频托管，免费用户就有 10GB 空间，还支持 4K/HLS 自适应串流，嵌入网站就跟贴图片一样简单。
 

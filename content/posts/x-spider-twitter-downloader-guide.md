@@ -1,6 +1,6 @@
 ---
 date: "2026-05-19"
-type: "Post"
+type: blog
 tags:
   - "热门文章，X，下载工具，油猴脚本，存档"
 title: "X-Spider：X 博主主页批量下载工具，轻量油猴和强大客户端我都要"
@@ -9,8 +9,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=x-spider-twitter-downloader-guide"
 ---
-
-[//]: # (notion-sync-id: 365874cb-3972-81c6-8bc2-d8d1ada5921c)
 
 最近我在整理收藏夹时发现，之前关注的很多 X 博主发过的优质内容很难回溯。X-Spider 可以批量下载博主主页的图片和视频，方便离线存档和整理。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-06-25"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "HexHub"
@@ -8,15 +8,13 @@ tags:
   - "数据库"
   - "Docker"
   - "AI"
-  - " 开源"
+  - "开源"
 title: "SSH、数据库、Docker、AI 全揉进一个桌面客户端"
 description: "HexHub 开源跨平台桌面客户端，整合 SSH 终端、20+ 数据库、Docker 容器管理、SFTP 文件传输和 30+ AI 工具链，一个窗口搞定所有运维操作，社区版永久免费"
 categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=hexhub-all-in-one-ssh-database-docker-ai"
 ---
-
-[//]: # (notion-sync-id: 38a874cb-3972-81fb-9bbf-c3d17b261130)
 
 做开发和运维的同学应该都有体会：电脑里装着一堆工具——SSH 客户端、数据库管理、Docker 面板、SFTP 传输、AI 助手……切来切去，烦不胜烦。
 

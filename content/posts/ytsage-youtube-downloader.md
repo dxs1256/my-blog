@@ -1,6 +1,6 @@
 ---
 date: "2026-05-24"
-type: "Post"
+type: blog
 tags:
   - "YTSage"
   - "YouTube下载"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=ytsage-youtube-downloader"
 ---
-
-[//]: # (notion-sync-id: 36a874cb-3972-8137-9199-e96bab9b8e35)
 
 想下载 YouTube 视频，以前总得面对一堆复杂的命令行参数或者满屏广告的在线工具。最近发现一个开源工具 YTSage，界面干净、操作直观，功能却一点不缩水。
 

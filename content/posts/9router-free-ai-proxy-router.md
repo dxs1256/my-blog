@@ -1,10 +1,10 @@
 ---
 date: "2026-05-08"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "AI"
-  - " 开源"
+  - "开源"
   - "工具"
 title: "9Router：免费无限用Claude/GPT/Gemini的开源AI代理路由器"
 description: "推荐开源项目9Router，本地部署的AI代理路由器，统一接入Claude Code、Cursor等编程工具，智能路由到40+提供商的免费/低价额度，支持自动故障转移、多账号轮询和Token压缩。"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=9router-free-ai-proxy-router"
 ---
-
-[//]: # (notion-sync-id: 35a874cb-3972-8113-915e-d2a989335872)
 
 如果你是重度 AI 编程用户，大概率遇到过这种崩溃时刻：代码写到一半，Claude Code 的配额跑光了；切到 Cursor，发现这个月的额度也快见底；再换 Copilot，免费版的限制更多。三个工具来回切换，配置改来改去，效率全耗在了「找可用额度」上。
 

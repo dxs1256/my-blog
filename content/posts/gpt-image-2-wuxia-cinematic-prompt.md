@@ -1,6 +1,6 @@
 ---
 date: "2026-05-28"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "AI"
@@ -14,8 +14,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-wuxia-cinematic-prompt"
 ---
-
-[//]: # (notion-sync-id: 36e874cb-3972-8109-abec-f3b1d7f466b7)
 
 把一张普通的人像照变成电影感的古代中国画面。
 

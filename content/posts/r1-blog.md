@@ -11,7 +11,6 @@ categories:
   - 教程
 image: "https://bing.ee123.net/img/rand?seed=r1-blog"
 ---
-[//]: # (notion-sync-id: ...)
 
 手头有个斐讯R1智能音箱，当年上车后一直吃灰——官方服务器早就挂了，想用又没法用，扔了又可惜。
 

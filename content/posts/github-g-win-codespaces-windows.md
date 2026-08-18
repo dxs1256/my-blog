@@ -1,6 +1,6 @@
 ---
 date: "2026-06-14"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "教程"
@@ -14,8 +14,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=github-g-win-codespaces-windows"
 ---
-
-[//]: # (notion-sync-id: 37f874cb-3972-815c-bb0b-f4d7b9df0b5a)
 
 最近刷到一个很有意思的项目——在 GitHub Codespaces 里跑 Windows 11，配置给到 4 核 16GB，而且是完全免费的。试了一下确实能跑起来。
 

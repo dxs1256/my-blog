@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=webdiff-web-monitor"
 ---
-[//]: # (notion-sync-id: )
 
 你有没有过这种经历：盯着一个商品页等降价，刷了一天手都酸了，结果晚上八点它偷偷调了价；想抢个活动名额，页面放出来的时候你正在开会；招投标公告、政策文件更新了，你隔几天才看到，黄花菜都凉了。
 

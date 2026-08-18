@@ -1,11 +1,11 @@
 ---
 date: "2026-05-27"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "GitHub"
   - "Star管理"
-  - " 开源"
+  - "开源"
   - "AI"
 title: "让 GitHub Star 不再是数字墓地：AI 自动分类管理神器"
 description: "一款用 AI 打理 GitHub Star 的开源工具，自动分类打标签、语义搜索、新版本跟踪，让几百上千个 Star 从数字墓地变成真正可用的资源库，适合收藏夹吃灰的重度 GitHub 玩家。"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=github-stars-manager-ai"
 ---
-
-[//]: # (notion-sync-id: 36d874cb-3972-8177-96be-c5d50fc2c4db)
 
 每次在 GitHub 上刷到有意思的项目，第一反应就是点个 Star 收藏起来。久而久之，收藏夹里攒了几百上千个 Star，却从来没有真正翻出来看过——想找某个项目的时候，面对一堆陌生的仓库名完全摸不着头脑，跟进了"数字墓地"似的。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-06-03"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "Sapiens AI"
@@ -14,8 +14,6 @@ categories:
   - "AI"
 image: "https://bing.ee123.net/img/rand?seed=sapiens-ai-free-multimodal-api"
 ---
-
-[//]: # (notion-sync-id: 373874cb-3972-8155-8fb4-c702d60810de)
 
 新加坡 AI 公司 **Sapiens AI** 最近搞了个大动作——全模态（文本、图片、视频）API 面向全球开发者**无限期免费开放**。
 

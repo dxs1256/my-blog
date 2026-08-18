@@ -1,20 +1,18 @@
 ---
 date: "2026-06-07"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "AI"
   - "短视频"
   - "自动化"
-  - " 开源"
+  - "开源"
 title: "给个主题，AI 自动生成短视频"
 description: "8 万 Star 的开源项目 MoneyPrinterTurbo，输入一个主题或关键词就能全自动生成高清短视频，从文案、素材、字幕到背景音乐全部 AI 搞定，适合做自媒体短视频的内容创作者。"
 categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=money-printer-turbo-ai-video-generator"
 ---
-
-[//]: # (notion-sync-id: 378874cb-3972-81af-bff2-e538421078fe)
 
 做短视频内容的人应该都能理解——从写文案、找素材、配音、加字幕到合成，一整套流程下来，一个三分钟的视频可能要花半天甚至更久。
 

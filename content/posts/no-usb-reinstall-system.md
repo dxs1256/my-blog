@@ -13,7 +13,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=no-usb-reinstall-system"
 ---
-[//]: # (notion-sync-id: ...)
 
 上周推荐了 HotPE，评论区好几个人问：**"装系统还是得先搞个 U 盘啊，有没有不用 U 盘的办法？"**
 

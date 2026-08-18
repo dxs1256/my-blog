@@ -1,8 +1,8 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
-  - " 开源"
+  - "开源"
   - "工具"
   - "GitHub"
   - "热门文章"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=portmaster-network-firewall"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81a7-aa77-ee9f3916c6d0)
 
 你有没有过这种经历？刚装完一个软件，明明只是本地工具，电脑风扇却突然狂转，任务管理器里多了几个叫不上名字的进程在后台偷偷联网。
 

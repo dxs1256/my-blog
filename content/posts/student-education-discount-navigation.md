@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "学生优惠"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=student-education-discount-navigation"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8187-acd0-ffdcc684f778)
 
 作为学生，你是否知道手中的 .edu 教育邮箱可以解锁大量免费和折扣服务？从 ChatGPT Plus 到 JetBrains 全家桶，从 iCloud 空间到 GitHub 学生包，总价值超过数十万元。今天就推荐一个专门收集学生教育优惠的导航网站。
 

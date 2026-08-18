@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "高校"
   - "高考"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=national-university-database-2962"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8112-958a-c0fd9ce3dbb0)
 
 高考越来越近了，不少同学和家长已经开始为志愿填报做准备了。我在搜集资料的时候发现了一个非常实用的工具——它收录了全国 2962 所高校的官方直达数据，能帮你快速查到每一所学校的官方信息，避开野鸡大学。
 

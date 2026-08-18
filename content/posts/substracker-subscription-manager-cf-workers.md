@@ -1,19 +1,17 @@
 ---
 date: "2026-05-08"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "Cloudflare"
   - "工具"
-  - " 开源"
+  - "开源"
 title: "SubsTracker：一个跑在 Cloudflare Workers 上的订阅管理神器"
 description: "推荐开源项目 SubsTracker，基于 Cloudflare Workers 部署的订阅管理工具，支持 Telegram、Bark 等多渠道到期提醒，还有农历显示、多币种汇率换算和支出仪表盘。"
 categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=substracker-subscription-manager-cf-workers"
 ---
-
-[//]: # (notion-sync-id: 359874cb-3972-8127-b138-e61c187c166e)
 
 你有多少个订阅服务在续费？视频会员、音乐会员、云存储、各种 SaaS 工具……算一算，每个月不知不觉就花出去不少钱。等到扣款短信来了才发现，有的早就不用了。
 

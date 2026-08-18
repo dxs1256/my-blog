@@ -12,7 +12,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=apple-design-skill"
 ---
-[//]: # (notion-sync-id: apple-design-skill-20260717)
 
 做前端/UI 的应该都有过这种体验：盯着一个界面，感觉"差点意思"，但说不上来哪里不对。动画的缓动函数选错了？间距不对？还是颜色差点火候？
 

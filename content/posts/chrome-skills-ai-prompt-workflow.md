@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "Chrome"
@@ -14,8 +14,6 @@ categories:
   - "技术资讯"
 image: "https://bing.ee123.net/img/rand?seed=chrome-skills-ai-prompt-workflow"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8121-abfe-c81900fe9548)
 
 最近在用 Chrome 浏览器的时候，发现了一个让我眼前一亮的新功能——Skills。这是 Google 为 Gemini in Chrome 推出的一个新特性，意在解决一个我们每天都在面对却习以为常的问题：重复输入同样的 AI 提示词。
 

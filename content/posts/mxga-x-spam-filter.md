@@ -1,11 +1,11 @@
 ---
 date: "2026-05-28"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "X"
   - "Chrome扩展"
-  - " 开源"
+  - "开源"
   - "AI"
   - "推特工具"
 title: "AI驱动的X推文净化神器"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=mxga-x-spam-filter"
 ---
-
-[//]: # (notion-sync-id: 36e874cb-3972-81e7-81c8-ebceca315cac)
 
 刷 X 评论区时有没有这种感受——一半是色情 Bot，另一半是割韭菜广告水军，正常讨论全被压到最底下？最近发现一个叫 **MXGA** 的开源 Chrome 扩展，专治这种乱象，在后台静默帮你识别并拉黑 Spam。
 

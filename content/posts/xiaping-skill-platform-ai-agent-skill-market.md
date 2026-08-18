@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI Agent"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=xiaping-skill-platform-ai-agent-skill-market"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-810a-9984-dc6583ba20ae)
 
 最近我在折腾 Coze 和 OpenClaw 的时候发现一个痛点——给 Agent 添加新功能总是要自己写代码或者到处找零散的工具，配置起来费时费力。
 

@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=optimizerduck-windows-optimization-tool"
 ---
-[//]: # (notion-sync-id: ...)
 
 Windows 开机后后台跑着 200 多个服务，大半不认识，不知道在干嘛。吃内存、占 CPU、还往外面传数据。有人受不了，写了款免费工具，就是 [**optimizerDuck**](https://github.com/itsfatduck/optimizerDuck)（⭐7.5k），试用后确实好用。
 

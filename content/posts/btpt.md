@@ -1,6 +1,6 @@
 ---
 date: "2026-06-04"
-type: "Post"
+type: blog
 tags:
   - "Prowlarr"
   - "BT/PT"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=btpt"
 ---
-
-[//]: # (notion-sync-id: 375874cb-3972-817e-8e37-f070b2ad9403)
 
 玩 PT 的人都知道这种痛苦——手上一堆种子站，每次找资源得一个个站去搜，比来比去烦得很。
 

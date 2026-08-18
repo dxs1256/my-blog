@@ -12,7 +12,6 @@ categories:
   - 教程
 image: "https://bing.ee123.net/img/rand?seed=iptv-docker-deploy"
 ---
-[//]: # (notion-sync-id: )
 
 想自己搞个 IPTV 直播源，又不想折腾复杂的配置？有个现成的 Docker 镜像，一行命令搞定。
 

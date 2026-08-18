@@ -11,7 +11,6 @@ categories:
   - 免费资源
 image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 ---
-[//]: # (notion-sync-id: )
 
 我最近在折腾个人项目，想找个免费虚拟主机放着。一圈看下来，要么只支持 PHP，要么有广告，要么注册就要绑信用卡——烦得很。
 

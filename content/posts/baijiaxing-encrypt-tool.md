@@ -1,9 +1,9 @@
 ---
 date: "2026-05-19"
-type: "Post"
+type: blog
 tags:
   - "加密工具"
-  - " 开源软件"
+  - "开源软件"
   - "效率神器"
   - "热门精选"
 title: "想分享链接又怕被和谐？这个百家姓加密神器，把网址伪装成赵钱孙李"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=baijiaxing-encrypt-tool"
 ---
-
-[//]: # (notion-sync-id: 365874cb-3972-81cf-93e7-f18595091a39)
 
 你是否也有过这样的尴尬时刻：看到一个好资源想分享给朋友，直接发链接怕被平台屏蔽，发磁力链又怕被外人看到。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-06-27"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "影视仓"
@@ -14,8 +14,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=catvod-tv-tutorial-source-live-4k"
 ---
-
-[//]: # (notion-sync-id: 38c874cb-3972-816c-95c2-dd12163bd9f0)
 
 电视盒子和智能电视上用什么看片？很多人装了 App 发现点进去一片空白，4K 点开就转圈，直播也看不了——其实不是软件的问题，是没配源。
 

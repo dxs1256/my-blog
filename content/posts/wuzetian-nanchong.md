@@ -12,7 +12,6 @@ categories:
   - 文学趣谈
 image: "https://bing.ee123.net/img/rand?seed=wuzetian-nanchong"
 ---
-[//]: # (notion-sync-id: )
 
 上次学了袁枚《子不语》里的《急淫自缢》,今天时间线往后拨几百年,来品一品武后寝宫里的野史——《控鹤监秘记》。
 

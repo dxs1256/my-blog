@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=netcheck-network-test"
 ---
-[//]: # (notion-sync-id: )
 
 买 VPS 或者换机房后，最烦的就是测网络质量。以前要一个个手动跑：回程路由、BGP 信息、三网延迟、测速……每个脚本都不一样，特别麻烦。
 

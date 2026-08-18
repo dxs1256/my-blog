@@ -1,6 +1,6 @@
 ---
 date: "2026-06-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "小米"
@@ -16,8 +16,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=xiaomi-hyperos-debloat-adb"
 ---
-
-[//]: # (notion-sync-id: 385874cb-3972-8155-92f5-efdc80000adf)
 
 小米的 HyperOS（澎湃系统）功能确实丰富，但伴随而来的系统广告、预装应用、以及各种后台统计服务一直是用户吐槽的重灾区。系统设置里有大部分广告开关，然而关掉一个冒出来两个的现象并不少见，有些广告 SDK 甚至直接集成在系统应用里，光靠界面开关根本清不干净。
 

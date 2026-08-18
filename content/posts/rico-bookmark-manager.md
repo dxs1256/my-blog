@@ -12,7 +12,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=rico-bookmark-manager"
 ---
-[//]: # (notion-sync-id: )
 
 浏览器书签攒了几年，乱七八糟的链接一大堆，想找的时候翻半天，想整理又觉得太麻烦——这大概是很多人的共同痛点。
 

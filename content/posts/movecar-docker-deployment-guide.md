@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "Docker"
   - "教程"
@@ -10,8 +10,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=movecar-docker-deployment-guide"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8134-bec9-f8c85828347e)
 
 MoveCar Docker部署指南：私家车管理系统私有化部署完整教程
 

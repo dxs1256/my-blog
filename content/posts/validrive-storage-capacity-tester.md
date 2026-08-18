@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "工具推荐"
   - "Windows"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=validrive-storage-capacity-tester"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81e9-bfa0-d7d4828ae6ba)
 
 你是否担心过自己使用的 U 盘、移动硬盘或 SD 卡是扩容盘？今天给大家安利一款超实用的检测工具——ValiDrive，由 GRC（Gibson Research Corporation）开发的免费专业工具，专门用来识别存储设备的真实容量。
 

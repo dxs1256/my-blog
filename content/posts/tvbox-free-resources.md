@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=tvbox-free-resources"
 ---
-[//]: # (notion-sync-id: ...)
 
 最近家里孩子放暑假，电视上装了几个App发现全是VIP，点啥都要充钱。爱奇艺、腾讯、优酷、B站加起来一个月快一百了，比宽带费还贵。
 

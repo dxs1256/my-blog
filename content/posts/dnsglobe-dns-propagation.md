@@ -12,7 +12,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=dnsglobe-dns-propagation"
 ---
-[//]: # (notion-sync-id: )
 
 改完域名解析后最熬人的是什么？不是配置本身，而是等全球生效。
 

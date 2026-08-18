@@ -1,11 +1,11 @@
 ---
 date: "2026-05-26"
-type: "Post"
+type: blog
 tags:
   - "TVAPP"
   - "电视盒子"
   - "Android TV"
-  - " 开源"
+  - "开源"
   - "电视应用"
 title: "电视盒子吃灰救星，收录全网Android TV应用"
 description: "收录全网 Android TV 应用的开源项目，覆盖直播、影视、工具等多分类，电视盒子用户的应用商店替代方案。"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=tvapp-android-tv-apps"
 ---
-
-[//]: # (notion-sync-id: 36c874cb-3972-8166-a864-f8ff0ed90eff)
 
 家里的电视盒子吃灰了？其实装对软件就能活过来。最近发现一个 GitHub 项目 TVAPP，收录了全网 Android TV 电视应用，影视、直播、K歌、工具、游戏一站式整理。
 

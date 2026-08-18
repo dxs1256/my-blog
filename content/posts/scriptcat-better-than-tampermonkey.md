@@ -1,9 +1,9 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
-  - " 开源"
+  - "开源"
   - "浏览器插件"
   - "油猴"
   - "自动化"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=scriptcat-better-than-tampermonkey"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8192-bb1e-f46bbb9fcce6)
 
 最近在 GitHub 淘金时，发现了一款让我直接卸载油猴的浏览器脚本管理器——ScriptCat。
 

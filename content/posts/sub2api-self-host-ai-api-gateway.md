@@ -1,10 +1,10 @@
 ---
 date: "2026-05-16"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "AI"
-  - " 开源"
+  - "开源"
   - "部署"
   - "API"
 title: "用 Sub2API 自建一个 AI 中转站"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=sub2api-self-host-ai-api-gateway"
 ---
-
-[//]: # (notion-sync-id: 362874cb-3972-811d-8c0f-dabd9ea19f5d)
 
 最近我在用 AI 编程工具时遇到了一个问题：官方订阅不够灵活，直接买 API 又贵，只能找中转站。但市面上的中转站要么费率不透明，要么担心模型真假，长期用下来成本可能比自己管理还高。
 

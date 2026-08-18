@@ -1,6 +1,6 @@
 ---
 date: "2026-05-28"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "AI"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-mural-portrait-prompt-original"
 ---
-
-[//]: # (notion-sync-id: 36e874cb-3972-8177-a461-e663c8f5d745)
 
 上传一张人像照，把它变成这种可爱的壁画风格照片。
 

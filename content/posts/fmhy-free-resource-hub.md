@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=fmhy-free-resource-hub"
 ---
-[//]: # (notion-sync-id: )
 
 找免费资源这件事，最烦的不是"没有"，而是"太多但不知道哪个靠谱"。随便搜个"免费看电影"出来的全是广告站，想下个软件又怕绑全家桶，好不容易找到个资源链，结果已经挂了。
 

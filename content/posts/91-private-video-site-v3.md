@@ -1,9 +1,9 @@
 ---
 date: "2026-06-02"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
-  - " 开源"
+  - "开源"
   - "视频站"
   - "自托管"
   - "网盘"
@@ -15,8 +15,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=91-private-video-site-v3"
 ---
-
-[//]: # (notion-sync-id: 373874cb-3972-8175-9119-e31fc49326a7)
 
 想自己搭个视频站，把 115、PikPak、OneDrive、Google Drive 上的视频统一管理？**91** 是一个面向个人私有部署的开源视频聚合站，Go 后端 + Vite 前端，2C2G 服务器就能跑。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "开源项目"
   - "Telegram"
@@ -11,8 +11,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=telegram-drive-unlimited-cloud-storage"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8102-b195-d08cd1f29a0f)
 
 Telegram 收藏夹当网盘用，但原生界面没有分类、没有搜索，文件一多就找不到。Telegram-Drive 就是来解决这个问题的。
 

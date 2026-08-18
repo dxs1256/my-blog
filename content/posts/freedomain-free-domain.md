@@ -1,6 +1,6 @@
 ---
 date: "2026-05-25"
-type: "Post"
+type: blog
 tags:
   - "FreeDomain"
   - "免费域名"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=freedomain-free-domain"
 ---
-
-[//]: # (notion-sync-id: 36b874cb-3972-81fe-b426-cc3096d3203c)
 
 注册免费域名通常意味着各种套路——免费一年续费天价、有广告有水印、限制一堆。最近发现一个 GitHub 上 162K Star 的项目 FreeDomain，主打一个真正的免费。
 

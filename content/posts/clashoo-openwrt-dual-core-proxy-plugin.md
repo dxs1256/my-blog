@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "OpenWrt"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=clashoo-openwrt-dual-core-proxy-plugin"
 ---
-
-[//]: # (notion-sync-id: 378874cb-3972-8131-aba6-f5f355a6d6b2)
 
 玩软路由的朋友应该都有体会——代理管理插件往往是一个让人头疼的环节。要么只支持单内核，切来切去要手动停启用；要么配置复杂，对着 YAML 文件 debug 半天。
 

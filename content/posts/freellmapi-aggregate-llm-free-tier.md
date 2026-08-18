@@ -1,11 +1,11 @@
 ---
 date: "2026-06-25"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI"
   - "FreeLLMAPI"
-  - " 开源"
+  - "开源"
   - "LLM"
   - "API聚合"
 title: "把十六家的免费额度凑到一个接口里"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=freellmapi-aggregate-llm-free-tier"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-8127-8c24-c8a94e5cce74)
 
 用各大 AI 厂商的 API 时，最常遇到的问题是什么？每家的免费额度单独看根本不够用，想凑在一起用又要对付十几套不同的 SDK 和复杂的接口限制。
 

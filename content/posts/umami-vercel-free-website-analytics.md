@@ -1,12 +1,12 @@
 ---
 date: "2026-06-25"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "Umami"
   - "网站统计"
   - "Vercel"
-  - " 开源"
+  - "开源"
   - "隐私"
 title: "Vercel 零成本部署 Umami，开源网站统计替代 Google Analytics"
 description: "Umami 开源轻量网站统计工具，部署在 Vercel 零成本运行。替代 Google Analytics，隐私友好、界面简洁、实时数据，几分钟就能拥有自己的网站统计后台"
@@ -14,8 +14,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=umami-vercel-free-website-analytics"
 ---
-
-[//]: # (notion-sync-id: 38a874cb-3972-81cd-a639-efda463b2fed)
 
 很多人搭好了网站，却不知道每天有多少访客、用户从哪里来、哪个页面最受欢迎。靠感觉做网站，数据一片空白。
 

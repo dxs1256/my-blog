@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=monkey-code-cloud-ai-free-minimax"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81e4-a346-dc2055c4bfd0)
 
 最近换新笔记本，顺手试了试几个云端AI编程工具。原本只是打算过渡用，没想到挖到了一个宝藏——不仅能免费无限量用MiniMax-M2.7，体验下来代码质量还挺能打。
 

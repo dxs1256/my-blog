@@ -1,6 +1,6 @@
 ---
 date: "2026-05-24"
-type: "Post"
+type: blog
 tags:
   - "爬虫"
   - "代理"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=proxifly-free-proxy-800"
 ---
-
-[//]: # (notion-sync-id: 36a874cb-3972-811f-a321-ef7731dbd732)
 
 ---
 

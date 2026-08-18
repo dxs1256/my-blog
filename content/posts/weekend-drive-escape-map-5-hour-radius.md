@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "自驾"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=weekend-drive-escape-map-5-hour-radius"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-8162-8871-e82438f62e4d)
 
 ## 周末自驾地图神器：一键生成 5 小时驾驶圈，告别周末去哪儿的烦恼
 

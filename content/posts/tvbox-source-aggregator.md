@@ -1,6 +1,6 @@
 ---
 date: "2026-05-25"
-type: "Post"
+type: blog
 tags:
   - "TVBox"
   - "源聚合"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=tvbox-source-aggregator"
 ---
-
-[//]: # (notion-sync-id: 36b874cb-3972-8168-a9d0-f7e459ce9850)
 
 用 TVBox 看剧的人都知道一个痛点：源经常失效，今天能看的明天就打不开了，得不断找新源、手动换地址。
 

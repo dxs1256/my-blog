@@ -1,6 +1,6 @@
 ---
 date: "2026-06-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "SSL"
@@ -16,8 +16,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=httpsok-ssl-auto-renew"
 ---
-
-[//]: # (notion-sync-id: 385874cb-3972-8196-acce-f937b276ba9a)
 
 SSL 证书过期这个事，经历过的人都懂。网站突然变红、浏览器弹出安全警告、用户电话追过来——而且这种事往往发生在你最忙的时候，比如凌晨两点或者节假日。手动续期虽然操作本身不复杂，但麻烦在于要记住几十个域名各自的到期时间，不同服务器、不同环境下的配置方式还不一样。
 

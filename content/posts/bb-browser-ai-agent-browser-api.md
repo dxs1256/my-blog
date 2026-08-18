@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI Agent"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=bb-browser-ai-agent-browser-api"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-81fe-a975-ed022cb00201)
 
 ## bb-browser: 让你的浏览器成为 AI Agent 的 API
 

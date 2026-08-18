@@ -1,6 +1,6 @@
 ---
 date: "2026-06-17"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "监控"
@@ -16,8 +16,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=cf-server-monitor-free"
 ---
-
-[//]: # (notion-sync-id: 382874cb-3972-8175-ac0b-dc2065873e6c)
 
 手头有几台 VPS 的站长应该都遇到过这个尴尬：想给机器加个监控，看看 CPU 是不是爆了、磁盘是不是满了，但为了看几台机器再去买一台监控服务器，总觉得不划算。用 Prometheus + Grafana 搭一套吧，功能确实强，但部署和维护成本对个人站长来说偏高了。
 

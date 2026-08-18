@@ -11,7 +11,6 @@ categories:
   - 资源推荐
 image: "https://bing.ee123.net/img/rand?seed=cs16-free-download"
 ---
-[//]: # (notion-sync-id: )
 
 说起反恐精英 1.6，老玩家心里都懂——那是多少个通宵、多少次网吧连坐、多少回 Dust2 的 A 大 rush。二十多年过去了，CS2 都出了，可很多人心里还是放不下那个 1.6 的枪感。
 

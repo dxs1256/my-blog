@@ -12,7 +12,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=20-kuai-jing-dian-jie-ji-liu-lan-qi-mian-fei-chang-wan"
 ---
-[//]: # (notion-sync-id: ...)
 
 小时候放学往街机厅跑，兜里揣着两块钱，买三个币，一个《拳皇97》能打一下午。后来街机厅一家接一家关了，那些机器搬的搬、扔的扔，手柄上的汗味和摇杆的咔咔声也成了回忆。
 

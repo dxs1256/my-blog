@@ -1,11 +1,11 @@
 ---
 date: "2026-06-04"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "AI"
   - "信息聚合"
-  - " 开源"
+  - "开源"
   - "效率工具"
 title: "全网热点聚合、AI 总结自动推送"
 description: "TrendRadar 是一个 58.9k Star 的开源全网热点聚合器，自动抓取微博热搜、知乎热榜、抖音热点等十几个平台的热门内容，通过 AI 总结翻译后推送给你，30 秒即可部署。"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=hotspot-aggregator-ai-summary-trendradar"
 ---
-
-[//]: # (notion-sync-id: 379874cb-3972-81a5-9865-cd596d2c2646)
 
 每天早晨打开手机，微博热搜、知乎热榜、抖音热点、百度热搜、今日头条、财联社快讯……在十几个 App 之间来回切换，就为了刷一下今天发生了什么。这不是你的问题，是信息过载的问题。
 

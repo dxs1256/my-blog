@@ -1,9 +1,9 @@
 ---
 date: "2026-06-02"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
-  - " 开源"
+  - "开源"
   - "密码管理器"
   - "Monica"
   - "安全"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=monica-password-manager"
 ---
-
-[//]: # (notion-sync-id: 370874cb-3972-8194-b6fe-f5fae828e62f)
 
 密码管理器用了一堆，总有点不放心——Bitwarden 服务器在国外、KeePass 又太硬核。最近发现一个叫 **Monica** 的开源项目，把两者的优点合在一起，密码全存在本地，安全感直接拉满。
 

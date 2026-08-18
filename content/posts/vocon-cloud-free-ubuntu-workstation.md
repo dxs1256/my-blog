@@ -1,6 +1,6 @@
 ---
 date: "2026-06-15"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "免费"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=vocon-cloud-free-ubuntu-workstation"
 ---
-
-[//]: # (notion-sync-id: 380874cb-3972-81a7-bf3a-cf79163a8c8f)
 
 最近发现一个被低估的免费云服务——Vocon Cloud，不需要绑信用卡，浏览器打开就能用上一台 8 核 16GB 的 Ubuntu 桌面。实测下载速度飙到 1.3Gbps，还预装了 Cursor、VS Code 等开发工具。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-08-18"
-type: "Post"
+type: blog
 tags:
   - "软路由"
   - "OpenWrt"

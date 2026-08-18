@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=hana-blog"
 ---
-[//]: # (notion-sync-id: ...)
 
 最近发现了一个挺有意思的桌面 AI Agent——**HanaAgent**，GitHub 上 5.6k Star，作者本职是个文员，做这个项目是为了让不会敲命令的人也能用上 AI Agent。
 

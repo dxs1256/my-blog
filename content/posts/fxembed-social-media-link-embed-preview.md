@@ -1,10 +1,10 @@
 ---
 date: "2026-06-22"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "工具"
-  - " 开源"
+  - "开源"
   - "GitHub"
   - "Twitter"
   - "Discord"
@@ -16,8 +16,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=fxembed-social-media-link-embed-preview"
 ---
-
-[//]: # (notion-sync-id: 387874cb-3972-814b-96bf-cc1a215c12cf)
 
 在 Discord 或 Telegram 里甩一条 Twitter 链接，预览效果时好时坏——有时能出个标题，有时就是个光秃秃的链接，视频和 GIF 基本没戏。这个问题困扰我很久了。
 

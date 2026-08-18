@@ -1,6 +1,6 @@
 ---
 date: "2026-05-29"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "搜索技巧"
@@ -11,8 +11,6 @@ categories:
   - "技术资讯"
 image: "https://bing.ee123.net/img/rand?seed=korean-nsfw-search-tips"
 ---
-
-[//]: # (notion-sync-id: 36f874cb-3972-81da-9f44-c83c8bee8b79)
 
 以下是搜索关键词：
 

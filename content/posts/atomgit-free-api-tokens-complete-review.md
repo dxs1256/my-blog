@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "AI"
   - "API"
@@ -13,8 +13,6 @@ categories:
   - "技术资讯"
 image: "https://bing.ee123.net/img/rand?seed=atomgit-free-api-tokens-complete-review"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81b3-be79-d3b896254625)
 
 这是一篇关于AtomGit AI社区提供的无限免费大模型API Tokens的完整测评报告，包括账户注册、免费资源获取、无限Token模型预领、Web界面测试、API方式稳定性测试等详细内容。
 

@@ -1,10 +1,10 @@
 ---
 date: "2026-05-22"
-type: "Post"
+type: blog
 tags:
   - "Motrix"
   - "下载工具"
-  - " 开源"
+  - "开源"
   - "Rust"
   - "Tauri"
   - "跨平台"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=motrix-next-rust-based-lightweight-downloader"
 ---
-
-[//]: # (notion-sync-id: 368874cb-3972-81d7-9a29-cf7dbcb2e270)
 
 ## 💡 下载工具也需要 "瘦身"？
 

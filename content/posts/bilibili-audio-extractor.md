@@ -1,6 +1,6 @@
 ---
 date: "2026-05-24"
-type: "Post"
+type: blog
 tags:
   - "B站"
   - "音频下载"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=bilibili-audio-extractor"
 ---
-
-[//]: # (notion-sync-id: 36a874cb-3972-8168-ac66-eba010756f80)
 
 现在听个歌挺费钱的，网易云会员、QQ音乐会员、Spotify会员……开一堆才能好好听歌。但其实B站上什么歌都有，从AI翻唱到热门新歌，资源比想象中丰富。
 

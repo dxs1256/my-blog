@@ -1,6 +1,6 @@
 ---
 date: "2026-06-17"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "阿里云"
@@ -16,8 +16,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=aliyun-free-vps-root-ssh-tunnel"
 ---
-
-[//]: # (notion-sync-id: 382874cb-3972-81a3-9789-f15b70409a10)
 
 阿里云的 AgentScope 平台最近推出了一项活动：免费提供一台 2 核 CPU、4GB 内存、30GB SSD 的云服务器，预装 QwenPaw。直接通过浏览器就能用上 QwenPaw 的 AI 助手功能。
 

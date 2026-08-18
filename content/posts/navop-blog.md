@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=navop-blog"
 ---
-[//]: # (notion-sync-id: ...)
 
 作为运维，你是不是也这样：早上打开电脑，先开 Navicat 查数据库，再开 xShell 连 SSH，WinSCP 拖文件，mstsc 远程桌面连 Windows 服务器，最后再开个 AI 工具查文档……一天下来窗口切到飞起。
 

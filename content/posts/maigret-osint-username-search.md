@@ -1,9 +1,9 @@
 ---
 date: "2026-05-12"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
-  - " 开源"
+  - "开源"
   - "GitHub"
   - "爬虫"
   - "安全"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=maigret-osint-username-search"
 ---
-
-[//]: # (notion-sync-id: 35e874cb-3972-819d-a833-d99a4c6accb6)
 
 最近在做安全排查时，需要确认几个账号的关联信息，手工一个个平台去搜效率太低。结果发现了一个叫 **Maigret** 的开源工具，只要输入一个用户名，3秒内就能自动检索 3000 多个网站，把目标人物在互联网上留下的「赛博马甲」全部扒出来，整理成一份详细的数字档案。
 

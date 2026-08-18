@@ -1,18 +1,16 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "Notion"
-  - " 开源"
+  - "开源"
 title: "NotionNext 中文字体预览与配置指南"
 description: "NotionNext 支持的 6 款中文字体预览对比，包括霞鹜文楷、思源宋体、思源黑体、得意黑、悠哉字体等，附 NOTION_CONFIG 配置方法"
 categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=notionnext-chinese-font-preview-guide"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8185-8201-daf6f907b46e)
 
 NotionNext 支持通过 NOTION_CONFIG 自定义网站字体，无需修改源码即可切换不同风格。本文整理了 6 款优质开源中文字体，附每种字体的风格特点和配置代码，帮你快速选到心仪的字体。
 

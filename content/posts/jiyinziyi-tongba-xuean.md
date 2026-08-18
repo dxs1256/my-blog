@@ -12,7 +12,6 @@ categories:
   - 文学趣谈
 image: "https://bing.ee123.net/img/rand?seed=jiyinziyi-tongba-xuean"
 ---
-[//]: # (notion-sync-id: )
 
 上次带大家学了《控鹤监秘记》,这次继续袁枚《子不语》系列,来品一篇《急淫自缢》,出自《续子不语》。
 

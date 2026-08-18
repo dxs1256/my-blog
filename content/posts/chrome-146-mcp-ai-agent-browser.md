@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "Chrome"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=chrome-146-mcp-ai-agent-browser"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-814b-b5f4-e38e41d20fda)
 
 Chrome 146 昨天更新了，带了一个大多数人没注意到的功能：内置 MCP 支持。你只需要打开 Chrome 设置里的一个开关，就能把当前的浏览器会话通过 MCP 协议暴露给你的 AI agent（OpenClaw、Claude Code 都行）。AI 可以看到你正在浏览的页面、帮你点按钮、填表单、批量处理网页操作，全程在你眼皮底下跑。
 

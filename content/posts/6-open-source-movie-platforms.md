@@ -1,9 +1,9 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
-  - " 开源"
+  - "开源"
   - "影视"
   - "GitHub"
   - "工具推荐"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=6-open-source-movie-platforms"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81e3-9a31-d7d01c1b0a1e)
 
 最近为了看《繁花》和《黑神话》相关纪录片，试了一圈开源影视方案。
 

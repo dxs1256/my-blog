@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=cloudflare-drop-drag-deploy"
 ---
-[//]: # (notion-sync-id: )
 
 刚部署一个演示站，本来想走 GitHub Pages 或者 Vercel，结果想想还得切分支、配构建、等 CI 跑完……我就想给人看个 HTML 原型而已，至于吗？
 

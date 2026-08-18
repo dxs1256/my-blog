@@ -1,12 +1,12 @@
 ---
 date: "2026-06-17"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "电视盒子"
   - "Android TV"
   - "观影"
-  - " 开源"
+  - "开源"
   - "工具"
 title: "安卓电视盒子沉浸式观影客户端，多源聚合搜索 Apple TV 风格界面"
 description: "Selene-TV 是专为电视大屏和遥控器打造的沉浸式观影客户端。多源聚合搜索、Apple TV 风格详情页、ExoPlayer/mpv 双核播放、手机扫码遥控、弹幕聚合，最低支持安卓 6.0。"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=selene-tv-android-tv-client"
 ---
-
-[//]: # (notion-sync-id: 382874cb-3972-81c6-8070-e6d56b5d1041)
 
 家里积灰的安卓电视盒子，有不少是因为系统自带视频播放器体验太差才被冷落的。界面简陋、操作卡顿、源少还经常要付费——直接扼杀了一台本该成为家庭影音中心的设备。
 

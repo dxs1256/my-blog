@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "Cloudflare"
   - "教程"
@@ -12,8 +12,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=deploy-iptv-sources-cloudflare-pages"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8198-a78d-f545cdf85c11)
 
 这是一篇关于如何在 Cloudflare Pages 上部署 iptv-sources 的详细教程，包含从零到定时更新的完整流程。
 

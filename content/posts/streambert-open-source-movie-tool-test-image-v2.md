@@ -1,8 +1,8 @@
 ---
 date: "2026-05-19"
-type: "Post"
+type: blog
 tags:
-  - " 开源软件"
+  - "开源软件"
   - "影视工具"
   - "效率神器"
   - "热门精选"
@@ -12,8 +12,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=streambert-open-source-movie-tool-test-image-v2"
 ---
-
-[//]: # (notion-sync-id: 365874cb-3972-81d2-ae67-c7aabe869370)
 
 周末想放松看个电影，结果被广告轮番轰炸，好不容易找到资源还卡成PPT。这种折磨人的体验，相信很多人都有过。
 

@@ -1,6 +1,6 @@
 ---
 date: "2026-05-25"
-type: "Post"
+type: blog
 tags:
   - "ReClip"
   - "视频下载"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=reclip-self-hosted-downloader"
 ---
-
-[//]: # (notion-sync-id: 36b874cb-3972-81ba-a92d-ec453444fdf4)
 
 别再用那些一堆弹窗、限速还偷你数据的下载站了。最近发现一个自托管工具 ReClip，一个工具直接干穿 1000 多个站点。
 

@@ -1,10 +1,10 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "工具推荐"
   - "Docker"
-  - " 开源"
+  - "开源"
   - "媒体播放"
   - "自托管"
 title: "Webtor：一行Docker命令搭建私有磁力链在线播放平台"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=build-bt-magnet-online-player"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81ac-b95e-e02c1a966880)
 
 最近在折腾家庭影院方案时，发现了一个特别好用的开源项目——Webtor。简单来说，它能让你直接在浏览器里播放磁力链接和种子文件里的视频，不用下载、不用转码、不用折腾播放器。一行Docker命令就能跑起来，体验相当丝滑。
 

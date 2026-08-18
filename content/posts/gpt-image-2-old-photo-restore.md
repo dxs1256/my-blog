@@ -1,6 +1,6 @@
 ---
 date: "2026-05-24"
-type: "Post"
+type: blog
 tags:
   - "GPT-Image"
   - "老照片修复"
@@ -12,8 +12,6 @@ categories:
   - "技术资讯"
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-old-photo-restore"
 ---
-
-[//]: # (notion-sync-id: 36a874cb-3972-818c-af66-e2f83c7771d4)
 
 最近 GPT-Image-2 大模型在图片生成方面表现让人震撼。有网友试了试用它修复自己半岁时（三十多年前）的老照片，效果出乎意料地好——不仅高清还原了细节，还保留了年代感，而不是简单"美颜磨皮"。
 

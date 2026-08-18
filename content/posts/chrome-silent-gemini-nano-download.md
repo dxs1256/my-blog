@@ -1,6 +1,6 @@
 ---
 date: "2026-05-08"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "Chrome"
@@ -12,8 +12,6 @@ categories:
   - "技术资讯"
 image: "https://bing.ee123.net/img/rand?seed=chrome-silent-gemini-nano-download"
 ---
-
-[//]: # (notion-sync-id: 359874cb-3972-81ca-ae25-d0a3c4efbaa3)
 
 最近有安全研究员发现了一个让人不安的事情：你每天在用的 Chrome 浏览器，居然在后台悄悄下载了一个 4GB 的 AI 大模型，整个过程零通知、零授权。
 

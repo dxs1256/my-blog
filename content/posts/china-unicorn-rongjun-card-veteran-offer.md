@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "运营商"
@@ -13,8 +13,6 @@ categories:
   - "技术资讯"
 image: "https://bing.ee123.net/img/rand?seed=china-unicorn-rongjun-card-veteran-offer"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81b1-92b4-dd27b145d464)
 
 最近在帮家人研究通信套餐时，发现中国联通针对退役军人推出了「荣军卡」，价格实在得让人吃惊——每月低至29元，能拿到150GB通用流量+5000分钟通话。这不是什么套路满满的「定向流量卡」，而是退役军人事务部与联通联合推出的官方项目，中央一套都报道过。
 
@@ -77,7 +75,6 @@ image: "https://bing.ee123.net/img/rand?seed=china-unicorn-rongjun-card-veteran-
 
 - 线上扫码（推荐）：微信扫描联通官方二维码，上传身份证+优待证照片，选号后卡直接邮寄到家，无需跑营业厅
 - 线下营业厅：携带身份证+优待证，前往联通营业厅「荣军专区」，有专人服务无需排队
-1000014587.png
 
 
 ---

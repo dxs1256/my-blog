@@ -1,12 +1,12 @@
 ---
 date: "2026-06-27"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "WinUtil"
   - "Windows"
   - "系统优化"
-  - " 开源"
+  - "开源"
   - "ChrisTitusTech"
 title: "重装系统后的配置马拉松，WinUtil 一条命令全搞定"
 description: "WinUtil 开源 Windows 系统维护工具：一键批量安装软件、系统瘦身去臃肿、优化设置、修复更新，管理员 PowerShell 一条命令启动，56.5k GitHub 星标"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=winutil-windows-utility-install-tweaks"
 ---
-
-[//]: # (notion-sync-id: 38c874cb-3972-8133-8b83-d327f3c398f4)
 
 每次重装完 Windows 是种什么体验？系统本身装起来不过半小时，真正磨人的是后面那一长串琐事：软件得一个个找安装包、乱七八糟的预装组件要手动清理、设置项藏得深还得翻来翻去。时间砸进去了，体验未必好。
 

@@ -11,7 +11,6 @@ categories:
   - 教程
 image: "https://bing.ee123.net/img/rand?seed=lxmusic-blog"
 ---
-[//]: # (notion-sync-id: ...)
 
 洛雪音乐（LX Music）是个好东西——开源、干净、跨平台、没广告。但它本质上只是个播放器"空壳"，必须搭配音源才能用。
 

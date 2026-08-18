@@ -12,7 +12,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=video-duplicate-finder-cleaner"
 ---
-[//]: # (notion-sync-id: )
 
 电脑里的视频文件越堆越多，NAS 硬盘告警、笔记本空间见底，想删又怕删错。更气的是同一个视频可能有多个版本——1080p 和 4K 各存了一份，水印版和无水印版同时留着，甚至不同剪辑片段散落在各个文件夹里。手动翻了一遍，眼睛花了也没找出几个重复的。
 

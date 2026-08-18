@@ -12,7 +12,6 @@ categories:
   - 教程
 image: "https://bing.ee123.net/img/rand?seed=bluetooth-esim-writer"
 ---
-[//]: # (notion-sync-id: )
 
 现在运营商推 eSIM 的越来越多了，但手头的老手机压根不支持这功能，换手机又没必要，挺尴尬的。
 

@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=pixshell-ssh"
 ---
-[//]: # (notion-sync-id: )
 
 用过不少 SSH 工具，要么太臃肿，要么功能不够，要么频繁弹窗授权烦死人。最近发现了一个叫 [**Pixshell**](https://github.com/lyu0805/pixshell) 的工具，轻量级，UI 紧凑，功能却意外地丰富。
 

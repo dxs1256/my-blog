@@ -1,12 +1,12 @@
 ---
 date: "2026-06-27"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AutoScrapeFreeNodes"
   - "免费节点"
   - "代理"
-  - " 开源"
+  - "开源"
   - "自动化"
 title: "免费节点自动化聚合系统，一个平台搞定所有代理订阅"
 description: "AutoScrapeFreeNodes 开源免费节点自动化抓取聚合系统，多源聚合、全协议兼容（Clash/V2ray/Sing-Box 等）、智能去重、自动更新，支持在线使用或自部署，一站式搞定代理订阅"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=autoscrape-free-nodes-aggregator"
 ---
-
-[//]: # (notion-sync-id: 38c874cb-3972-813a-87bc-db5b30a2603f)
 
 每次要找免费代理节点，是不是得逛好几个网站、手动复制订阅链接、还得担心时效性和重复？更烦的是不同客户端用的格式还不一样——Clash、V2ray、Sing-Box，换来换去。
 

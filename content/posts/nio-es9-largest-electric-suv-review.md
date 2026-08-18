@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "视频"
   - "必看精选"
@@ -10,8 +10,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=nio-es9-largest-electric-suv-review"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-815b-bb9b-f5d5a02900a3)
 
 😀
 

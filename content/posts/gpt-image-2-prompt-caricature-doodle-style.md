@@ -1,6 +1,6 @@
 ---
 date: "2026-05-22"
-type: "Post"
+type: blog
 tags:
   - "GPT Image 2.0"
   - "prompt"
@@ -13,8 +13,6 @@ categories:
   - "AI"
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-prompt-caricature-doodle-style"
 ---
-
-[//]: # (notion-sync-id: 368874cb-3972-81ca-a1d5-c16450e6165d)
 
 ## 💡 想把照片变成手绘涂鸦风？这个 Prompt 可以试试
 

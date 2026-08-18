@@ -1,6 +1,6 @@
 ---
 date: "2026-05-27"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI模型"
@@ -15,8 +15,6 @@ categories:
   - "技术资讯"
 image: "https://bing.ee123.net/img/rand?seed=skyclaw-free-agent-model"
 ---
-
-[//]: # (notion-sync-id: 36d874cb-3972-8158-a766-d11340979673)
 
 玩 OpenClaw 的朋友都知道，模型调用费用一直是笔不小的开销。最近发现昆仑万维的天工AI新发布的 SkyClaw 模型居然限时免费，而且无限 Token，接入 OpenClaw 只要两步就能用上。
 

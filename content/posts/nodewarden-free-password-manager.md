@@ -1,9 +1,9 @@
 ---
 date: "2026-05-11"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
-  - " 开源"
+  - "开源"
   - "Cloudflare"
   - "Workers"
   - "自托管"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=nodewarden-free-password-manager"
 ---
-
-[//]: # (notion-sync-id: 35d874cb-3972-8181-a61c-d5e2edde2a24)
 
 还在用浏览器自带的密码管理器凑合？或者为了 1Password、Bitwarden 的付费功能犹豫不决？最近发现了一个叫 **NodeWarden** 的开源项目，可以用 Cloudflare Workers 免费搭建一个完全属于自己的密码管理库，而且兼容 Bitwarden 的浏览器插件，多端同步毫无问题。
 

@@ -1,10 +1,10 @@
 ---
 date: "2026-06-24"
-type: "Post"
+type: blog
 tags:
   - "Android TV"
   - "文件管理"
-  - " 开源"
+  - "开源"
   - "扫码传输"
   - "热门文章"
 title: "扫码传文件+云盘扫码登录，遥控器操作丝滑"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=android-tv-file-manager-cocofiletv"
 ---
-
-[//]: # (notion-sync-id: 389874cb-3972-8114-87b9-c312c8f2b512)
 
 用Android TV的人都有同感——在电视上管理文件简直是灾难。遥控器输入文件名？想都别想。传个文件到电视，要么插U盘，要么装个LocalSend，但局域网经常扫不到，折腾半天。
 

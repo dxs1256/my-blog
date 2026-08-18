@@ -1,6 +1,6 @@
 ---
 date: "2026-06-07"
-type: "Post"
+type: blog
 tags:
   - "DeepSeek"
   - "AI"
@@ -13,8 +13,6 @@ categories:
   - "AI"
 image: "https://bing.ee123.net/img/rand?seed=deepseek-v-flash-api"
 ---
-
-[//]: # (notion-sync-id: 378874cb-3972-8196-b0fc-e84522d5c813)
 
 DeepSeek 便宜又大碗，性价比确实能打。但还有更有性价比的——直接免费白嫖。
 

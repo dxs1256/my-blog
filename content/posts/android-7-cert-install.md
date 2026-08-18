@@ -1,6 +1,6 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "Android"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=android-7-cert-install"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81da-92e8-cfa0358f347c)
 
 Android 7.0 开始，系统不再默认信任用户安装的 CA 证书，导致 Charles、Fiddler 等抓包工具无法正常拦截 HTTPS 流量。这个问题困扰了不少开发者和测试同学，网上方案零散且容易踩坑。这里整理一套从零到可用的完整流程，覆盖证书转换、ADB 导入和常见排错。
 

@@ -1,20 +1,18 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "教程"
   - "Docker"
   - "音乐"
-  - " 开源"
+  - "开源"
 title: "LX Music Sync Server 完整部署与使用指南：从零搭建私有云音乐平台"
 description: "一份完整的 LX Music Sync Server 部署指南，涵盖 Docker/源码编译部署、全量配置参数手册、Nginx反向代理、Web播放器使用、客户端同步、WebDAV云端备份、自定义音源管理、Subsonic协议接入及常见问题排查。"
 categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=lx-music-sync-server-deploy-guide"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81bb-954a-fb6e6fe3ef34)
 
 # LX Music Sync Server 完整部署与使用指南
 

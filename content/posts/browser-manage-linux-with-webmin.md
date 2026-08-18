@@ -1,11 +1,11 @@
 ---
 date: "2026-06-07"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
   - "Linux"
   - "运维"
-  - " 开源"
+  - "开源"
   - "面板"
 title: "不用 SSH，浏览器直接管理 Linux"
 description: "Webmin 是一款已经运行了 28 年的开源 Linux 管理面板，5900 Star，直接读写系统原生配置文件，116 个管理模块覆盖用户、防火墙、Web 服务、数据库等全流程运维场景，不绑架你的服务器环境。"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=browser-manage-linux-with-webmin"
 ---
-
-[//]: # (notion-sync-id: 378874cb-3972-81d6-8d76-db4160c7ce9e)
 
 每次要改个防火墙规则、加个定时任务、配个虚拟主机，第一反应就是 SSH 连上去敲命令。习惯了倒也不觉得麻烦，但次数多了确实有点累，尤其是改配置文件时一个手误可能把服务搞挂。
 

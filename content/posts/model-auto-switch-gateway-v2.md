@@ -1,8 +1,8 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
-  - " 开源"
+  - "开源"
   - "AI"
   - "Docker"
   - "工具"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=model-auto-switch-gateway-v2"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8122-955d-ce9bf56de603)
 
 model_auto_switch 是一个支持多供应商、负载均衡和故障转移的 OpenAI 兼容 API 代理网关。
 

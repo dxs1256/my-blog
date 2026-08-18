@@ -1,13 +1,13 @@
 ---
 date: "2026-06-03"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "TaoSync"
   - "网盘同步"
   - "OpenList"
   - "NAS"
-  - " 开源"
+  - "开源"
   - "云盘互传"
 title: "云盘文件互传，一键搞定网盘→网盘、网盘→NAS、网盘→本地"
 description: "TaoSync、GitHub：适用于 OpenList / AList V3 的自动化同步工具 | 支持网盘↔本地↔网盘 | 定时 / 增量 / 全量同步 不用在各个云盘之间来回切换了。Ta"
@@ -15,8 +15,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=taosync-openlist-cloud-sync"
 ---
-
-[//]: # (notion-sync-id: 373874cb-3972-8151-94bc-d8825ffab983)
 
 适用于 OpenList / AList V3 的自动化同步工具 | 支持网盘↔本地↔网盘 | 定时 / 增量 / 全量同步
 

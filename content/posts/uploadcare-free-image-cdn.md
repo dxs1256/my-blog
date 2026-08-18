@@ -1,6 +1,6 @@
 ---
 date: "2026-06-02"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "CDN"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=uploadcare-free-image-cdn"
 ---
-
-[//]: # (notion-sync-id: 36f874cb-3972-8113-8013-c2473a9c9726)
 
 网站图片加载慢、视频播放卡顿，又不想花钱买 CDN？最近看到一个叫 **Uploadcare** 的平台，专门做图片和视频的 CDN 加速托管，免费套餐每月 1000 次转换，个人站够用。
 

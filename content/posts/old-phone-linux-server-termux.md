@@ -1,11 +1,11 @@
 ---
 date: "2026-05-15"
-type: "Post"
+type: blog
 tags:
   - "教程"
   - "技术"
   - "DIY"
-  - " 开源"
+  - "开源"
   - "Linux"
 title: "10元手机魔改为Linux桌面服务器，超低成本的家用服务器"
 description: "利用闲置旧手机通过Termux安装Linux桌面系统，打造超低成本的家用服务器，可用于智能家居控制、AI服务、电子相册等场景。"
@@ -13,8 +13,6 @@ categories:
   - "教程"
 image: "https://bing.ee123.net/img/rand?seed=old-phone-linux-server-termux"
 ---
-
-[//]: # (notion-sync-id: 362874cb-3972-819d-b6ad-e7094b922ef2)
 
 前几天整理房间时翻出一部 N 年前的荣耀 6，屏幕碎了一角，电池也鼓包了，连回收小哥都不愿意收。本想直接扔掉，但想起 GitHub 上有个项目可以在低配 Android 手机上跑桌面版 Linux，一台原本要花不少钱才能买到的 Linux 服务器，就这样用一部吃灰的旧手机实现了。
 

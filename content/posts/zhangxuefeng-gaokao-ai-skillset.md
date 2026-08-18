@@ -1,8 +1,8 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
-  - " 开源"
+  - "开源"
   - "AI"
   - "必看精选"
 title: "张雪峰高考志愿填报AI知识库：用Agent消除教育信息差"
@@ -11,8 +11,6 @@ categories:
   - "AI"
 image: "https://bing.ee123.net/img/rand?seed=zhangxuefeng-gaokao-ai-skillset"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-8114-891b-c6970964c2ec)
 
 ## 📝 项目背景
 

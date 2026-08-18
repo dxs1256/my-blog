@@ -1,12 +1,12 @@
 ---
 date: "2026-06-03"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "CloakBrowser"
   - "反检测"
   - "爬虫"
-  - " 开源"
+  - "开源"
   - "Chromium"
   - "自动化"
 title: "全网第一隐形浏览器开源，反检测拉满"
@@ -15,8 +15,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=cloakbrowser-stealth-browser"
 ---
-
-[//]: # (notion-sync-id: 374874cb-3972-8130-870f-f306990f06f5)
 
 做爬虫的朋友都懂这种痛：好不容易写好的脚本，跑了两天突然全部 403。Cloudflare 升了一次级，你的 Selenium 配置就废了。
 

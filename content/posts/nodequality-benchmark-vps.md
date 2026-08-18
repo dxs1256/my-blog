@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=nodequality-benchmark-vps"
 ---
-[//]: # (notion-sync-id: )
 
 买 VPS 就像开盲盒。商家宣传页上写的是"高性能""大带宽"，到手一测才发现 CPU 跑分拉胯、网络绕了大半个地球、IP 还要被各种风控拦截。更烦的是，你永远不知道这台机器在别人手里到底是啥表现。
 

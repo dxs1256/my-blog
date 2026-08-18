@@ -1,9 +1,9 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "AI"
-  - " 开源"
+  - "开源"
   - "智能家居"
   - "小讯音箱"
   - "热门文章"
@@ -13,8 +13,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=r1-speaker-ai-revival"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-819f-9dc9-d47981adfd3f)
 
 😀
 

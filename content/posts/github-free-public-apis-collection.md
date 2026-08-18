@@ -1,9 +1,9 @@
 ---
 date: "2026-05-06"
-type: "Post"
+type: blog
 tags:
   - "必看精选"
-  - " 开源"
+  - "开源"
   - "工具"
   - "API"
   - "GitHub"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=github-free-public-apis-collection"
 ---
-
-[//]: # (notion-sync-id: 358874cb-3972-81f4-9598-c319bdce6551)
 
 在开源的世界里，总有一些神级仓库让人眼前一亮。今天给大家安利一个超级实用的项目，汇集了海量免费资源，让你的项目开发效率起飞！
 

@@ -11,7 +11,6 @@ categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=firecrawl-keyless-free"
 ---
-[//]: # (notion-sync-id: )
 
 今天刷到一条消息：Firecrawl 官方发推说，从今天起不用申请 Key、不用配环境变量，直接调接口就能用。
 

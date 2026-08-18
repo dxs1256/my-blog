@@ -1,6 +1,6 @@
 ---
 date: "2026-05-20"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "AI Agent"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=lightpanda-ai-headless-browser-zig"
 ---
-
-[//]: # (notion-sync-id: 366874cb-3972-8195-9f49-e998f909ac41)
 
 每次跑爬虫或者自动化脚本，看到 Chrome 占用几个 G 的内存就头疼。尤其是并发处理几百个页面的时候，服务器内存直接爆满，速度还慢得让人着急。
 

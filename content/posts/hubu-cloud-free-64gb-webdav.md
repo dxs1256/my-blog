@@ -1,6 +1,6 @@
 ---
 date: "2026-06-04"
-type: "Post"
+type: blog
 tags:
   - "热门文章"
   - "HuBu"
@@ -14,8 +14,6 @@ categories:
   - "工具推荐"
 image: "https://bing.ee123.net/img/rand?seed=hubu-cloud-free-64gb-webdav"
 ---
-
-[//]: # (notion-sync-id: 375874cb-3972-81da-9c0a-ecc2056e89d8)
 
 白嫖云盘又添新选择——**HuBu.Cloud** 是德国 DeepSheep UG 运营的云存储服务，免费 64GB，支持 WebDAV，不限制文件类型，注重隐私保护。
 
