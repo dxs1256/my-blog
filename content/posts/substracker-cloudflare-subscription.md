@@ -68,6 +68,9 @@ Telegram、Bark、企业微信、ntfy、PushPlus、Server酱、Gotify、Webhook�
 - 备份导出/导入（迁移 Cloudflare 账号毫无压力）
 - 第三方 API 调用接口（生成令牌后别的系统也能调你的通知服务）
 - 调度日志：每条通知的命中/去重/跳过原因都能查到，排查问题很方便
+- 批量续订：多个订阅一键批量操作
+- 多人协作：支持共享订阅清单，适合家庭或小团队
+- 深色模式 + 移动端适配：手机上用也很舒服
 
 ![SubsTracker 界面截图](https://i.ibb.co/9kYMrhLJ/2b49b424fddc.jpg)
 

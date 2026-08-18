@@ -29,10 +29,18 @@ image: "https://bing.ee123.net/img/rand?seed=hotspot-aggregator-ai-summary-trend
 支持的热榜来源包括：
 
 - 微博热搜、知乎热榜、抖音热点、百度热搜
-- 今日头条、财联社快讯、澎湃新闻、凤凰网
+- 今日头条、财联社快讯、华尔街见闻、澎湃新闻、凤凰网
 - GitHub Trending、Hacker News、V2EX
 - YouTube、Twitter、Reddit
-- 还有更多 RSS 源可以自定义添加
+- 还有更多 RSS 源可以自定义添加，也支持自行增加监控源
+## 🧠 进阶能力
+
+除了「聚合 + AI 总结」，TrendRadar 还提供：
+
+- **趋势分析**：记录每条新闻从首次出现到最后出现的完整周期，还能看同一新闻在不同平台的排名表现
+- **三种推送模式**：当日汇总、当前榜单、增量监控，按需选择
+- **AI 深度分析**：生成热点洞察报告，支持多语言翻译，海外 RSS 源也能中文阅读
+- **存储灵活**：数据可选本地或云端存储
 ## 🎯 亮点在哪
 
 - **AI 总结翻译** — 不是单纯聚合链接，而是用 AI 提取核心内容并翻译成中文，一条推送就看懂
@@ -59,5 +67,7 @@ image: "https://bing.ee123.net/img/rand?seed=hotspot-aggregator-ai-summary-trend
 ## 📝 写在最后
 
 TrendRadar 的思路很简单：既然信息太多，就别自己去筛了，让机器替你干这个活。58.9k Star 的人气说明有这个需求的人不少。对于一个 30 秒就能跑起来的开源项目，值得一试。
+
+> 📌 信息来源：@AIGCLINK (https://x.com/aigclink/status/2038885149165900246)
 
 

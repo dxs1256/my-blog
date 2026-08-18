@@ -6,7 +6,7 @@ tags:
   - 工具
   - 电视盒子
 title: "电视盒子免费看全网资源"
-description: "TvBox三款存活软件 + 40+可用接口，家里有电视盒子的直接抄作业"
+description: "TvBox三款存活软件 + 40+可用接口 + 自建源聚合服务教程，软件推荐到进阶部署一篇搞定，家里有电视盒子的直接抄作业"
 categories:
   - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=tvbox-free-resources"
@@ -64,6 +64,34 @@ TvBox 是个开源项目，本身不生产内容，只是个"壳"。你给它配
 - **奇珀网（7po.com）** — 电视盒子老牌论坛，接口更新最快
 - **饭太硬博客** — 经典接口维护者，一直在更新
 - **GitHub TVBox 聚合仓库** — 社区维护的最新接口列表
+
+## 🚀 进阶：自己搭一个源聚合服务
+
+接口靠社区维护，偶尔还是会失效。与其不断换源，不如把多个源自动聚合成一个稳定地址——开源项目 [tvbox-source-aggregator](https://gitee.com/tengxiaobao/tvbox-source-aggregator) 就是干这个的，部署在 Cloudflare Workers 上，全程免费，不需要买服务器。
+
+部署后你会得到：
+
+- 一个专属聚合地址（如 `https://tvbox.你的域名.com/`），TVBox 直接填这个地址就能用
+- 一个管理后台（/admin），网页上添加、删除你的源
+- 一个监控页面（/status），随时查看聚合状态
+- 每天自动更新：定时抓取所有源 → 测速 → 去重 → 合并，失效的源自动过滤
+
+部署大约 15 分钟，需要 Cloudflare 账号 + 一个域名：
+
+```bash
+git clone https://gitee.com/你的用户名/tvbox-source-aggregator.git
+cd tvbox-source-aggregator
+npm install
+npx wrangler login
+npx wrangler kv namespace create KV   # 记下返回的 KV ID，填进 wrangler.toml
+echo "你的密码" | npx wrangler secret put ADMIN_TOKEN
+echo "你的Token" | npx wrangler secret put REFRESH_TOKEN
+npm run deploy
+```
+
+部署成功后得到一个 `*.workers.dev` 地址，建议绑定自定义域名，国内访问更稳定。之后基本不用再管——系统每天自动更新，你只需要偶尔往后台加几个新源。
+
+源的维护从「手动换地址」变成「系统自动聚合」，体验好不止一个档次。
 
 ## 👨‍👩‍👧‍👦 谁适合用
 
