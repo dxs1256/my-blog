@@ -9,7 +9,7 @@ tags:
 title: Android 手机做启动盘，不用电脑
 description: "EtchDroid：一个开源 Android 应用，不需要 root，把 Linux 系统镜像直接写入 U 盘，出门在外也能做启动盘。"
 categories:
-  - 🛠️ 工具推荐
+  - 工具推荐
 image: https://bing.ee123.net/img/rand?seed=etchdroid
 ---
 
