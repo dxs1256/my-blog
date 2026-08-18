@@ -14,7 +14,7 @@ image: "https://bing.ee123.net/img/rand?seed=substracker-cloudflare-subscription
 
 我手机里现在躺着 7 个自动续费的订阅：iCloud、Netflix、机场、域名续费、eSIM 保号……每个月总有那么一两笔在账单日才想起来"哦原来我还开着这个"。
 
-之前试过用日历提醒、备忘录，但要么忘了加，要么到期日改了还得手动改，麻烦。后来翻到一个国人写的开源项目 [**SubsTracker**](https://github.com/wangwangit/SubsTracker)（⭐3.1k），部署在 Cloudflare Workers 上，一分钱不用花，管理订阅、到期提醒全搞定。
+之前试过用日历提醒、备忘录，但要么忘了加，要么到期日改了还得手动改，麻烦。后来翻到一个国人写的开源项目 **SubsTracker**（⭐3.1k），部署在 Cloudflare Workers 上，一分钱不用花，管理订阅、到期提醒全搞定。
 
 项目地址：https://github.com/wangwangit/SubsTracker
 
