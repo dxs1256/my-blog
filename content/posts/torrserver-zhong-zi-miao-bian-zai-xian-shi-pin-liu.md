@@ -15,7 +15,7 @@ image: "https://bing.ee123.net/img/rand?seed=torrserver-zhong-zi-miao-bian-zai-x
 
 看片不用等下载完，种子文件秒变在线视频流。
 
-最近发现了一个叫 [**TorrServer**](https://github.com/YouROK/TorrServer) 的开源项目，核心功能很简单：把种子数据通过 HTTP 缓存传输，让你在浏览器、电视、手机上直接播放，省掉下载等待和硬盘占用。
+最近发现了一个叫 **TorrServer** 的开源项目，核心功能很简单：把种子数据通过 HTTP 缓存传输，让你在浏览器、电视、手机上直接播放，省掉下载等待和硬盘占用。
 
 项目地址：https://github.com/YouROK/TorrServer
 
