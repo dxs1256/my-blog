@@ -11,7 +11,7 @@ tags:
 title: "Cloudflare 官方出手：把 AI 助手部署到 Workers"
 description: "Cloudflare 开源了 Moltworker，让你在 Workers 上跑 OpenClaw AI 助手，无需 VPS，Sandbox 容器 + R2 持久化 + 三重认证，$5/月起步。"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=moltworker"
 ---
 

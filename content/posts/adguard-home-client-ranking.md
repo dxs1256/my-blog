@@ -10,7 +10,7 @@ tags:
 title: "AdGuard Home 客户端排行全是路由器？DNS 端口交换方案一次解决"
 description: "软路由上 AdGuard Home 客户端排行 99.92% 都显示成路由器，看不到每台设备？根因是 PassWall 劫持了 53 端口导致设备 IP 丢失。本文记录完整排障过程与 DNS 端口交换方案，让客户端按设备独立统计。"
 categories:
-  - "软路由"
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=adguard-home-client-ranking"
 ---
 

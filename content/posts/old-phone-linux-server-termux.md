@@ -10,7 +10,7 @@ tags:
 title: "10元手机魔改为Linux桌面服务器，超低成本的家用服务器"
 description: "利用闲置旧手机通过Termux安装Linux桌面系统，打造超低成本的家用服务器，可用于智能家居控制、AI服务、电子相册等场景。"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=old-phone-linux-server-termux"
 ---
 

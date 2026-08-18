@@ -10,7 +10,7 @@ tags:
 title: "用 Sub2API 自建一个 AI 中转站"
 description: "用 Docker Compose 一键部署 Sub2API，把 Claude、Codex、Gemini 等 AI 账号统一管理起来，打造完全属于自己的 AI API 中转站，告别第三方平台的费率不透明和数据安全隐患。"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=sub2api-self-host-ai-api-gateway"
 ---
 

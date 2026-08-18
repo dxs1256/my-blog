@@ -11,7 +11,7 @@ tags:
 title: "免费节点自动化聚合系统，一个平台搞定所有代理订阅"
 description: "AutoScrapeFreeNodes 开源免费节点自动化抓取聚合系统，多源聚合、全协议兼容（Clash/V2ray/Sing-Box 等）、智能去重、自动更新，支持在线使用或自部署，一站式搞定代理订阅"
 categories:
-  - "工具推荐"
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=autoscrape-free-nodes-aggregator"
 ---
 

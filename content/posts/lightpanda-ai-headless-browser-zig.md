@@ -11,7 +11,7 @@ tags:
 title: "Lightpanda: 专为 AI 设计的无头浏览器"
 description: "发现 Lightpanda，一个完全从零用 Zig 编写的无头浏览器。专为 AI agent 和自动化设计，比 Headless Chrome 快 9 倍，内存占用少 16 倍。支持 Puppeteer、Playwright 和 MCP。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=lightpanda-ai-headless-browser-zig"
 ---
 

@@ -11,7 +11,7 @@ tags:
 title: "AI驱动的X推文净化神器"
 description: "MXGA、AI 后台静默识别：刷 X 评论区时有没有这种感受——一半是色情 Bot，另一半是割韭菜广告水军，正常讨论全被压到最底下？最近发现一个叫 MXGA 的开源 Chrome 扩展，专治"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=mxga-x-spam-filter"
 ---
 

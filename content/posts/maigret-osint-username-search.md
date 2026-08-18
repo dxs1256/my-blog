@@ -10,7 +10,7 @@ tags:
 title: "Maigret：输入一个用户名，3秒搜索全部社交账号的开源神器"
 description: "介绍GitHub上2.8万星的Maigret工具，只需一个用户名就能自动检索3000多个网站，搜索目标人物的全部社交账号，还能递归挖掘关联身份，支持AI分析和多种报告导出格式。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=maigret-osint-username-search"
 ---
 

@@ -9,7 +9,7 @@ tags:
 title: "BT/PT 种子站聚合索引器，一个接口搜遍全网"
 description: "Prowlarr、把所有搜索站集中到一块：玩 PT 的人都知道这种痛苦——手上一堆种子站，每次找资源得一个个站去搜，比来比去烦得很。 Prowlarr 就是干这个的。它把你收藏的几十个磁力搜索站、PT "
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=btpt"
 ---
 

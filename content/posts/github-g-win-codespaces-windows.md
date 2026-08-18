@@ -11,7 +11,7 @@ tags:
 title: "白嫖党狂喜！在GitHub上免费申请4核16G云服务器，还能跑Win11"
 description: "手把手教你用 GitHub Codespaces 白嫖一台 4 核 16GB 的云服务器，还能装 Windows 11，全程免费，有手就行。"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=github-g-win-codespaces-windows"
 ---
 

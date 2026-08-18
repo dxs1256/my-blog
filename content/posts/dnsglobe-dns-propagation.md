@@ -9,7 +9,7 @@ tags:
 title: "一条命令查全球DNS生效状态"
 description: "dnsglobe：开源终端工具，同时向34个全球DNS服务器查询域名解析，世界地图实时显示生效进度，盯梢模式自动等全部生效。"
 categories:
-  - 工具推荐
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=dnsglobe-dns-propagation"
 ---
 

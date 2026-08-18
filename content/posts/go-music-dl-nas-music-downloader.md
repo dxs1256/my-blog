@@ -11,7 +11,7 @@ tags:
 title: "NAS用户必备：这款开源音乐聚合工具，让你轻松Get全网歌单"
 description: "推荐开源音乐聚合工具 Go Music DL：支持网易云/QQ音乐/酷狗/Bilibili 等 10+ 平台，无损音质下载，NAS Docker 一键部署，配合极空间打造私人音乐库，告别多平台找歌烦恼。"
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=go-music-dl-nas-music-downloader"
 ---
 

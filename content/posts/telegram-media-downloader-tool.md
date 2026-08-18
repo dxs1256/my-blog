@@ -10,7 +10,7 @@ tags:
 title: "Telegram 私密频道下载神器：一个油猴脚本解锁全部媒体权限"
 description: "Telegram Media Downloader 让在私密频道里获取图片和视频变得轻松无比，专为想省心而不想失去自主下载权的 Telegram 话题爱好者打造。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=telegram-media-downloader-tool"
 ---
 

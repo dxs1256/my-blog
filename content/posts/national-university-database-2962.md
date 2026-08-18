@@ -9,7 +9,7 @@ tags:
 title: "全国高校数据库：2962所官方院校直达平台"
 description: "提供2962所高校的官方数据，帮助高考学生精准填报志愿。"
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=national-university-database-2962"
 ---
 

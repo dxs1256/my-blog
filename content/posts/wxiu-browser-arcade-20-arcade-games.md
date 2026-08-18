@@ -9,7 +9,7 @@ tags:
 title: "20款经典街机，浏览器免费畅玩"
 description: "BROWSER ARCADE 是一个在浏览器里运行的街机对战平台，收录了拳皇97、街头霸王、恐龙快打等20款经典街机游戏，无需注册即可免费畅玩，支持在线对战和协同闯关。"
 categories:
-  - 工具推荐
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=20-kuai-jing-dian-jie-ji-liu-lan-qi-mian-fei-chang-wan"
 ---
 

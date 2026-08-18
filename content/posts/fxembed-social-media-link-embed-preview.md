@@ -13,7 +13,7 @@ tags:
 title: "给社媒链接换个前缀，嵌入预览秒变正常"
 description: "FxEmbed 是一个开源工具，在 Twitter/X/Bluesky 链接前加个 fx 前缀，Discord、Telegram 就能正常展示视频、GIF、投票结果和图片墙。同时支持帖子翻译、API 数据获取、多图拼接等实用功能，基于 Cloudflare Worker 边缘计算架构，免费额度每天 10 万次请求。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=fxembed-social-media-link-embed-preview"
 ---
 

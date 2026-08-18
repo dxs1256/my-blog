@@ -12,7 +12,7 @@ tags:
 title: "天工AI SkyClaw 免费无限 Token，OpenClaw 完美适配"
 description: "天工AI SkyClaw 模型限时免费无限 Token，支持 OpenClaw/Hermes/Nanobot 两步接入，效果逼近 DeepSeek V4 Pro，适合追求低成本 Agent 模型的开发者。"
 categories:
-  - "技术资讯"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=skyclaw-free-agent-model"
 ---
 

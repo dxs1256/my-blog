@@ -11,7 +11,7 @@ tags:
 title: "影视仓 TV 端保姆级教程：配源、直播、4K 一次讲透"
 description: "影视仓 TV 端完整配置教程：从下载安装到配置点播源、直播源、4K 网盘 Cookie，零广告免费开源播放器，电视盒子观影一步到位"
 categories:
-  - "教程"
+  - 教程
 image: "https://bing.ee123.net/img/rand?seed=catvod-tv-tutorial-source-live-4k"
 ---
 

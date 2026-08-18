@@ -13,7 +13,7 @@ tags:
 title: "小米 HyperOS 去广告净化指南，ADB 卸载系统应用适配澎湃 1/2/3"
 description: "小米 HyperOS 系统去广告优化的完整教程。通过 ADB 命令卸载系统应用，关闭广告和反诈相关服务，适配 HyperOS 1/2/3（澎湃 1/2/3），不需 root。"
 categories:
-  - "教程"
+  - 教程
 image: "https://bing.ee123.net/img/rand?seed=xiaomi-hyperos-debloat-adb"
 ---
 

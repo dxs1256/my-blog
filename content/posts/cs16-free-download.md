@@ -8,7 +8,7 @@ tags:
 title: "CS1.6免费下载，重温经典"
 description: "安全干净、高FPS优化的CS1.6客户端，支持中文、多版本可选，一键开玩"
 categories:
-  - 资源推荐
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=cs16-free-download"
 ---
 

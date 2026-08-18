@@ -8,7 +8,7 @@ tags:
 title: "Cloudflare 零成本部署订阅管理"
 description: "一个基于 Cloudflare Workers 的轻量级订阅管理系统，部署零成本，支持 Telegram 等多种渠道推送到期提醒。"
 categories:
-  - 项目分享
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=substracker-cloudflare-subscription"
 ---
 

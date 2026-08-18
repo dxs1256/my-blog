@@ -10,7 +10,7 @@ tags:
 title: "电视盒子吃灰救星，收录全网Android TV应用"
 description: "收录全网 Android TV 应用的开源项目，覆盖直播、影视、工具等多分类，电视盒子用户的应用商店替代方案。"
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=tvapp-android-tv-apps"
 ---
 

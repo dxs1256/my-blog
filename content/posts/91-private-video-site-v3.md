@@ -12,7 +12,7 @@ tags:
 title: "个人私有视频站搭建方案，多网盘聚合 + 零带宽播放 + 自动Teaser"
 description: "GitHub、给自己和家人用的自托管方案：想自己搭个视频站，把 115、PikPak、OneDrive、Google Drive 上的视频统一管理？91 是一个面向个人私有部署的开源视频聚合站，Go 后"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=91-private-video-site-v3"
 ---
 

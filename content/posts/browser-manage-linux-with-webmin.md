@@ -10,7 +10,7 @@ tags:
 title: "不用 SSH，浏览器直接管理 Linux"
 description: "Webmin 是一款已经运行了 28 年的开源 Linux 管理面板，5900 Star，直接读写系统原生配置文件，116 个管理模块覆盖用户、防火墙、Web 服务、数据库等全流程运维场景，不绑架你的服务器环境。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=browser-manage-linux-with-webmin"
 ---
 

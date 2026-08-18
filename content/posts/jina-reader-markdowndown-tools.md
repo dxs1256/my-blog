@@ -10,7 +10,7 @@ tags:
 title: "两个免费网页转 Markdown 工具，爬虫好帮手"
 description: "发现两个免费的网页转 Markdown 工具：Jina Reader（URL 前加 r.jina.ai 直接把网页变 LLM 友好格式）和 MarkdownDown（一键转 Markdown 文件并下载图片），实测好用。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=jina-reader-markdowndown-tools"
 ---
 

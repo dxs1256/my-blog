@@ -9,7 +9,7 @@ tags:
 title: "Apple 设计风格，被提炼成了可复用的 Skill"
 description: "前 Vercel/Linear 设计师将 Apple WWDC 设计精华蒸馏成 Web 可用的代码模式，17 条原则让你写出一流的界面"
 categories:
-  - 工具推荐
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=apple-design-skill"
 ---
 

@@ -11,7 +11,7 @@ tags:
 title: "自托管下载神器，通吃1000+网站的视频音频"
 description: "ReClip 自托管下载神器，通吃 1000+ 网站的视频音频下载，支持多种格式与清晰度选择，适合内容离线存档的重度用户。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=reclip-self-hosted-downloader"
 ---
 

@@ -9,7 +9,7 @@ tags:
 title: "老照片修复提示词"
 description: "GPT Image 2 老照片修复提示词模板，修复老照片同时保留人物特征与复古质感，适合怀旧照片修复、家庭老照片数字化场景。"
 categories:
-  - "技术资讯"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-old-photo-restore"
 ---
 

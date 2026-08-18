@@ -10,7 +10,7 @@ tags:
 title: "一张照片变涂鸦壁画：GPT Image 2 创意人像提示词"
 description: "上传一张人像照，用 GPT Image 2 把它变成我在墙上画自己的涂鸦壁画风格，附完整中文提示词。"
 categories:
-  - "教程"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-mural-portrait-prompt-original"
 ---
 

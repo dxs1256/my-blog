@@ -10,7 +10,7 @@ tags:
 title: "发现一个云端AI编程工具：MiniMax-M2.7能免费无限用了"
 description: "实测云端AI编程平台Monkey Code，能免费无限量使用顶级编程大模型MiniMax-M2.7，代码质量接近Claude。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=monkey-code-cloud-ai-free-minimax"
 ---
 

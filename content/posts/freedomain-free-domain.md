@@ -9,7 +9,7 @@ tags:
 title: "162K Star 的永久免费域名项目"
 description: "DigitalPlat FreeDomain 永久免费域名项目（162K Star），提供免费二级域名注册与 DNS 管理，适合个人网站、博客、测试环境搭建。"
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=freedomain-free-domain"
 ---
 

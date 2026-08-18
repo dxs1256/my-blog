@@ -10,7 +10,7 @@ tags:
 title: "让 GitHub Star 不再是数字墓地：AI 自动分类管理神器"
 description: "一款用 AI 打理 GitHub Star 的开源工具，自动分类打标签、语义搜索、新版本跟踪，让几百上千个 Star 从数字墓地变成真正可用的资源库，适合收藏夹吃灰的重度 GitHub 玩家。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=github-stars-manager-ai"
 ---
 

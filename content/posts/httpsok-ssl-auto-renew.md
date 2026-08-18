@@ -13,7 +13,7 @@ tags:
 title: "SSL 证书自动续期工具，一行命令搞定 Nginx 证书续签"
 description: "httpsok 是 HTTPS 证书自动续期工具，一行命令一分钟搞定。自动识别 Nginx 配置完成证书续签，支持泛域名、多域名、多服务器，证书到期微信推送提醒，兼容各大云厂商 CDN/OSS。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=httpsok-ssl-auto-renew"
 ---
 

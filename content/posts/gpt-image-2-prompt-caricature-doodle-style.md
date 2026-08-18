@@ -10,7 +10,7 @@ tags:
 title: "提示词生成卡通涂鸦风格图像"
 description: "分享一个经过验证的 GPT Image 2.0 提示词，可将人物照片转换为卡通涂鸦风格。提示词核心：保持姿势一致、放大眼睛、不规整线条、添加心形星星等混乱 doodle、模仿青少年素描本日记风格。适合头像、meme、创意配图等场景。附完整参数解析和效果示例。"
 categories:
-  - "AI"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-prompt-caricature-doodle-style"
 ---
 

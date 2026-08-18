@@ -11,7 +11,7 @@ tags:
 title: "在 GitHub 挖到一款比油猴更狠的浏览器脚本插件：ScriptCat"
 description: "推荐 GitHub 开源项目 ScriptCat，完全兼容油猴脚本，支持后台运行和定时任务，内置云同步和智能编辑器，脚本控的终极选择。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=scriptcat-better-than-tampermonkey"
 ---
 

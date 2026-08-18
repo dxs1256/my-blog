@@ -8,7 +8,7 @@ tags:
 title: "一行命令测网络质量，BGP 回程全都有"
 description: "一个网络质量检测脚本，一行命令跑完 BGP 信息、三网回程路由、国内测速、国际互连等七大模块测试。"
 categories:
-  - 工具推荐
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=netcheck-network-test"
 ---
 

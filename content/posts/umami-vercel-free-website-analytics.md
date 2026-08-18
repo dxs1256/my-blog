@@ -11,7 +11,7 @@ tags:
 title: "Vercel 零成本部署 Umami，开源网站统计替代 Google Analytics"
 description: "Umami 开源轻量网站统计工具，部署在 Vercel 零成本运行。替代 Google Analytics，隐私友好、界面简洁、实时数据，几分钟就能拥有自己的网站统计后台"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=umami-vercel-free-website-analytics"
 ---
 

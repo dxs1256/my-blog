@@ -10,7 +10,7 @@ tags:
 title: "给个主题，AI 自动生成短视频"
 description: "8 万 Star 的开源项目 MoneyPrinterTurbo，输入一个主题或关键词就能全自动生成高清短视频，从文案、素材、字幕到背景音乐全部 AI 搞定，适合做自媒体短视频的内容创作者。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=money-printer-turbo-ai-video-generator"
 ---
 

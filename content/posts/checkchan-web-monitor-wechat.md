@@ -10,7 +10,7 @@ tags:
 title: "Check酱：网页变化实时监控，异动推送微信"
 description: "Check酱是一个开源网页内容监控工具，通过浏览器插件可视化选择监控区域，支持 DOM/HTTP/JSON/RSS 多种监控方式，变化异动即时推送微信。配合 Docker 自架云端，电脑关机后监测任务照样运行。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=checkchan-web-monitor-wechat"
 ---
 

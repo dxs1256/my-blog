@@ -11,7 +11,7 @@ tags:
 title: "免费白嫖 8核16G 云端 Ubuntu 工作站，实测 1.3Gbps"
 description: "Vocon Cloud 免费提供 8 核 16GB 的云端 Ubuntu 桌面，实测下载速度 1.3Gbps。浏览器即可访问，预装 Cursor、VS Code 等开发工具，支持 K8S 持久化存储。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=vocon-cloud-free-ubuntu-workstation"
 ---
 

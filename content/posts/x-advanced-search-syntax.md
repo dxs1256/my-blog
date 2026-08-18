@@ -11,7 +11,7 @@ tags:
 title: "精准过滤你想要的推文"
 description: "搜索中文视频内容、点赞过千：、搜索中文图片内容、点赞过百：：X 的搜索框大多数人只用来搜关键词，但其实它内置了一套搜索参数语法。组合起来用，可以精准筛选语言、内容类型、点赞数、时间范围，把有效信息从海量推文中捞出来"
 categories:
-  - "教程"
+  - 教程
 image: "https://bing.ee123.net/img/rand?seed=x-advanced-search-syntax"
 ---
 

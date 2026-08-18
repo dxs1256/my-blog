@@ -11,7 +11,7 @@ tags:
 title: "Chrome 146 内置 MCP 支持：一键把浏览器变成 AI Agent 的操作界面"
 description: "Chrome 146 悄悄内置了 MCP 支持，只需开启一个开关，就能把当前浏览器会话通过 MCP 协议暴露给 AI Agent。让 AI 直接帮你操作浏览器，批量处理网页任务。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=chrome-146-mcp-ai-agent-browser"
 ---
 

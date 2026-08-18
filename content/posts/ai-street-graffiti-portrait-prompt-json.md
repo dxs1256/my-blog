@@ -11,7 +11,7 @@ tags:
 title: "AI 生成街头涂鸦合照提示词：4 种主题场景，JSON 直接可用"
 description: "发现一套超实用的 AI 涂鸦合照提示词，上传照片即可生成街头涂鸦风格合照。内置新年、赛博、民国、国潮四种主题，JSON 格式直接复制使用。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=ai-street-graffiti-portrait-prompt-json"
 ---
 

@@ -8,7 +8,7 @@ tags:
 title: "拖个文件夹就能上线"
 description: "Cloudflare 新出的 Drop 工具，把文件夹往浏览器一拖就能全球上线，不用注册不用服务器，门槛低到离谱。"
 categories:
-  - 工具推荐
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=cloudflare-drop-drag-deploy"
 ---
 

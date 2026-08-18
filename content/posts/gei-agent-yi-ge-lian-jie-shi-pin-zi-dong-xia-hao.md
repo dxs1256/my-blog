@@ -8,7 +8,7 @@ tags:
 title: "给 Agent 一个链接，视频自动下好"
 description: "video-catcher：一个开源视频下载 Skill，支持 23 个平台，自动 fallback 链路，你的 Agent 从此能自己下视频了。"
 categories:
-  - 工具推荐
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=gei-agent-yi-ge-lian-jie-shi-pin-zi-dong-xia-hao"
 ---
 

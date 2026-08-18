@@ -11,7 +11,7 @@ tags:
 title: "把十六家的免费额度凑到一个接口里"
 description: "FreeLLMAPI 聚合 16 家大模型平台的免费额度，约每月 17 亿 Token，OpenAI 兼容、自动切换限流、带管理面板和桌面客户端，适合不想在前期测试阶段花冤枉钱的开发者"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=freellmapi-aggregate-llm-free-tier"
 ---
 

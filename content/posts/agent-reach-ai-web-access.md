@@ -11,7 +11,7 @@ tags:
 title: "Agent Reach：让 AI Agent 免费读遍全网的开源神器"
 description: "Agent Reach 是一款完全开源免费的工具，支持 15+ 主流平台内容获取，零 API 费用让 AI Agent 拥有全网访问能力。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=agent-reach-ai-web-access"
 ---
 

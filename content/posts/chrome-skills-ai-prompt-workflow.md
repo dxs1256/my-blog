@@ -11,7 +11,7 @@ tags:
 title: "Chrome 推出 Skills 功能：让高频 AI 提示词一键调用"
 description: "Google Chrome 推出 Skills 功能，可将高频 AI 提示词保存为一键工作流，支持页面上下文感知和多标签页协同，大幅提升浏览效率。"
 categories:
-  - "技术资讯"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=chrome-skills-ai-prompt-workflow"
 ---
 

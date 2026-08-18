@@ -9,7 +9,7 @@ tags:
 title: "把B站变成你的歌曲下载软件"
 description: "把 B 站变成歌曲下载库，支持音频提取、歌单批量下载，B 站音乐爱好者和离线收听需求用户的实用工具。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=bilibili-audio-extractor"
 ---
 

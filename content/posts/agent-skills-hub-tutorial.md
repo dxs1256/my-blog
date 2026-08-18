@@ -9,7 +9,7 @@ tags:
 title: "AI Agent 工具聚合平台实战：Agent Skills Hub 使用教程"
 description: "一篇实战教程，介绍如何使用 Agent Skills Hub 平台快速搜索、筛选并部署 AI Agent Skills，包括场景分类导航、高质量项目识别技巧、从复制命令到测试的完整流程。"
 categories:
-  - "教程"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=agent-skills-hub-tutorial"
 ---
 

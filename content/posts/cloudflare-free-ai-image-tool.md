@@ -10,7 +10,7 @@ tags:
 title: "白嫖党狂喜！用Cloudflare免费搭个AI画图工具"
 description: "利用Cloudflare Workers免费搭建AI文生图服务，支持FLUX、SDXL等主流模型，白嫖Cloudflare算力，无需服务器。"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=cloudflare-free-ai-image-tool"
 ---
 

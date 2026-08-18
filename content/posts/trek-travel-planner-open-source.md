@@ -8,7 +8,7 @@ tags:
 title: "TREK：开源旅行规划工具，多人协作做攻略"
 description: "TREK 是一款免费开源的旅行规划工具，支持多人实时协作、预算管理、预订追踪、行李清单等功能，PWA离线可用，Docker一键部署。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=trek-travel-planner-open-source"
 ---
 

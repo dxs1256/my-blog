@@ -10,7 +10,7 @@ tags:
 title: "Android 7.0+ HTTPS抓包：系统级证书安装完整指南"
 description: "Android 7.0+ 不再信任用户证书导致 HTTPS 抓包失败，本文整理从证书转换、ADB 推送到系统目录的完整流程，覆盖 Root/Magisk/证书哈希计算和常见排错。"
 categories:
-  - "教程"
+  - 教程
 image: "https://bing.ee123.net/img/rand?seed=android-7-cert-install"
 ---
 

@@ -9,7 +9,7 @@ tags:
 title: "Docker部署IPTV源"
 description: "一行命令自建IPTV直播源，换台无卡顿，Potplayer直接播放。"
 categories:
-  - 教程
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=iptv-docker-deploy"
 ---
 

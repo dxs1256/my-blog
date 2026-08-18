@@ -10,7 +10,7 @@ tags:
 title: "免费无限视频托管，支持4K/HLS直链嵌入"
 description: "Media.CM 免费视频托管平台，10GB 永久存储，支持 4K/HLS 自适应串流、HTML5 播放器、视频嵌入与白标去品牌，个人站长和开发者的轻量级视频 CDN 替代方案。"
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=media-cm-free-video-hosting"
 ---
 

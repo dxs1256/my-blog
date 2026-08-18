@@ -9,7 +9,7 @@ tags:
 title: "237家免费AI额度串起来，封顶16亿Token"
 description: "OmniRoute —— 一个本地跑的AI网关，聚合237家AI供应商的免费额度，支持自动切换、Token压缩，每月白嫖16亿Token。"
 categories:
-  - 工具推荐
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=omniroute-free-ai-gateway"
 ---
 

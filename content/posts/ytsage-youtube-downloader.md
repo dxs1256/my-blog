@@ -10,7 +10,7 @@ tags:
 title: "一行命令搞定 YouTube 视频下载的开源神器"
 description: "YTSage 开源 YouTube 视频下载工具，一行命令完成下载，支持 4K/8K 高清、播放列表批量下载，开发者与视频收藏者的命令行利器。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=ytsage-youtube-downloader"
 ---
 

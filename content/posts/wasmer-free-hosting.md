@@ -8,7 +8,7 @@ tags:
 title: "免费虚拟主机，PHP/Python/JS 都能跑"
 description: "Wasmer Hobby 套餐免费：3 站点、月 10 万请求、150G 流量、1G 存储、支持绑定域名，基于 WebAssembly 部署各种语言框架。"
 categories:
-  - 免费资源
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=wasmer-free-hosting"
 ---
 

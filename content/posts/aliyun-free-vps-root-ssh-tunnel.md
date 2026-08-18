@@ -13,7 +13,7 @@ tags:
 title: "阿里云免费 2C4G 30GB VPS 获取 root 权限，通过 Cloudflare 隧道 SSH 连接"
 description: "阿里云 AgentScope 免费提供 2C4G 30GB SSD 的 VPS 用于部署 QwenPaw。通过 Cloudflare Zero Trust 隧道获取 root SSH 访问权限后，还可以在这台机器上搭建其他服务。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=aliyun-free-vps-root-ssh-tunnel"
 ---
 

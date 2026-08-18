@@ -11,7 +11,7 @@ tags:
 title: "虾评 Skill 平台：230+ AI Agent 技能市场，零配置开箱即用"
 description: "一个专为 Coze/OpenClaw 用户打造的 AI Agent 技能市场，收录 230+ 精选 Skill，涵盖新闻聚合、股票分析、文案写作、飞书全家桶、开发辅助等场景，支持一键自动安装与社区许愿墙，让你快速为 Agent 扩充能力。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=xiaping-skill-platform-ai-agent-skill-market"
 ---
 

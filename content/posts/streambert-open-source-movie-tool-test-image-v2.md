@@ -9,7 +9,7 @@ tags:
 title: "周末看电影总被广告折磨？这款开源神器零广告零追踪，体验瞬间起飞"
 description: "周末想放松看个电影，结果被广告轮番轰炸，好不容易找到资源还卡成PPT。这种折磨人的体验，相信很多人都有过。如果找不到好用的工具，你的周末时间就这样在寻找资源和忍受广告中浪费了，原本期待的放松变成了新的焦虑。今天给大家安利一个我最近发现的宝藏项目：Streambert。它就像你口袋里的私人影院，干净、纯粹，且开箱即用。"
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=streambert-open-source-movie-tool-test-image-v2"
 ---
 

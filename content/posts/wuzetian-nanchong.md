@@ -9,7 +9,7 @@ tags:
 title: "武则天:朕要温柔不要猛男"
 description: "《控鹤监秘记》武后后宫野史,罕见的女性视角品评男宠:荔枝入昧、节奏为王、猛男退散,原文+整活翻译"
 categories:
-  - 文学趣谈
+  - 资讯与杂谈
 image: "https://bing.ee123.net/img/rand?seed=wuzetian-nanchong"
 ---
 

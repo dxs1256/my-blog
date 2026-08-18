@@ -10,7 +10,7 @@ tags:
 title: "2026最新教程：Cloudflare Workers IPTV重大更新修复+变量增强，高清直播满血复活"
 description: "Cloudflare Workers IPTV 重大更新教程，修复问题并增强变量功能，让高清直播满血复活"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=cloudflare-workers-iptv-update-2026"
 ---
 

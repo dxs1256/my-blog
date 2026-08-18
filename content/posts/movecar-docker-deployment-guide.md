@@ -7,7 +7,7 @@ tags:
 title: "MoveCar Docker部署指南：私家车管理系统私有化部署完整教程"
 description: "详细介绍MoveCar Docker项目的私有化部署全过程，包括系统架构、环境变量配置、多用户设置、Bark通知代理配置等核心内容。提供完整的Docker Compose部署步骤和避坑指南。"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=movecar-docker-deployment-guide"
 ---
 

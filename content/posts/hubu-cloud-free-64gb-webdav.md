@@ -11,7 +11,7 @@ tags:
 title: "德国免费 64GB 云存储，支持 WebDAV"
 description: "HuBu.Cloud、隐私优先：白嫖云盘又添新选择——HuBu.Cloud 是德国 DeepSheep UG 运营的云存储服务，免费 64GB，支持 WebDAV，不限制文件类型，注重隐私保护"
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=hubu-cloud-free-64gb-webdav"
 ---
 

@@ -10,7 +10,7 @@ tags:
 title: "做爬虫不用愁！用 Proxifly 获取 800+ 实时可用免费代理"
 description: "Proxifly 开源代理管理工具，聚合 800+ 实时可用免费代理，自动验证去重，适合爬虫开发者和需要大量代理 IP 的用户。"
 categories:
-  - "教程"
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=proxifly-free-proxy-800"
 ---
 

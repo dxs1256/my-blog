@@ -8,7 +8,7 @@ tags:
 title: "NotionNext 中文字体预览与配置指南"
 description: "NotionNext 支持的 6 款中文字体预览对比，包括霞鹜文楷、思源宋体、思源黑体、得意黑、悠哉字体等，附 NOTION_CONFIG 配置方法"
 categories:
-  - "教程"
+  - 教程
 image: "https://bing.ee123.net/img/rand?seed=notionnext-chinese-font-preview-guide"
 ---
 

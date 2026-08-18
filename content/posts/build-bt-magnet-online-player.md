@@ -10,7 +10,7 @@ tags:
 title: "Webtor：一行Docker命令搭建私有磁力链在线播放平台"
 description: "Webtor 是 webtor.io 的开源自托管版本，一行 Docker 命令即可搭建磁力链在线播放平台，支持浏览器直接串流播放视频音频、自动识别影视资源、打包下载和 Stremio 集成，是家庭影院和影视资源管理的轻量级方案。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=build-bt-magnet-online-player"
 ---
 

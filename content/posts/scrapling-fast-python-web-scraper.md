@@ -6,7 +6,7 @@ tags:
 title: "比 BeautifulSoup 快 774 倍！这个爬虫工具让我彻底告别选择器维护"
 description: "推荐 Scrapling 爬虫框架：774 倍性能提升、原生绕过 Cloudflare、自适应解析不再怕网站改版，AI 原生设计让爬虫开发进入新时代。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=scrapling-fast-python-web-scraper"
 ---
 

@@ -8,7 +8,7 @@ tags:
 title: "电视盒子免费看全网资源"
 description: "TvBox三款存活软件 + 40+可用接口 + 自建源聚合服务教程，软件推荐到进阶部署一篇搞定，家里有电视盒子的直接抄作业"
 categories:
-  - 工具推荐
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=tvbox-free-resources"
 ---
 

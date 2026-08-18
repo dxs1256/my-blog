@@ -10,7 +10,7 @@ tags:
 title: "Seedance 2.0 提示词精选库：200+ 高质量视频生成案例，每天更新"
 description: "发现一个 Seedance 2.0 的精选提示词库，收录 200+ 高质量案例（百万播放级别），涵盖 CGI 对战、动漫改编、短片制作等场景，包含详细的镜头、灯光与物理参数，支持每日更新与一键复制。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=seedance-2-0-high-quality-prompts-collection"
 ---
 

@@ -9,7 +9,7 @@ tags:
 title: "Chrome浏览器后台偷装4GB AI大模型，删了还会自动重下"
 description: "谷歌Chrome浏览器在用户不知情的情况下，后台自动下载约4GB的Gemini Nano模型文件，用于驱动辅助写作、诈骗检测等AI功能。本文详解事件经过及彻底禁用方法。"
 categories:
-  - "技术资讯"
+  - 资讯与杂谈
 image: "https://bing.ee123.net/img/rand?seed=chrome-silent-gemini-nano-download"
 ---
 

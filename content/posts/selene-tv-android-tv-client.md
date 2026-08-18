@@ -11,7 +11,7 @@ tags:
 title: "安卓电视盒子沉浸式观影客户端，多源聚合搜索 Apple TV 风格界面"
 description: "Selene-TV 是专为电视大屏和遥控器打造的沉浸式观影客户端。多源聚合搜索、Apple TV 风格详情页、ExoPlayer/mpv 双核播放、手机扫码遥控、弹幕聚合，最低支持安卓 6.0。"
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=selene-tv-android-tv-client"
 ---
 

@@ -11,7 +11,7 @@ tags:
 title: "一行命令部署翻墙节点：XHTTP-Installer 让 VLESS+TLS 配置实现全自动化"
 description: "一个能让你一行命令搞定 VLESS+XHTTP+TLS 全套部署的开源工具，自动申请证书、推 CDN、测试连通性，流量走 Vercel/Netlify 中转彻底隐藏源站 IP，适合不想折腾配置的翻墙用户。"
 categories:
-  - "工具推荐"
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=xhttp-installer-auto-deploy-vless-tls"
 ---
 

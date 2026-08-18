@@ -11,7 +11,7 @@ tags:
 title: "一个网站看遍全球电视台，36万次浏览的宝藏工具"
 description: "发现 tv.garden，一个可以观看全球各地电视台的网站。亲测有效，支持伊朗、美国等多国电视台，随时随地看全球直播。"
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=tv-garden-watch-global-tv-channels"
 ---
 

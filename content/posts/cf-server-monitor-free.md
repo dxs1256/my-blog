@@ -13,7 +13,7 @@ tags:
 title: "基于 Cloudflare Workers 的免费多服务器监控探针，零成本部署"
 description: "CF-Server-Monitor 是基于 Cloudflare Workers + D1 的多服务器监控探针系统，零成本部署，支持 CPU/内存/磁盘/网络实时监控、历史图表、离线告警、地图展示。兼容 Linux、OpenWrt、Windows。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=cf-server-monitor-free"
 ---
 

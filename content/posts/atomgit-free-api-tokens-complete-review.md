@@ -10,7 +10,7 @@ tags:
 title: "AtomGit提供无限免费大模型API Tokens，是吹牛还是货真价实，我帮你完整测评"
 description: "对AtomGit AI社区提供的无限免费大模型API Tokens进行完整测评。包括账户注册、免费资源获取、无限Token模型预领、Web界面测试、API方式稳定性测试等详细内容。测评结果显示GLM-5量化版和Qwen 3.5模型服务稳定性良好，可用性达到90%，而GLM-5原始版目前存在功能性阻塞问题。"
 categories:
-  - "技术资讯"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=atomgit-free-api-tokens-complete-review"
 ---
 

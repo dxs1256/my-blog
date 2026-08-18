@@ -11,7 +11,7 @@ tags:
 title: "周末自驾地图神器：一键生成 5 小时驾驶圈，告别周末去哪儿的烦恼"
 description: "发现一个超实用的周末自驾地图工具，只需选择城市，即可一键生成 5 小时内的驾驶覆盖范围，帮你快速发现周边好去处，彻底解决周末去哪儿玩的难题。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=weekend-drive-escape-map-5-hour-radius"
 ---
 

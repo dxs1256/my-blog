@@ -10,7 +10,7 @@ tags:
 title: "6个开源影视平台，4K私人影院一键部署"
 description: "推荐6个开源免费影视平台：movie-web、GoFilm、LibreTV、OrangeTV、MoonCakeTV、MoonTV，支持4K+HDR、秒开零缓冲，一键部署终身白嫖。"
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=6-open-source-movie-platforms"
 ---
 

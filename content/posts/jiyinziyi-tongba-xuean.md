@@ -9,7 +9,7 @@ tags:
 title: "一个尿桶引发的血案"
 description: "清代嫂子后门放桶蹲点钓来屠户,小姑子排队到自闭,气得上吊,官府嫌口供太黄,杖八十结案"
 categories:
-  - 文学趣谈
+  - 资讯与杂谈
 image: "https://bing.ee123.net/img/rand?seed=jiyinziyi-tongba-xuean"
 ---
 

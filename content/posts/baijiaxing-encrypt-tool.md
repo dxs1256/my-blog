@@ -9,7 +9,7 @@ tags:
 title: "想分享链接又怕被和谐？这个百家姓加密神器，把网址伪装成赵钱孙李"
 description: "链接怕被屏蔽？试试百家姓暗号工具，把网址伪装成赵钱孙李的中文文本，开源免费、零门槛使用，还能双向解密，完美隐藏你的真实意图。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=baijiaxing-encrypt-tool"
 ---
 

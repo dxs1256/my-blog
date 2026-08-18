@@ -10,7 +10,7 @@ tags:
 title: "Validrive：U 盘/移动硬盘/SD 卡扩容检测神器，一键识别虚假容量"
 description: "ValiDrive 是 GRC 开发的免费绿色工具，专门检测 U 盘、移动硬盘、SD 卡等存储设备是否为扩容盘。单文件、免安装、操作简单，可快速识别虚假容量，避免数据丢失风险。支持 Windows 系统，提供安装版和绿色版两种选择。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=validrive-storage-capacity-tester"
 ---
 

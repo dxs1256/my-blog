@@ -10,7 +10,7 @@ tags:
 title: "全网热点聚合、AI 总结自动推送"
 description: "TrendRadar 是一个 58.9k Star 的开源全网热点聚合器，自动抓取微博热搜、知乎热榜、抖音热点等十几个平台的热门内容，通过 AI 总结翻译后推送给你，30 秒即可部署。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=hotspot-aggregator-ai-summary-trendradar"
 ---
 

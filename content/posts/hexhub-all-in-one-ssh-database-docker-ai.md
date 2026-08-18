@@ -12,7 +12,7 @@ tags:
 title: "SSH、数据库、Docker、AI 全揉进一个桌面客户端"
 description: "HexHub 开源跨平台桌面客户端，整合 SSH 终端、20+ 数据库、Docker 容器管理、SFTP 文件传输和 30+ AI 工具链，一个窗口搞定所有运维操作，社区版永久免费"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=hexhub-all-in-one-ssh-database-docker-ai"
 ---
 

@@ -11,7 +11,7 @@ tags:
 title: "免费使用 GPT 5.5、Grok 4.20 等 10 款旗舰 AI 模型"
 description: "Stack AI 免费计划上线了！无需信用卡，Google 登录即可使用 GPT 5.5、Grok 4.20、Kimi K2.6 等 10 款旗舰模型。每天 100 万 tokens，每月 500 次 Agent 调用，还支持 MCP 协议和 API 工作流自动化。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=stack-ai-free-premium-models"
 ---
 

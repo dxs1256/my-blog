@@ -10,7 +10,7 @@ tags:
 title: "学生教育优惠导航：100+免费/折扣资源一站式汇总"
 description: "学生教育优惠导航站推荐，收录100+教育邮箱可申请的免费/折扣资源，涵盖AI工具、开发软件、云服务、设计工具、娱乐订阅等全品类"
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=student-education-discount-navigation"
 ---
 

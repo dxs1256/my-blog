@@ -10,7 +10,7 @@ tags:
 title: "OpenWrt 软路由代理管理插件，双内核一键切换"
 description: "针对 OpenWrt 系统的 Clashoo 代理管理插件，同时集成 clash/Mihomo 和 Sing-box 双内核，支持一键切换、可视化配置，适合在软路由上管理翻墙代理的玩家。"
 categories:
-  - "工具推荐"
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=clashoo-openwrt-dual-core-proxy-plugin"
 ---
 

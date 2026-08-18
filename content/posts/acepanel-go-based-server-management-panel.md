@@ -10,7 +10,7 @@ tags:
 title: "Go 语言开发的企业级服务器运维管理面板"
 description: "介绍 AcePanel：一个用 Go 语言编写的企业级服务器运维管理面板。特点：单文件运行、极低资源占用、对系统修改少、支持离线模式、全开源永久免费。适合小内存 VPS、重视系统干净度的用户。一键安装，提供网站、数据库、文件、监控等完整功能。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=acepanel-go-based-server-management-panel"
 ---
 

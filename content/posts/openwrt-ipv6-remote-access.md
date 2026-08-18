@@ -8,7 +8,7 @@ tags:
 title: "零成本外网远程访问OpenWrt｜公网IPv6保姆级教程"
 description: "零成本实现公网 IPv6 远程管理 OpenWrt，免插件、免付费，适配三大运营商"
 categories:
-  - "工具推荐"
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=openwrt-ipv6-remote-access"
 ---
 

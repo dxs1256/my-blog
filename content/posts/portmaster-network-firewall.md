@@ -9,7 +9,7 @@ tags:
 title: "电脑里藏着多少内鬼？这款GitHub开源神器让流氓软件无处遁形"
 description: "Portmaster 是一款开源免费的应用防火墙，目前获得12,000+ Star，可以监控电脑所有网络连接，拦截广告和追踪器，保护网络隐私安全。支持 Windows 和 Linux 系统。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=portmaster-network-firewall"
 ---
 

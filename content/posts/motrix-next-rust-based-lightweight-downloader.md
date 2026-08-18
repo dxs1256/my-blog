@@ -11,7 +11,7 @@ tags:
 title: "用 Rust 重写的轻量级跨平台下载工具"
 description: "介绍 Motrix Next：用 Rust + Tauri 2 重写的跨平台下载工具，安装包体积从 80MB 降至 20MB（减少75%）。保持全平台支持（Windows/macOS/Linux）、多协议（HTTP/BT/磁力）、智能功能（自动分类、剪贴板监控、浏览器扩展）。适合追求轻量高效的用户。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=motrix-next-rust-based-lightweight-downloader"
 ---
 

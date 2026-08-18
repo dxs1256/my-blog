@@ -9,7 +9,7 @@ tags:
 title: "免翻导航网站：500.im 提供多个网站免翻地址"
 description: "论坛网友分享的免翻导航网站，提供多个网站的免翻地址，访问流畅"
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=free-access-navigation-500-im"
 ---
 

@@ -8,7 +8,7 @@ tags:
 title: "洛雪音乐音源指南，告别空壳一键导入"
 description: "洛雪音乐 LX Music 音源配置指南，推荐 pdone 的 7 套免费音源，在线一键导入，永久收藏。"
 categories:
-  - 教程
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=lxmusic-blog"
 ---
 

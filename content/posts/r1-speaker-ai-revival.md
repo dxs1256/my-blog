@@ -10,7 +10,7 @@ tags:
 title: "R1 音箱 AI 复活方案"
 description: "让斐讯音箱接入大模型，解锁音乐、故事、广播、AI对话等功能的开源方案"
 categories:
-  - "工具推荐"
+  - 教程
 image: "https://bing.ee123.net/img/rand?seed=r1-speaker-ai-revival"
 ---
 

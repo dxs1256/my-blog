@@ -10,7 +10,7 @@ tags:
 title: "不用U盘，桌面点几下就能重装系统"
 description: "LetRecovery：在Windows桌面直接跑完重装流程，Rust+egui开发，零U盘零BIOS"
 categories:
-  - 工具推荐
+  - 教程
 image: "https://bing.ee123.net/img/rand?seed=no-usb-reinstall-system"
 ---
 

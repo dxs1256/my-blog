@@ -12,7 +12,7 @@ tags:
 title: "全网第一隐形浏览器开源，反检测拉满"
 description: "CloakBrowser、GitHub：做爬虫的朋友都懂这种痛：好不容易写好的脚本，跑了两天突然全部 403。Cloudflare 升了一次级，你的 Selenium 配置就废了。 更离谱的是，现在连"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=cloakbrowser-stealth-browser"
 ---
 

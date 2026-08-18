@@ -7,7 +7,7 @@ tags:
 title: "更猛了，新坦克700变了哪？——长城硬派越野旗舰全面升级"
 description: "老司机出品频道深度评测长城坦克700新款车型。新坦克700在外观、动力、科技配置等方面全面升级，搭载 Hi4-Z 混动系统，860马力+激光雷达，23分钟带你详细了解这款硬派越野旗舰的变化。"
 categories:
-  - "工具推荐"
+  - 资讯与杂谈
 image: "https://bing.ee123.net/img/rand?seed=tank-700-upgrade-review-2026"
 ---
 

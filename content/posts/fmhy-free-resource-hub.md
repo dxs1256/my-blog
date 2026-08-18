@@ -8,7 +8,7 @@ tags:
 title: "FMHY：互联网免费资源终极宝库"
 description: "汇集数千个已验证免费资源的巨型索引库，覆盖影视、音乐、游戏、软件、AI等所有领域"
 categories:
-  - 工具推荐
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=fmhy-free-resource-hub"
 ---
 

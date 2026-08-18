@@ -9,7 +9,7 @@ tags:
 title: "9Router：免费无限用Claude/GPT/Gemini的开源AI代理路由器"
 description: "推荐开源项目9Router，本地部署的AI代理路由器，统一接入Claude Code、Cursor等编程工具，智能路由到40+提供商的免费/低价额度，支持自动故障转移、多账号轮询和Token压缩。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=9router-free-ai-proxy-router"
 ---
 

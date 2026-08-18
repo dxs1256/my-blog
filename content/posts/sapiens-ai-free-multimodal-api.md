@@ -11,7 +11,7 @@ tags:
 title: "Sapiens AI 全模态 API 无限期免费，附保姆级接入教程"
 description: "Sapiens AI、无限期免费开放：新加坡 AI 公司 Sapiens AI 最近搞了个大动作——全模态（文本、图片、视频）API 面向全球开发者无限期免费开放。 这不是蹭热度的噱头，我已经测过"
 categories:
-  - "AI"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=sapiens-ai-free-multimodal-api"
 ---
 

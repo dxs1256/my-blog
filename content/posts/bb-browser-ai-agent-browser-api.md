@@ -11,7 +11,7 @@ tags:
 title: "bb-browser: 让你的浏览器成为 AI Agent 的 API"
 description: "发现 bb-browser，一个让 AI Agent 直接利用你已登录浏览器状态的工具。支持 36 个平台 103 个命令，通过 CLI 或 MCP Server 控制 Chrome，无需 API Key。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=bb-browser-ai-agent-browser-api"
 ---
 

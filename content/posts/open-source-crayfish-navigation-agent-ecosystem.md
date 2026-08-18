@@ -7,7 +7,7 @@ tags:
 title: "开源小龙虾导航站：Agent生态聚合平台"
 description: "一个开源的小龙虾导航站，全面聚合AI Agent生态，包括各大模型厂商的coding plan、API地址和Agent平台，为开发者提供一站式解决方案。"
 categories:
-  - "工具推荐"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=open-source-crayfish-navigation-agent-ecosystem"
 ---
 

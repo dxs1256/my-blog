@@ -11,7 +11,7 @@ tags:
 title: "免费图片视频 CDN 加速，每月 1000 次转换"
 description: "Uploadcare、官网地址：网站图片加载慢、视频播放卡顿，又不想花钱买 CDN？最近看到一个叫 Uploadcare 的平台，专门做图片和视频的 CDN 加速托管，免费套餐每月 1000 "
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=uploadcare-free-image-cdn"
 ---
 

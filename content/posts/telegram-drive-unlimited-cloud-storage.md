@@ -8,7 +8,7 @@ tags:
 title: "Telegram收藏夹变无限容量网盘：Telegram-Drive工具详解"
 description: "介绍Telegram-Drive这款开源跨平台桌面应用，将Telegram账号变成标准的无限容量云存储网盘，通过利用收藏夹和私有频道实现文件管理功能。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=telegram-drive-unlimited-cloud-storage"
 ---
 

@@ -11,7 +11,7 @@ tags:
 title: "重装系统后的配置马拉松，WinUtil 一条命令全搞定"
 description: "WinUtil 开源 Windows 系统维护工具：一键批量安装软件、系统瘦身去臃肿、优化设置、修复更新，管理员 PowerShell 一条命令启动，56.5k GitHub 星标"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=winutil-windows-utility-install-tweaks"
 ---
 

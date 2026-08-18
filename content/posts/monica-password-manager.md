@@ -11,7 +11,7 @@ tags:
 title: "开源密码管理器，本地存储安全感拉满"
 description: "Monica、密码全存本地，不进任何云服务器：密码管理器用了一堆，总有点不放心——Bitwarden 服务器在国外、KeePass 又太硬核。最近发现一个叫 Monica 的开源项目，把两者的优点合在一起"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=monica-password-manager"
 ---
 

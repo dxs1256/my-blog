@@ -11,7 +11,7 @@ tags:
 title: "GitHub 神级仓库：1000+ 免费公共 API 大全，开发者必备神器"
 description: "GitHub 热门开源项目，汇集 1000+ 免费公共 API，覆盖 70+ 领域。社区手动维护，质量高，持续更新。包含天气、金融、娱乐、科学等各类 API，是开发者找接口的神器。"
 categories:
-  - "工具推荐"
+  - 资源合集
 image: "https://bing.ee123.net/img/rand?seed=github-free-public-apis-collection"
 ---
 

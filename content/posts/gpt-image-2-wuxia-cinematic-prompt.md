@@ -11,7 +11,7 @@ tags:
 title: "人像变古风武侠大片：GPT Image 2 电影感古装提示词"
 description: "上传人像照，用 GPT Image 2 生成电影感的古风武侠大片，低角度构图、宫殿光影、风吹发丝，附完整中文提示词。"
 categories:
-  - "教程"
+  - AI
 image: "https://bing.ee123.net/img/rand?seed=gpt-image-2-wuxia-cinematic-prompt"
 ---
 

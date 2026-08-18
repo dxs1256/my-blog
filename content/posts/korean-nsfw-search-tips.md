@@ -8,7 +8,7 @@ tags:
 title: "有了自动翻译，我开始沉迷韩语色情内容了，太劲爆了！"
 description: "分享 X/Twitter 上韩语 NSFW 内容的搜索技巧和关键词，包括 filter 和 lang 的高级搜索用法。"
 categories:
-  - "技术资讯"
+  - 资讯与杂谈
 image: "https://bing.ee123.net/img/rand?seed=korean-nsfw-search-tips"
 ---
 

@@ -9,7 +9,7 @@ tags:
 title: "免费代理自动体检中心"
 description: "自托管代理检测面板，自动拉取公共代理源批量测活筛选，生成稳定 TXT/JSON 直链供脚本拉取。"
 categories:
-  - 工具推荐
+  - 软路由与网络
 image: "https://bing.ee123.net/img/rand?seed=proxy-checker"
 ---
 

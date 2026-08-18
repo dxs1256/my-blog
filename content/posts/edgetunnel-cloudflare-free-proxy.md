@@ -10,7 +10,7 @@ tags:
 title: "用 Cloudflare + 一个域名搭建永久免费节点，告别付费机场"
 description: "edgetunnel 基于 Cloudflare Workers/Pages 搭建永久免费代理节点，无需服务器零成本部署，适合需要稳定翻墙的个人用户。"
 categories:
-  - "教程"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=edgetunnel-cloudflare-free-proxy"
 ---
 

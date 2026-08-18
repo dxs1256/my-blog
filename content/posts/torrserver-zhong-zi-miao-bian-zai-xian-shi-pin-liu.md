@@ -9,7 +9,7 @@ tags:
 title: "TorrServer：种子秒变在线视频流"
 description: "一个开源工具，把种子文件变成在线视频流，浏览器、电视、手机上直接播放，省掉下载等待和硬盘占用。"
 categories:
-  - 工具推荐
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=torrserver-zhong-zi-miao-bian-zai-xian-shi-pin-liu"
 ---
 

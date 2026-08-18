@@ -10,7 +10,7 @@ tags:
 title: "扫码传文件+云盘扫码登录，遥控器操作丝滑"
 description: "CocoFileTV 是一款专为 Android TV 设计的文件管理器，扫码传文件、云盘扫码登录、NAS/SMB 访问、网页管理一应俱全，遥控器操作体验丝滑，告别电视文件管理的痛苦。"
 categories:
-  - "工具推荐"
+  - 影音娱乐
 image: "https://bing.ee123.net/img/rand?seed=android-tv-file-manager-cocofiletv"
 ---
 

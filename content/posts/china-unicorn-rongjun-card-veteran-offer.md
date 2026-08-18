@@ -10,7 +10,7 @@ tags:
 title: "联通荣军卡实测：退役军人专属套餐，每月29元享150G流量"
 description: "中国联通推出退役军人专属荣军卡，39元包150G通用流量+5000分钟通话，首充返费后低至29元/月，最多可办4张卡全家共享。"
 categories:
-  - "技术资讯"
+  - 资讯与杂谈
 image: "https://bing.ee123.net/img/rand?seed=china-unicorn-rongjun-card-veteran-offer"
 ---
 

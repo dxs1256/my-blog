@@ -6,7 +6,7 @@ tags:
 title: "X-Spider：X 博主主页批量下载工具，轻量油猴和强大客户端我都要"
 description: "X-Spider 批量下载工具测评：油猴脚本版轻量易用，PC 客户端版功能强大，适合有 X 博主内容存档需求的用户。"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=x-spider-twitter-downloader-guide"
 ---
 

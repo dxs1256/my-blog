@@ -11,7 +11,7 @@ tags:
 title: "NodeWarden：用 Cloudflare 免费搭建私人密码库"
 description: "介绍 NodeWarden 这个开源项目，基于 Cloudflare Workers 零成本搭建私人密码库，兼容 Bitwarden 插件，支持多端同步、TOTP 二验证和 WebDAV 备份。"
 categories:
-  - "工具推荐"
+  - 自托管
 image: "https://bing.ee123.net/img/rand?seed=nodewarden-free-password-manager"
 ---
 

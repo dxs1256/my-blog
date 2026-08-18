@@ -11,7 +11,7 @@ tags:
 title: "IP Crawl：全球 13,700+ 公开摄像头实时查看与隐私检查"
 description: "IP Crawl 公开网络摄像头索引系统，收录全球 13,700+ 未设防摄像头实时画面，支持多维筛选、附近摄像头检查、Console 随机漫游、统计数据，可查看并移除自己的设备"
 categories:
-  - "工具推荐"
+  - 工具推荐
 image: "https://bing.ee123.net/img/rand?seed=ipcrawl-public-webcam-index"
 ---
 
