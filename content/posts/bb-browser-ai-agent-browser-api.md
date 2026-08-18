@@ -16,7 +16,8 @@ image: "https://bing.ee123.net/img/rand?seed=bb-browser-ai-agent-browser-api"
 
 每次想让 AI 帮我查点东西，都绕不开浏览器这关。要登录态的网站，得找 API Key、处理 Cookie、跟反爬机制斗智斗勇；跑爬虫吧，Headless Chrome 动不动吃几个 G 内存，服务器直接爆满。同样是「让 AI 操控浏览器」，市面上其实有三条完全不同的路线，我把主流的三条都研究了一遍。
 
-项目地址：https://github.com/epiral/bb-browser、https://github.com/lightpanda-io/browser（Chrome 146 为内置功能，无需安装）
+项目地址：https://github.com/epiral/bb-browser
+项目地址：https://github.com/lightpanda-io/browser（Chrome 146 为内置功能，无需安装）
 
 ## 📊 三条路线一眼看懂
 
