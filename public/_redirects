@@ -5,4 +5,7 @@
 /post/tvbox-source-aggregator /post/tvbox-free-resources 301
 /post/chrome-146-mcp-ai-agent-browser /post/bb-browser-ai-agent-browser-api 301
 /post/lightpanda-ai-headless-browser-zig /post/bb-browser-ai-agent-browser-api 301
+/post/motrix-next-rust-based-lightweight-downloader /post/fluxdown 301
+/post/cloudflare-workers-iptv-update-2026 /post/deploy-iptv-sources-cloudflare-pages 301
+/post/iptv-docker-deploy /post/deploy-iptv-sources-cloudflare-pages 301
 /* /index.html 200
