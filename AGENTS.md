@@ -88,14 +88,63 @@ date: "2026-07-01"
 updated: "2026-07-01"
 draft: false          # true 时不参与构建
 sticky: null          # 置顶填数字（1 最高），普通文章填 null
-tags: ["标签1", "标签2"]
-categories: ["分类1", "分类2"]
+tags:
+  - 标签1
+  - 标签2
+categories:
+  - 工具推荐
 description: "简短摘要"
 image: "/images/r.jpg"
 ---
 ```
 
 3. 正文使用标准 Markdown 语法，支持 GFM 表格、代码块、图片等。
+
+### 写作规范（分类 / 标签 / 文件名）
+
+新文章必须遵守以下规范，保持全站一致。
+
+#### 分类（8 个，每篇只选 1 个）
+
+| 分类 | 定位 | 示例文章 |
+|------|------|---------|
+| 工具推荐 | 通用软件、网站、浏览器插件、命令行工具（非 AI） | FluxDown、WebDiff、密码管理器 |
+| AI | AI 产品、Agent、提示词、LLM/API 网关、AI 工具 | 9Router、GPT Image 提示词、TrendRadar |
+| 自托管 | 部署/搭建服务：Docker、Cloudflare、VPS、NAS、服务器管理 | Umami、SubsTracker、LX Music |
+| 影音娱乐 | 电视盒子、IPTV、影视、音乐、游戏、音箱 | TvBox、IPTV、洛雪音乐 |
+| 软路由与网络 | OpenWrt、代理、DNS、网络监测、免费节点 | AdGuard Home、clashoo、XHTTP |
+| 教程 | 动手操作指南（安装、配置、抓包、去广告） | Android 证书、HyperOS 去广告 |
+| 资源合集 | 免费资源、导航站、数据库、合集索引 | FMHY、高校数据库 |
+| 资讯与杂谈 | 新闻资讯、评测转述、车评、杂谈 | 坦克700、荣军卡 |
+
+不要自创分类；拿不准时优先选「工具推荐」。
+
+#### 标签规范
+
+- 只使用**话题标签**（技术名词 / 工具名 / 领域词），禁用运营标签（如「热门文章」「必看精选」）
+- 标签值**不要带前后空格**，不要空标签（历史教训：`" 开源"` 前导空格会把「开源」拆成两个标签）
+- 近义词统一：用「开源」，不再用「开源项目 / 开源工具 / 开源软件」；用「工具」，不再用「效率工具 / 工具推荐」作为标签
+- 每篇 3~5 个标签，用列表格式：
+
+```yaml
+tags:
+  - 开源
+  - AI
+  - 下载工具
+```
+
+#### 文件名规范
+
+- **英文 kebab-case**（小写 + 连字符），如 `fluxdown.md`、`umami-vercel-free-website-analytics.md`
+- 禁用拼音文件名（如 `gei-agent-yi-ge-lian-jie-shi-pin-zi-dong-xia-hao.md`）、文件名不带日期、不以数字开头
+- 文件名即 URL slug，发布后不要改名；确需改名时在 `public/_redirects` 添加 301 跳转
+- 模板目录中的 `r-` / `s-` / `t-` 前缀仅为模板示例，新文章不沿用
+
+#### 发布前检查清单
+
+- [ ] frontmatter 含 `date`、`title`、`description`、`tags`（3~5 个）、`categories`（1 个）、`image`
+- [ ] 正文以 `##` 二级标题组织（不要用 `#`）
+- [ ] 写完运行 `npm run sync-date` 同步 `updated` 日期
 
 ### 修改站点配置
 
