@@ -14,7 +14,7 @@ image: "https://bing.ee123.net/img/rand?seed=fapiao-print"
 
 每次报销季，财务群里都是一片哀嚎。从税务平台一张张下载电子发票、改名、整理，再打开 PDF 一张张打印——几十张发票搞下来，一上午就没了。更烦的是 OFD 格式，很多工具根本不认，印章还经常打歪。
 
-后来发现了一个开源工具 [**发票酱**](https://github.com/erma0/fapiao-print)（⭐106），这些问题一次性全解决了。
+后来发现了一个开源工具 **发票酱**（⭐106），这些问题一次性全解决了。
 
 项目地址：https://github.com/erma0/fapiao-print
 
