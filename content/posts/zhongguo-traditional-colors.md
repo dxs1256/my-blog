@@ -9,7 +9,7 @@ tags:
 title: 742 种中华传统色，开箱即用
 description: 一个收录 742 张中华传统色卡、实景试色、配色方案生成、shadcn 主题锻造的开源项目，设计师和开发者的中国色工具箱。
 categories:
-  - 🛠️ 工具推荐
+  - 工具推荐
 image: https://bing.ee123.net/img/rand?seed=zhongguo-traditional-colors
 ---
 
