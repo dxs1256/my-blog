@@ -17,7 +17,8 @@ image: "https://bing.ee123.net/img/rand?seed=fluxdown"
 这两年 Rust 生态崛起，下载管理器这个老品类也迎来了一波"重写潮"。我先后研究了两个代表：**FluxDown**（https://github.com/zerx-lab/FluxDown）
 **Motrix Next**（https://github.com/agalwood/Motrix） 都是开源、跨平台、用 Rust 重写底层——但定位和取舍完全不一样。
 
-项目地址：https://github.com/zerx-lab/FluxDown、https://github.com/agalwood/Motrix
+项目地址：https://github.com/zerx-lab/FluxDown
+项目地址：https://github.com/agalwood/Motrix
 
 ## 📊 一张表看懂区别
 
