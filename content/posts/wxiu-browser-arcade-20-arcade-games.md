@@ -15,7 +15,7 @@ image: "https://bing.ee123.net/img/rand?seed=20-kuai-jing-dian-jie-ji-liu-lan-qi
 
 小时候放学往街机厅跑，兜里揣着两块钱，买三个币，一个《拳皇97》能打一下午。后来街机厅一家接一家关了，那些机器搬的搬、扔的扔，手柄上的汗味和摇杆的咔咔声也成了回忆。
 
-直到我发现了 [**BROWSER ARCADE**](https://www.wxiu.com) (wxiu.com)，一个在浏览器里运行的街机平台，20 款经典街机游戏，打开网页就能玩，不用注册，不用下载，不收费。
+直到我发现了 **BROWSER ARCADE** (wxiu.com)，一个在浏览器里运行的街机平台，20 款经典街机游戏，打开网页就能玩，不用注册，不用下载，不收费。
 
 项目地址：https://www.wxiu.com
 
