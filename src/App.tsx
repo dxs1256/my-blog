@@ -9,6 +9,7 @@ import { SearchBar } from './components/Search';
 import { PostMetadata, PostDetail } from './types';
 import Markdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 import { ChevronLeft, Share2, MessageCircle, Sun, Moon, Menu as MenuIcon, X, Eye, Image as ImageIcon, ArrowUp, ArrowDown, Pin, Layout } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '@/src/lib/utils';
@@ -551,6 +552,7 @@ export default function App() {
                     <div className="markdown-body">
                       <Markdown
                         remarkPlugins={[remarkGfm]}
+                        rehypePlugins={[rehypeRaw]}
                         components={{
                           img: ({node, ...props}) => <img {...props} referrerPolicy="no-referrer" />
                         }}
