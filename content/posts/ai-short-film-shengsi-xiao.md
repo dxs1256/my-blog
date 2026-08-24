@@ -26,7 +26,8 @@ image: "https://bing.ee123.net/img/rand?seed=ai-short-film-shengsi-xiao"
 
 项目地址：https://x.com/whyyoutouzhele/status/2091772492821958932
 
-![短片《生死事小》截图](https://i.ibb.co/Jw1j49ry/9bca3088a6fc.jpg)
+<video src="https://thumbsnap.com/i/cVogFkdG.mp4" poster="https://thumbsnap.com/i/cVogFkdG.jpg" controls width="100%"></video>
+[备用链接：ThumbSnap](https://thumbsnap.com/cVogFkdG)
 
 发出来不到一天，X 上 7.5 万播放、1100 赞、500 收藏。评论区讨论激烈——有人共鸣，有人觉得过了，但几乎没人说看不懂。
 
