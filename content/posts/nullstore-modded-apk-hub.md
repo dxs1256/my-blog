@@ -14,47 +14,51 @@ categories:
 image: "https://bing.ee123.net/img/rand?seed=nullstore-modded-apk-hub"
 ---
 
-后来发现 **NullStore**（⭐316），把 ReVanced 系列补丁应用的自动构建和下载都打包好了，不用自己维护 GitHub Actions。
+上个月想给 Android TV 装个去广告的 YouTube，按老路子走 ReVanced 官方流程：clone 仓库、装 JDK 17、跑 CLI、选补丁、等编译——光环境就折腾了四十分钟。最后包是打出来了，用了三天 YouTube 更新，补丁失效，一切归零。
+
+后来被人推荐了 **NullStore**（⭐316），才知道有人已经把这件事做成了 24/7 自动流水线。
 
 项目地址：https://github.com/nullcpy/rvb
 
-## 🎯 这是什么
+## 它是什么
 
-NullStore 本质是一个**自动构建分发站**：每当 ReVanced、ReVanced Extended、MorpheApp、RVX Morphed 等补丁更新时，它会在 GitHub 上自动编译出带补丁的 APK 和 Magisk/KernelSU 模块，然后同步到它的官网供直接下载。
+NullStore 不是另一个 ReVanced fork，而是一个**自动构建分发站**。每当 ReVanced、ReVanced Extended、MorpheApp、RVX Morphed、Revanced Advanced 这些补丁仓库有更新，NullStore 的 GitHub Actions 就会自动拉最新补丁、编译带 patch 的 APK，生成 Magisk/KernelSU 模块，然后同步到 https://nullcpy.github.io 供直接下载。
 
-对我这种不想每天盯着 GitHub Actions 看有没有新构建的人来说，等于有人替你蹲更新。
+说人话就是：**你不需要懂 Java、不需要配 Gradle、不需要等编译，只需要点下载。**
 
-## ✅ 解决了什么问题
+## 我为什么需要它
 
-用过 ReVanced 的人都知道，标准流程是 clone 官方仓库、装 Java、跑 CLI、选补丁、等编译——单是环境搭好就要半小时。更烦的是 YouTube 官方一更新，前一天刚打好的包第二天就失效。
+手动打补丁的痛点不只是环境麻烦。更实际的问题是**补丁和 App 版本必须严格对应**——YouTube 官方一更新，昨天刚编译好的包今天就废了。NullStore 的自动化流水线把这件事变成了"它帮你盯着，有新构建直接通知你"。
 
-NullStore 把这事自动化了：
+网站本身是个极简列表页，顶部 Stable/Beta 两个 Tab，每个应用下面直接挂版本号和下载按钮。我试的那天，YouTube 最新构建是 `v21.07.247`，Google Photos 是 `v7.80.0.929302933`，时间戳精确到分钟。
 
-| 维度 | 说明 |
-|------|------|
-| 构建频率 | 24/7 监控补丁更新，自动触发 GitHub Actions 构建 |
-| 覆盖补丁 | ReVanced、ReVanced Extended、MorpheApp、RVX Morphed、Revanced Advanced |
-| 安装方式 | 直接下载 APK，或通过 Obtainium 订阅自动更新 |
-| 平台支持 | 手机、Android TV |
-| 模块格式 | 除 APK 外，还提供 Magisk / KernelSU 模块 |
-| 费用 | 完全免费 |
+![NullStore 官网首页截图](https://i.ibb.co/k2kHdKKv/92fabfec5751.jpg)
 
-网站本身是个极简列表页，顶部两个 Tab 分开 Stable 和 Beta 构建，每个应用点进去就能看到版本号和下载按钮。
+## 覆盖了什么
 
-## 📱 怎么用
+看最近的 Release 记录，构建编号已经跑到 260036，频率大概是每天几十个构建。覆盖的补丁生态包括：
 
-**网页直连**：打开 https://nullcpy.github.io ，按名称或更新时间排序，找到你要的应用，直接下载 APK。页面会显示当前版本和构建时间，一眼判断是不是最新的。
+- **ReVanced** / **ReVanced Extended**：最主流的 YouTube、Spotify、Twitter 等补丁
+- **MorpheApp** / **RVX Morphed**：另一套活跃维护的补丁分支
+- **Revanced Advanced**：较新的补丁集
+- **De-Vanced**：RookieEnough 维护的 Google Photos 去广告方案
 
-**Obtainium 订阅**：如果你用 Obtainium 管理 FOSS 应用更新，可以在 NullStore 的应用详情页找到 RSS/JSON 订阅链接，丢进 Obtainium 后它会自动检测新版本并提示更新，比手动刷新省事得多。
+每个构建都会带架构标签（arm64-v8a / armeabi-v7a）和版本号，下载前能确认是不是你要的版本。
+
+## 怎么用
+
+**网页直连**：打开 NullStore 官网，按名称或最近更新排序，找到目标应用，直接下载 APK。页面会显示当前版本和构建时间，比我自己编译快得多。
+
+**Obtainium 订阅**：如果你用 Obtainium 管理 FOSS 应用更新，可以在 NullStore 的应用详情页找到 RSS/JSON 订阅链接，丢进去之后它会自动检测新版本并推送通知。适合不想天天手动刷页面的场景。
 
 ![NullStore 网页截图，展示了应用列表和版本信息](https://i.ibb.co/6cNWZfCH/4236036f2e10.jpg)
 
 ![NullStore 应用详情页，显示 Stable/Beta 切换和下载按钮](https://i.ibb.co/vCM4JNLN/adccb6036c5f.jpg)
 
-![NullStore 官网首页截图](https://i.ibb.co/k2kHdKKv/92fabfec5751.jpg)
+## 我的判断
 
-## 💡 我的判断
+316 颗 Star 在 GitHub 上不算大项目，但胜在**稳定**——仓库最后更新时间是 2026-09-12，24/7 自动构建不是口号，是真的在跑。对于不想自己维护 GitHub Actions、不想每天盯着补丁更新的人来说，NullStore 等于提供了一个现成的"补丁应用商店"。
 
-NullStore 的定位很明确：**你只管用，构建和更新交给它**。316 颗 Star 不算大项目，但胜在稳定——GitHub 仓库显示最近一次更新是 2026-09-12，24/7 自动构建不是口号，是真的在跑。
+需要注意的点：下载第三方修补版 APK 本身有一定风险，建议只从官方 GitHub 或 NullStore 这种可信来源获取，并在安装前核对签名。另外，如果你有非常定制化的补丁组合需求，NullStore 的预构建包可能不包含你想要的全部补丁，这种情况还是得自己跑 CLI。
 
-如果你已经受够了手动打补丁、等构建、刷失效包，这个站值得 bookmark。唯一的注意点是下载第三方修补版 APK 本身有一定风险，建议只从官方 GitHub 或 NullStore 这种可信来源获取，并在安装前核对签名。
+如果你只是想要一个能用的、持续更新的修补版 YouTube/Spotify/Google Photos，NullStore 是目前最省心的方案。
