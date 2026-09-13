@@ -80,8 +80,6 @@ yay -S ghost-downloader-bin
 
 ![软件信息与设置界面](https://i.ibb.co/5Wx6rpJ8/82c72b4c01ea.png)
 
-![功能演示动画](https://i.ibb.co/JfSsZpg/bfc7f07198f9.gif)
-
 ## 🎯 我的看法
 
 Ghost-Downloader-3 的核心价值很直白：一个应用吃掉六种下载场景。它的差异化在于把多协议支持、视频嗅探、跨平台、任务可干预四件事同时做透，而不是只做其中一项。和仓库里之前介绍过的 ReClip（自托管网页版）、YTSage（YouTube 专用 CLI）、better-douyin（抖音专用）都不冲突——那几个是"专才"，这个是覆盖桌面全场景的"通才"。
