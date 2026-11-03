@@ -92,7 +92,7 @@ export const MENU_ITEMS = [
 export const RECOMMENDED_LINKS = [
   { label: '小龙虾', url: 'https://bot.situ.eu.org', icon: Shrimp },
   { label: '观影计划', url: 'https://fav.orrz.de5.net', icon: Tv },
-  { label: 'Git 标星', url: 'http://github.orrz.de5.net', icon: Share2 },
+  { label: 'Git 标星', url: 'https://dxs1256.github.io/gstars', icon: Share2 },
   { label: '网站状态', url: 'https://up.situ.eu.org', icon: Activity },
 ];
 
